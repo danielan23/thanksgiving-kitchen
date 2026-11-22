@@ -1,0 +1,3298 @@
+{
+ "courses": [
+  {
+   "id": "welcome",
+   "label": "Welcome bites",
+   "color": "#f72585"
+  },
+  {
+   "id": "starter",
+   "label": "Starter",
+   "color": "#7209b7"
+  },
+  {
+   "id": "soup",
+   "label": "Soup",
+   "color": "#4361ee"
+  },
+  {
+   "id": "main",
+   "label": "Main",
+   "color": "#d90368"
+  },
+  {
+   "id": "sides",
+   "label": "Sides",
+   "color": "#04a777"
+  },
+  {
+   "id": "dessert",
+   "label": "Dessert",
+   "color": "#f75c03"
+  }
+ ],
+ "recipes": [
+  {
+   "id": "rcp-001",
+   "code": "RCP-001",
+   "course": "welcome",
+   "title": "Rosemary pecan brittle",
+   "subtitle": "With mature cheddar",
+   "makes": "About 25–30 shards (estimated)",
+   "revision": "0.3",
+   "batch": [
+    "**Batch** Half the published brittle recipe. **Estimated usable yield is about 25–30 small canapé shards**, working at roughly **10–12 g brittle per shard** and allowing for pan residue and awkward fragments. This is a planning estimate, not a tested yield. The sugar, nuts and butter total **369 g before cooking** (198 + 114 + 57 g); finished weight and intact shard count remain unmeasured. Eight guests are confirmed; the served count per guest remains open. Suggested assembly is one thin, bite-sized shard with **10 g mature cheddar**, a working portion rather than an agreed allocation. Reserve surplus brittle separately."
+   ],
+   "setup": [
+    {
+     "heading": "",
+     "items": [
+      "Set out scales, teaspoon measures, a heavy saucepan, wooden spoon, candy thermometer, heatproof spatula and oven gloves. Use a pan that allows the thermometer probe to sit in the caramel without touching its base.",
+      "Line a large rimmed baking tray with baking parchment or a silicone mat. Have a separate ovenproof dish for the nuts and an airtight container for the cooled brittle.",
+      "Chop **114 g pecans** into small pieces. Cut **57 g room-temperature unsalted butter** into pieces. Measure **198 g granulated sugar**. Divide both **1½ tsp finely chopped fresh rosemary** and **1½ tsp flaky sea salt** into two **¾ tsp portions**. Set out **¼ tsp maple extract**, if using.",
+      "Keep the cheddar separate, refrigerated according to its label. Have a board and knife ready for finishing. Prepare this brittle separately from the pistachio dessert shards, even if making both in one session."
+     ]
+    }
+   ],
+   "ingredients": [
+    {
+     "heading": "",
+     "group": "Brittle",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "White granulated sugar",
+       "amount": "198 g",
+       "extra": []
+      },
+      {
+       "name": "Pecans",
+       "amount": "114 g, chopped into small pieces",
+       "extra": []
+      },
+      {
+       "name": "Unsalted butter",
+       "amount": "57 g, room temperature, cut into pieces",
+       "extra": []
+      },
+      {
+       "name": "Fresh rosemary",
+       "amount": "1½ tsp finely chopped leaves, divided into ¾ tsp in the caramel and ¾ tsp on top",
+       "extra": []
+      },
+      {
+       "name": "Flaky sea salt",
+       "amount": "1½ tsp, divided into ¾ tsp in the caramel and ¾ tsp on top",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "",
+     "group": "Optional flavour",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Maple extract",
+       "amount": "¼ tsp, subtle starting amount",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "",
+     "group": "Assembly",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Mature cheddar",
+       "amount": "Suggested 10 g per served shard; total TBD once count is agreed",
+       "extra": []
+      }
+     ],
+     "notes": [
+      "Use large flaky salt, not the same spoonful of fine salt. Flake size affects saltiness. Maple is optional; keep the sugar quantity intact and use extract rather than substituting syrup."
+     ]
+    }
+   ],
+   "method": [
+    {
+     "heading": "",
+     "steps": [
+      {
+       "n": 1,
+       "title": "Warm the equipment and nuts",
+       "text": "Heat the oven to **95°C conventional**. Warm the lined tray and **114 g chopped pecans** separately while preparing the caramel. The nuts should be warm when added, not browned.",
+       "aside": "This warming cue is our adaptation of the source's slightly warmed nuts."
+      },
+      {
+       "n": 2,
+       "title": "Caramelise",
+       "text": "Heat **198 g sugar** in the saucepan, stirring until melted, then stop stirring. Start on high heat, reducing to medium-high as it melts; lower further if colouring unevenly. Cook to medium amber, going by colour rather than temperature."
+      },
+      {
+       "n": 3,
+       "title": "Finish cooking",
+       "text": "Stir in **114 g warm pecans**, then **57 g butter**. Stir until incorporated and the mixture reaches **149°C (300°F)**. It takes about two minutes; use the endpoint, not the clock."
+      },
+      {
+       "n": 4,
+       "title": "Season and spread",
+       "text": "Remove from the heat. Stir in **¾ tsp rosemary**, **¾ tsp flaky salt** and optional **¼ tsp maple extract**. Immediately spread onto the warm lined tray. Sprinkle with the remaining **¾ tsp rosemary** and **¾ tsp flaky salt**."
+      },
+      {
+       "n": 5,
+       "title": "Cool and break",
+       "text": "Leave until completely cold, at least **one hour**. Break into shards. Aim for a single layer of nuts with thin caramel between them. Check that a cooled piece snaps at room temperature; freezing a soft batch does not establish that it will hold at service."
+      },
+      {
+       "n": 6,
+       "title": "Assemble",
+       "text": "Select bite-sized shards and cut **10 g cheddar per selected shard**. Place the cheese on the broadest part just before serving. Keep the presentation to brittle and cheese, allowing the rosemary, salt and caramel to do the work.",
+       "aside": "This assembly and cheese portion are retained in the banked recipe; total cheese depends on the served count."
+      }
+     ],
+     "notes": []
+    }
+   ],
+   "notes": [
+    {
+     "heading": "",
+     "items": [
+      "**Dry brittle** Cool fully, then store airtight at room temperature, separate from cheese. Bakerita gives **two to three weeks** for its original dry brittle and advises against refrigeration because moisture softens it. That is source guidance, not a tested shelf life for our optional-extract adaptation. Check the snap before service.",
+      "**Cheddar** Follow the actual product's refrigeration and opened-pack instructions. Cut only the amount needed for the selected shards; no storage life is assigned to assembled bites.",
+      "**Surplus** Keep unused dry shards in their labelled airtight container. Record finished weight and usable shard count before deciding how much of the batch to serve."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rcp-002",
+   "code": "RCP-002",
+   "course": "welcome",
+   "title": "Buckwheat blini",
+   "subtitle": "Horseradish cream and beetroot pickle",
+   "makes": "About 22–28 mini blini (predicted)",
+   "revision": "0.2",
+   "batch": [
+    "**Batch:** one quarter-size source batch of blini, one quarter-size pickle batch and a small cream batch. Make blini about 4–5 cm across. **Predicted yield is about 22–28 mini pancakes** at 1½ tsp batter each (assistant estimate from the batter volume, unmeasured), enough for 2 per guest with spares. Count the finished mini pancakes and measure the pickle yield, both TBD. Eight guests are confirmed; the number to serve per guest remains open. Freeze spare plain blini separately."
+   ],
+   "setup": [
+    {
+     "heading": "",
+     "items": [
+      "**Blini station.** Set out scales, measuring spoons, two bowls, a whisk, a non-stick frying pan, a thin spatula, a cooling rack and freezer containers with parchment. Separate **1 large egg** into two small bowls and beat each lightly; you need **half the yolk and half the white**, weighed (about 9 g yolk and 16 g white for a typical large egg; use half of what you actually have). Keep the other half for another use. Weigh **40 g buckwheat flour, 85 g warm water, 4 g skimmed milk powder, 28 g milk and 14 g butter**. Use warm water that feels comfortably warm to the touch.",
+      "**Pickle station.** Set out a saucepan, bowl of cold water, peeler, sharp knife, board, small bowl and shallow cooling/storage container. Wash **140 g small fresh beetroot** (about two), leaving roots and short stalks attached. Have **¼ eating apple and ¼ banana shallot** ready. Measure **56 ml water**, divided into **12 ml for the slurry and 44 ml for the pickle**.",
+      "**Cream and assembly station.** Set out a bowl, spoon or piping bag and a slotted spoon. Keep **60 g thick crème fraîche and 12 g prepared horseradish** refrigerated until needed. Verify gluten status of buckwheat flour, yeast, cornflour and prepared horseradish, and use clean equipment."
+     ]
+    }
+   ],
+   "ingredients": [
+    {
+     "heading": "",
+     "group": "Blini",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Gluten-free buckwheat flour",
+       "amount": "40 g",
+       "extra": []
+      },
+      {
+       "name": "Water",
+       "amount": "85 g, warm",
+       "extra": []
+      },
+      {
+       "name": "Skimmed milk powder",
+       "amount": "4 g",
+       "extra": []
+      },
+      {
+       "name": "Instant yeast",
+       "amount": "⅜ tsp (a scant ½ tsp)",
+       "extra": []
+      },
+      {
+       "name": "Large egg",
+       "amount": "½: half the yolk and half the white of 1 separated egg, weighed",
+       "extra": []
+      },
+      {
+       "name": "Whole milk",
+       "amount": "28 g",
+       "extra": []
+      },
+      {
+       "name": "Granulated sugar",
+       "amount": "¼ tsp",
+       "extra": []
+      },
+      {
+       "name": "Fine table salt",
+       "amount": "⅛ tsp",
+       "extra": []
+      },
+      {
+       "name": "Unsalted butter",
+       "amount": "14 g, melted and cooled until warm",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "",
+     "group": "Blini pan",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Neutral oil",
+       "amount": "A thin film as needed, separate from batter butter",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "",
+     "group": "Pickle",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Small fresh beetroot",
+       "amount": "140 g whole, before peeling",
+       "extra": []
+      },
+      {
+       "name": "Eating apple",
+       "amount": "¼, cored, skin retained, 4–5 mm dice",
+       "extra": []
+      },
+      {
+       "name": "Banana shallot",
+       "amount": "¼, peeled, 4–5 mm dice",
+       "extra": []
+      },
+      {
+       "name": "Fine sea salt",
+       "amount": "¼ tsp",
+       "extra": []
+      },
+      {
+       "name": "Cornflour",
+       "amount": "½ tsp",
+       "extra": []
+      },
+      {
+       "name": "Water",
+       "amount": "56 ml total, 12 ml slurry + 44 ml pickle",
+       "extra": []
+      },
+      {
+       "name": "Cider vinegar",
+       "amount": "44 ml",
+       "extra": []
+      },
+      {
+       "name": "Granulated sugar",
+       "amount": "19 g",
+       "extra": []
+      },
+      {
+       "name": "Black pepper",
+       "amount": "A small pinch",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "",
+     "group": "Cream",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Thick crème fraîche",
+       "amount": "60 g",
+       "extra": []
+      },
+      {
+       "name": "Prepared horseradish",
+       "amount": "12 g available, 6 g initially + up to 6 g to taste",
+       "extra": []
+      },
+      {
+       "name": "Fine salt",
+       "amount": "To taste",
+       "extra": []
+      }
+     ],
+     "notes": []
+    }
+   ],
+   "method": [
+    {
+     "heading": "Make the blini",
+     "steps": [
+      {
+       "n": 1,
+       "title": "",
+       "text": "Mix **40 g buckwheat flour, 85 g warm water, 4 g milk powder and ⅜ tsp instant yeast**. Cover and rest 30–60 minutes."
+      },
+      {
+       "n": 2,
+       "title": "",
+       "text": "Whisk **the half egg yolk (about 9 g), 28 g milk, ¼ tsp sugar and ⅛ tsp salt** together. Stir into the sponge. Cover for 30–45 minutes."
+      },
+      {
+       "n": 3,
+       "title": "",
+       "text": "Stir in **14 g melted butter**. Whisk **the half egg white (about 16 g)** to soft peaks in a small bowl with a fork or mini whisk, then fold it in."
+      },
+      {
+       "n": 4,
+       "title": "",
+       "text": "Lightly oil the pan over medium heat. Portion **1½ tsp batter** per pancake, aiming for 4–5 cm rounds. Turn when the rims set and surface bubbles remain open. Cook the other side until golden and set. Cool on the rack, then pack with parchment between layers and freeze plain."
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "Make the diced beetroot pickle",
+     "steps": [
+      {
+       "n": 5,
+       "title": "",
+       "text": "Cover **140 g whole beetroot** with cold water. Bring to a simmer and cook for 10 minutes, checking early if the beetroot are very small, then drain and cool in cold water. Rub off the skins and cut into **4–5 mm dice**. Toss with **¼ diced apple, ¼ diced banana shallot and ¼ tsp sea salt**."
+      },
+      {
+       "n": 6,
+       "title": "",
+       "text": "Mix **½ tsp cornflour, 12 ml water and a small pinch of black pepper** into a smooth slurry."
+      },
+      {
+       "n": 7,
+       "title": "",
+       "text": "Dissolve **19 g sugar** in **44 ml cider vinegar and the remaining 44 ml water** over low heat. Stir in the slurry and bring to a gentle simmer until slightly thickened."
+      },
+      {
+       "n": 8,
+       "title": "",
+       "text": "Add all the beetroot/apple/shallot mixture. Simmer gently until the beetroot is cooked through but the cubes retain their shape. Allow about 3–5 minutes; use tenderness as the endpoint. Cool promptly in a shallow container and refrigerate at **4°C**."
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "Mix the horseradish cream",
+     "steps": [
+      {
+       "n": 9,
+       "title": "",
+       "text": "Stir **60 g crème fraîche with 6 g prepared horseradish**. Taste with a little pickle. Add up to **6 g more horseradish** for a clear warming finish, and salt to taste. Cover and refrigerate at **4°C**."
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "Assemble",
+     "steps": [
+      {
+       "n": 10,
+       "title": "",
+       "text": "Thaw the needed plain blini covered in the fridge. Serve thawed, or reheat at **150°C conventional / 130°C fan** until hot throughout, checking early because these are small. Let excess heat escape before topping. Keep cream and pickle refrigerated while the blini warm."
+      },
+      {
+       "n": 11,
+       "title": "",
+       "text": "Spoon or pipe a little horseradish cream onto each blini. Add a small mound of pickle with a slotted spoon, leaving excess liquid behind. Keep enough glaze to coat the cubes. Serve promptly. Begin with roughly **½ tsp cream and 1 tsp pickle per blini**, adjusting to the actual pancake size. These serving amounts are working suggestions."
+      }
+     ],
+     "notes": []
+    }
+   ],
+   "notes": [
+    {
+     "heading": "",
+     "items": [
+      "**Plain blini:** cool within two hours and freeze in an airtight container with parchment between layers. King Arthur supports up to one month frozen for its blini. Thaw covered in the fridge. If reheating, heat through until steaming, then allow excess heat to escape before topping. Reheat only once.",
+      "**Pickle:** prepare within two days of serving. Cool within two hours, cover and refrigerate at 4°C. This adaptation uses ordinary prepared-food handling. Its long-term preserving performance has not been established.",
+      "**Cream:** mix within two days of serving, keep covered at 4°C and follow any shorter ingredient-pack instructions. Reserve unused cream with clean utensils.",
+      "**Assembly:** keep all three components separate until needed. Reheat only the blini required. Discard any reheated blini remaining after service. Refrigerated pickle and cream retain their original two-day preparation limit. Label each batch with its preparation date."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rcp-003",
+   "code": "RCP-003",
+   "course": "welcome",
+   "title": "Pressed rösti squares",
+   "subtitle": "Trout pâté and salmon roe",
+   "makes": "One 20 × 20 cm slab, 25 squares (predicted)",
+   "revision": "0.3",
+   "batch": [
+    "**Portions:** one 20 × 20 cm slab, cut into **25 squares of about 3.5 × 3.5 × 1.5 cm, about 18–22 g each** (predicted, not measured). For eight guests that allows about 3 per guest plus spares and breakage. The pâté batch (about 195 g) covers one slab at about 6 g per square.",
+    "**Elapsed time over two days (predicted):** Day 1 morning, parboil and chill for at least 6 hours. Day 1 evening, grate, bake, then press and chill overnight. Day 2, cut and freeze. Pâté: one or two days before service. Service, fry from frozen and top. (The parboil can also be done the evening before, with an overnight chill.)",
+    "**Serving face:** the **bottom**, which baked against the lined tin, is the smoothest, densest face. Serve the squares bottom side up and pipe onto that face."
+   ],
+   "setup": [
+    {
+     "heading": "Day 1 morning: parboil station",
+     "items": [
+      "**Set out** a large saucepan, a wire rack over a tray, a skewer and a clean shallow container for the fridge.",
+      "**Weigh** **1 kg floury potatoes** (*kruimig*: e.g. Agria, Bintje or Maris Piper), similar-sized, about 150–200 g each (five or six), scrubbed, skins on. Weigh **10 g fine salt** for **1 litre cold water**."
+     ]
+    },
+    {
+     "heading": "Day 1 evening: slab station",
+     "items": [
+      "**Line** a **20 × 20 cm square metal baking tin, at least 3 cm deep**, with baking paper, leaving a sling overhanging two opposite sides. Cut a second sheet for the top. Have a second tin or tray that sits inside it, and about **1.3 kg of weights** (tins or a bag of rice) for pressing.",
+      "**Set out** a box grater (coarse holes), a large bowl, a small bowl and a fork, a pastry brush and scales.",
+      "**Weigh** into small bowls: **20 g potato starch** (gluten-free label), **7 g fine salt**, **25 g egg white** (lightly beat **1 large egg white, about 35 g**, and weigh out 25 g), **53 g clarified butter or ghee**, melted and divided **27 g for the mix + 13 g for the tin + 13 g for the top**. Grind a pinch of **white pepper** (optional).",
+      "**Heat the oven** to **200°C conventional / 180°C fan**."
+     ]
+    },
+    {
+     "heading": "Day 2: cutting and freezing station",
+     "items": [
+      "A long, thin, sharp knife, a ruler, a jug of hot water and a cloth for wiping the blade.",
+      "Two flat metal trays lined with baking paper that fit flat in the freezer. Freezer bags or a rigid box, baking-paper squares for layers and a label."
+     ]
+    },
+    {
+     "heading": "Pâté station (one or two days before service)",
+     "items": [
+      "**Set out** a small food processor or stick blender with its beaker, a spatula, scales, a fine grater, a citrus squeezer, a lidded container, a piping bag and a **1 cm open star or plain round nozzle**.",
+      "**Weigh**, keeping the dairy in the fridge until needed: **100 g hot-smoked trout**, skin and any bones removed; **65 g full-fat cream cheese**, cold; **20 g full-fat crème fraîche**, cold, plus up to **10 g extra** in reserve.",
+      "**Prepare** the finely grated zest of **⅓ unwaxed lemon** and **7 ml lemon juice**, plus a little more lemon in reserve. Measure a **generous pinch of cayenne pepper** (about a twelfth of a teaspoon, scaled from ⅛ tsp for the full batch; start light and taste) and a pinch of **white pepper**."
+     ]
+    },
+    {
+     "heading": "Service: frying and assembly station",
+     "items": [
+      "Fryer or a deep, heavy saucepan, a thermometer, a spider or slotted spoon, and a wire rack over a tray (not kitchen paper).",
+      "**About 1.5 litres fresh sunflower or rapeseed oil**, used only for gluten-free food (use the depth your fryer needs).",
+      "Flaky salt.",
+      "The filled piping bag of pâté and **30 g salmon roe**, both kept in the fridge until the first batch is fried, a small spoon for the roe, and a few very finely snipped chives if using."
+     ]
+    }
+   ],
+   "ingredients": [
+    {
+     "heading": "",
+     "group": "Parboil",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Floury potatoes, skins on",
+       "amount": "1 kg as bought, about 150–200 g each; gives about 790 g peeled parcooked potato (predicted)",
+       "extra": []
+      },
+      {
+       "name": "Fine salt",
+       "amount": "10 g",
+       "extra": []
+      },
+      {
+       "name": "Cold water",
+       "amount": "1 litre, or enough to cover by 2 cm",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "",
+     "group": "Slab",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Parcooked potato, peeled and coarsely grated",
+       "amount": "750 g, weighed after grating",
+       "extra": []
+      },
+      {
+       "name": "Potato starch (*aardappelzetmeel*), gluten-free label",
+       "amount": "20 g",
+       "extra": []
+      },
+      {
+       "name": "Fine salt",
+       "amount": "7 g",
+       "extra": []
+      },
+      {
+       "name": "Egg white",
+       "amount": "25 g, from 1 large white (about 35 g), lightly beaten",
+       "extra": []
+      },
+      {
+       "name": "Clarified butter or ghee, melted",
+       "amount": "53 g total: 27 g in the mix + 13 g for the tin + 13 g for the top",
+       "extra": []
+      },
+      {
+       "name": "White pepper",
+       "amount": "A pinch, optional",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "",
+     "group": "Fry",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Sunflower or rapeseed oil, fresh",
+       "amount": "About 1.5 litres, depth to suit the fryer",
+       "extra": []
+      },
+      {
+       "name": "Flaky salt",
+       "amount": "To finish",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "",
+     "group": "Pâté",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Hot-smoked trout",
+       "amount": "100 g net, skinned and boned, broken into flakes",
+       "extra": []
+      },
+      {
+       "name": "Lemon juice",
+       "amount": "7 ml, plus a little in reserve",
+       "extra": []
+      },
+      {
+       "name": "Lemon zest",
+       "amount": "Finely grated zest of ⅓ unwaxed lemon",
+       "extra": []
+      },
+      {
+       "name": "Cayenne pepper",
+       "amount": "A generous pinch, about a twelfth of a teaspoon",
+       "extra": []
+      },
+      {
+       "name": "White pepper",
+       "amount": "A pinch",
+       "extra": []
+      },
+      {
+       "name": "Full-fat cream cheese, cold",
+       "amount": "65 g",
+       "extra": []
+      },
+      {
+       "name": "Full-fat crème fraîche, cold",
+       "amount": "20 g, plus up to 10 g in reserve to loosen",
+       "extra": []
+      },
+      {
+       "name": "Salt",
+       "amount": "Only if needed after tasting with the roe",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "",
+     "group": "Finish",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Salmon roe",
+       "amount": "30 g working allowance, about ¼ tsp per square",
+       "extra": []
+      },
+      {
+       "name": "Chives",
+       "amount": "A few, very finely snipped, optional",
+       "extra": []
+      }
+     ],
+     "notes": [
+      "Weigh the grated potato and keep the binder in proportion if the yield differs: **per 100 g grated potato, 2.7 g potato starch, 0.9 g salt, 3.2 g egg white and 3.6 g clarified butter in the mix.**"
+     ]
+    }
+   ],
+   "method": [
+    {
+     "heading": "Parboil and chill (day 1 morning)",
+     "steps": [
+      {
+       "n": 1,
+       "title": "Start cold",
+       "text": "Put **1 kg potatoes** in the saucepan with **1 litre cold water** and **10 g salt**. Bring to a gentle simmer over medium heat."
+      },
+      {
+       "n": 2,
+       "title": "Undercook on purpose",
+       "text": "Simmer gently until a skewer slides through the outer 1–1.5 cm easily but meets **firm resistance in the centre**. Expect about 10–15 minutes from the simmer for 150–200 g potatoes; start checking at 8 minutes. They must not be tender all the way through."
+      },
+      {
+       "n": 3,
+       "title": "Steam off, then chill",
+       "text": "Lift onto the rack and leave until no longer steaming, about 15–20 minutes. Refrigerate uncovered within two hours of cooking and chill for **at least 6 hours**, or overnight. *Cue: cold right through, firm and dry-skinned.*"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "Grate, bind and bake the slab (day 1 evening)",
+     "steps": [
+      {
+       "n": 4,
+       "title": "Peel and grate",
+       "text": "Rub or scrape the skins off the cold potatoes. Grate on the coarse side of the box grater, using long strokes along the potato for long strands. Weigh **750 g grated potato** into the large bowl; scale the binder per the note above if you have more or less. *Cue: separate, slightly tacky strands, not mush. A soft core grates to paste; leave such a centre out.*"
+      },
+      {
+       "n": 5,
+       "title": "Bind",
+       "text": "Scatter **20 g potato starch**, **7 g fine salt** and the pinch of **white pepper** over the potato and toss with your fingers until no white patches remain. Add **25 g egg white** and **27 g melted clarified butter** and toss lightly until every strand is glossy. Do not knead."
+      },
+      {
+       "n": 6,
+       "title": "Pack the tin",
+       "text": "Brush the lined tin with **13 g clarified butter**. Tip in the potato, spread it evenly into the corners, then press it down firmly with the base of a measuring cup or the second tin to an even layer of about **1.8 cm** (predicted; it settles to about 1.5 cm). Brush the top with the remaining **13 g clarified butter**."
+      },
+      {
+       "n": 7,
+       "title": "Bake covered",
+       "text": "Lay the second sheet of baking paper on top, set the second tin on it, and bake at **200°C conventional / 180°C fan** for about **35 minutes** (predicted)."
+      },
+      {
+       "n": 8,
+       "title": "Bake uncovered",
+       "text": "Remove the top tin and paper and bake for a further **15–20 minutes** (predicted). *Cue: top pale gold, edges sizzling and pulling slightly from the sides, a knife in the centre meets no raw crunch.* It colours fully only at the fry."
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "Press and chill (day 1, overnight)",
+     "steps": [
+      {
+       "n": 9,
+       "title": "Press",
+       "text": "Let the slab stand 10 minutes. Lay the paper back on, set the second tin on top and load it with about **1.3 kg weights**. Once it has stopped steaming, move the weighted tin to the fridge within two hours of baking and chill overnight, at least 8 hours. *Cue: cold slab is firm, flat and dense, with no springy give.*"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "Cut and freeze (day 2)",
+     "steps": [
+      {
+       "n": 10,
+       "title": "Unmould, bottom up",
+       "text": "Lift the cold slab out by the paper sling, then turn it over onto a board so the smooth, tin-side bottom faces up. Peel off the paper. This is the serving face."
+      },
+      {
+       "n": 11,
+       "title": "Trim and cut",
+       "text": "Dip the knife in hot water and wipe it between cuts. Trim about 1.25 cm from each edge for clean sides, keeping the trimmings. Cut the slab into a **5 × 5 grid of 3.5 cm squares**, pressing straight down rather than sawing. *Cue: clean faces with strands visibly bound, no crumbling.*"
+      },
+      {
+       "n": 12,
+       "title": "Freeze fast",
+       "text": "Space the squares 1 cm apart on the lined trays, **serving face up**, uncovered, in the coldest part of the freezer until hard right through, about 2–3 hours (predicted)."
+      },
+      {
+       "n": 13,
+       "title": "Check with offcuts",
+       "text": "While the squares freeze, freeze two trimmings with them. Once hard, fry these straight from frozen as in steps 20–21. If they hold, carry on. If they split, use the oven finish below instead of frying."
+      },
+      {
+       "n": 14,
+       "title": "Pack",
+       "text": "Transfer the hard squares into a rigid box, serving face up, in layers separated by baking paper. Press out air, label *the rösti squares, gluten-free, cooked, fry from frozen, date*, and keep frozen until service. Do not thaw."
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "Make the pâté (one or two days before service)",
+     "steps": [
+      {
+       "n": 15,
+       "title": "Blend the fish first",
+       "text": "Put **100 g trout**, **7 ml lemon juice**, the **lemon zest**, the **generous pinch of cayenne** and the **pinch of white pepper** in the processor or beaker and blend to a fine, even paste, scraping down once. *Cue: no visible flakes.*"
+      },
+      {
+       "n": 16,
+       "title": "Add the dairy cold, briefly",
+       "text": "Add **65 g cold cream cheese** and **20 g cold crème fraîche** and pulse just until smooth and evenly pale pink, about 10–15 seconds (predicted). Stop as soon as it is uniform: overmixing warms and thins cream cheese."
+      },
+      {
+       "n": 17,
+       "title": "Check the texture",
+       "text": "*Cue: it holds a soft peak on the spatula and falls off slowly.* If too stiff to pipe, pulse in **reserve crème fraîche 5 g at a time, up to 10 g**. Chilling firms it further."
+      },
+      {
+       "n": 18,
+       "title": "Taste with roe",
+       "text": "Taste a little pâté with a few eggs of roe. Add a few drops of lemon if it needs lifting, and salt only if it still needs it; the roe is salty."
+      },
+      {
+       "n": 19,
+       "title": "Chill and fill",
+       "text": "Refrigerate covered at 4°C. On service day or the evening before, spoon the cold pâté into the piping bag with the **1 cm nozzle**, twist closed and keep it flat in the fridge. *Cue: firm and spreadable, like softened butter.*"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "Fry and finish (service)",
+     "steps": [
+      {
+       "n": 20,
+       "title": "",
+       "text": "**Heat the oil** to **180°C**. Take out only the squares for this batch; tap off loose frost."
+      },
+      {
+       "n": 21,
+       "title": "",
+       "text": "**Fry from frozen** in batches of 6–8 (predicted, depending on pan size) so the oil stays above about 170°C. Lower them in gently and fry for about **3–4 minutes**, turning once (predicted). *Cue: deep golden brown on all faces, bubbles calmed from a roar to a steady fizz, centre hot right through when a test piece is broken open.*"
+      },
+      {
+       "n": 22,
+       "title": "Drain, serving face up",
+       "text": "Lift onto the wire rack, not kitchen paper, turning each square so the smooth face is on top, and sprinkle with flaky salt. Bring the oil back to 180°C before the next batch."
+      },
+      {
+       "n": 23,
+       "title": "Rest, pipe, top, serve",
+       "text": "Leave 1–2 minutes so the surface sets and stops steaming hard. Pipe a small rosette of about **6 g** fridge-cold pâté onto the centre of the smooth face. Spoon about **¼ tsp salmon roe** on top, add a pinch of chives if using, and pass promptly. Keep the bag and roe cold between batches so the rosettes hold their shape. No holding time has been established once topped."
+      }
+     ],
+     "notes": [
+      "**Oven fallback (if frying is impractical, untested):** frozen squares on a rack over a tray at 220°C conventional / 200°C fan, turned once, until deep golden and hot throughout. Expect a less crisp result; no time is established."
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "heading": "",
+     "items": [
+      "**Parboiled potatoes and pressed slab:** cool and refrigerate within two hours of cooking; keep covered once cold. The overnight chills are part of the method, not long holds.",
+      "**Frozen squares:** freeze as soon as cut and keep frozen until frying; fry straight from frozen. They are made for this dinner within the week; longer freezer storage has not been assessed.",
+      "**Pâté:** make one or two days ahead, keep covered at 4°C and use within two days of making, and within the trout's and dairy's use-by dates. Not frozen: cream cheese is likely to turn grainy (prediction, not assessed). Keep separate from the potato until topping.",
+      "**Salmon roe:** follow the jar's refrigeration and opened-use instructions; use a clean spoon and keep the reserve chilled.",
+      "**Partial batches:** fry only what each round of service needs; keep the rest frozen.",
+      "**Leftovers:** fried squares are best eaten at once. Topped squares are not kept. Unused pâté and roe stay refrigerated under their own limits."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rcp-017",
+   "code": "RCP-017",
+   "course": "welcome",
+   "title": "Gilda",
+   "subtitle": "Anchovy, green olive and piparra",
+   "makes": "16 skewers",
+   "revision": "0.2",
+   "batch": [],
+   "setup": [
+    {
+     "heading": "",
+     "items": [
+      "One skewer is one bite. The **16-skewer batch** below is an arithmetic 4× scaling of the source’s four-skewer recipe. It gives 2 per guest for eight guests, with no spares. The per-guest count is not a committed allocation and the served count remains TBD.",
+      "Set out a clean board, small knife, draining dish, serving plate and **16 cocktail sticks**. Check the actual anchovy, olive and piparra labels and opened-container instructions, including gluten controls. Use ready-to-eat anchovies preserved in oil, not raw fish. Product suitability remains unverified until the actual labels are checked. See dietary-matrix."
+     ]
+    }
+   ],
+   "ingredients": [
+    {
+     "heading": "",
+     "group": "",
+     "labels": {
+      "amount": "16-skewer batch",
+      "extra": [
+       "Per skewer"
+      ]
+     },
+     "rows": [
+      {
+       "name": "Pitted green manzanilla olives, drained",
+       "amount": "32",
+       "extra": [
+        {
+         "label": "Per skewer",
+         "text": "2"
+        }
+       ]
+      },
+      {
+       "name": "Small anchovy fillet preserved in oil",
+       "amount": "16",
+       "extra": [
+        {
+         "label": "Per skewer",
+         "text": "1"
+        }
+       ]
+      },
+      {
+       "name": "Small pickled piparra / Ibarra chilli, drained",
+       "amount": "16",
+       "extra": [
+        {
+         "label": "Per skewer",
+         "text": "1"
+        }
+       ]
+      },
+      {
+       "name": "Olive oil, to finish",
+       "amount": "As needed, measure actual use",
+       "extra": [
+        {
+         "label": "Per skewer",
+         "text": "As needed for a light gloss"
+        }
+       ]
+      },
+      {
+       "name": "Cocktail stick",
+       "amount": "16",
+       "extra": [
+        {
+         "label": "Per skewer",
+         "text": "1"
+        }
+       ]
+      }
+     ],
+     "notes": []
+    }
+   ],
+   "method": [
+    {
+     "heading": "",
+     "steps": [
+      {
+       "n": 1,
+       "title": "",
+       "text": "Drain the **32 olives, 16 anchovy fillets and 16 small piparras**. Remove any chilli stalks. If helpful for compact threading, cut each piparra in half, keeping both halves for its skewer."
+      },
+      {
+       "n": 2,
+       "title": "",
+       "text": "On each of the **16 cocktail sticks**, thread **1 olive, 1 piparra (whole or its two halves), 1 small anchovy fillet folded over, then 1 olive**. Keep the pieces close together so the whole combination can be eaten in one mouthful."
+      },
+      {
+       "n": 3,
+       "title": "",
+       "text": "Arrange the **16 Gildas** and lightly gloss with **olive oil as needed**, without leaving a pool beneath them. No extra salt is specified."
+      }
+     ],
+     "notes": []
+    }
+   ],
+   "notes": [
+    {
+     "heading": "",
+     "items": [
+      "Follow the actual product labels for refrigeration, use after opening and any time out of refrigeration. This master does not establish a validated assembled holding window; assemble for the welcome service rather than assuming a multiday shelf life. Scheduling, assignment and readiness checks belong in master-schedule.csv."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rcp-018",
+   "code": "RCP-018",
+   "course": "welcome",
+   "title": "Kimchi devilled eggs",
+   "subtitle": "",
+   "makes": "8 eggs, 16 filled halves",
+   "revision": "0.3",
+   "batch": [
+    "**Batch:** 8 eggs, making 16 filled halves, which is 2 per guest for eight guests with no spares. Eight guests are confirmed; the final serving count remains TBD."
+   ],
+   "setup": [
+    {
+     "heading": "",
+     "items": [
+      "Set out a saucepan that holds **8 large eggs** in one layer, an ice-water bowl, slotted spoon, knife, board, fine sieve, mini processor, spatula and piping bag with a broad plain nozzle.",
+      "Set out shallow covered containers for whites and filling. Clear space in the fridge at **4°C**.",
+      "Drain the kimchi, reserving **13 ml brine**. Weigh **55 g drained kimchi**, then chop finely. Divide **15 g for tasting/adjustment and 40 g for the topping**. Keep the tasting portion separate from the garnish.",
+      "Check the actual kimchi, mayonnaise and gochujang labels for coeliac suitability. Use bought mayonnaise. Kimchi flavour and heat vary, so season the filling with the actual garnish."
+     ]
+    }
+   ],
+   "ingredients": [
+    {
+     "heading": "",
+     "group": "Eggs",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Large eggs",
+       "amount": "8",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "",
+     "group": "Filling",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Mayonnaise",
+       "amount": "55 g available, 40 g initially + up to 15 g adjustment",
+       "extra": []
+      },
+      {
+       "name": "Gochujang",
+       "amount": "13 g available, 7 g initially + up to 6 g adjustment",
+       "extra": []
+      },
+      {
+       "name": "Kimchi brine",
+       "amount": "13 ml available, 7 ml initially + up to 6 ml adjustment",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "",
+     "group": "Filling/topping",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Drained cabbage kimchi",
+       "amount": "55 g, finely chopped; 15 g for tasting + 40 g garnish",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "",
+     "group": "Filling",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Fine salt",
+       "amount": "To taste, only after tasting with kimchi",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "",
+     "group": "Garnish",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Spring onion",
+       "amount": "2, green parts finely sliced",
+       "extra": []
+      },
+      {
+       "name": "Toasted sesame seeds",
+       "amount": "1½ tsp",
+       "extra": []
+      }
+     ],
+     "notes": []
+    }
+   ],
+   "method": [
+    {
+     "heading": "",
+     "steps": [
+      {
+       "n": 1,
+       "title": "Cook the eggs",
+       "text": "Lower **8 eggs** into gently boiling water. Cook for about 10 minutes, checking that whites and yolks are firm. Transfer immediately to ice water. Once cold, peel and halve lengthways. Put all **8 yolks** in the processor and refrigerate the **16 white halves**, covered."
+      },
+      {
+       "n": 2,
+       "title": "Blend the filling",
+       "text": "Process the **8 yolks, 40 g mayonnaise, 7 g gochujang and 7 ml kimchi brine** until smooth. Scrape down the bowl. Taste a little filling with some of the reserved **15 g chopped kimchi**."
+      },
+      {
+       "n": 3,
+       "title": "Adjust in small additions",
+       "text": "Use up to **15 g more mayonnaise** for a creamier texture, up to **6 g more gochujang** for heat, and up to **6 ml more brine** for acidity and loosening. Aim for a smooth mixture that holds a soft mound. Salt only if needed. Keep the chopped kimchi separate so the filling stays smooth."
+      },
+      {
+       "n": 4,
+       "title": "Refrigerate separately",
+       "text": "Transfer the filling to its covered container or piping bag. Keep it, the covered egg whites and the **40 g garnish kimchi** refrigerated at **4°C** until assembly."
+      },
+      {
+       "n": 5,
+       "title": "Fill and garnish",
+       "text": "Pipe the filling evenly into the **16 white halves**. Share the **40 g garnish kimchi** between them, then finish with the sliced green parts of **2 spring onions** and **1½ tsp toasted sesame seeds** across the batch. Keep the egg white rims clear so each half can be picked up neatly."
+      }
+     ],
+     "notes": []
+    }
+   ],
+   "notes": [
+    {
+     "heading": "",
+     "items": [
+      "Prepare the whites and filling the day before and refrigerate separately. Pipe and garnish for service.",
+      "Cool cooked components promptly, within two hours, and keep at 4°C. Use within two days of preparation, or any shorter ingredient-pack limit. Return reserve portions to refrigeration promptly.",
+      "Keep hard-cooked egg whites refrigerated. FoodSafety.gov advises against freezing hard-cooked eggs.",
+      "Label containers with the preparation date and follow the kimchi/mayonnaise pack's opened-use instructions. Prepared components keep their original preparation limit after assembly."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rcp-004",
+   "code": "RCP-004",
+   "course": "starter",
+   "title": "Salmon hand roll",
+   "subtitle": "Yuzu rice, yuzu-daikon pickle, wasabi furikake",
+   "makes": "10 hand rolls (working batch)",
+   "revision": "0.3",
+   "batch": [
+    "**Working batch: 10 open hand rolls**, for 8 confirmed guests plus 2 spares or tests. Final count TBD.",
+    "**Per roll (working amounts):** 15 g yuzu rice, 25 g zuke salmon, 5 g salted cucumber, 4 g yuzu-daikon pickle, 2 g yuzu-kosho mayonnaise (optional), 0.5 g wasabi, 1 g wasabi furikake, 1 nori sheet (size TBD: half or quarter sheet to suit the holder).",
+    "The rice and pickle batches make more than 10 rolls need, so you can taste and adjust. Weigh and record the cooked rice and drained pickle."
+   ],
+   "setup": [
+    {
+     "heading": "",
+     "items": [
+      "**Day before or morning (pickle):**",
+      "Set out a small pan, a fine sieve, a jar or lidded container (glass preferred), a bowl for the brine, a knife or julienne peeler, scales and kitchen paper.",
+      "**Check labels** for wheat, barley or malt in the tamari, mirin, rice vinegar, yuzu juice, yuzu kosho, wasabi, mayonnaise, nori, kombu and wasabi furikake. If a label is unknown, don't use it for the coeliac guest.",
+      "**Service day (rice, salmon, assembly):**",
+      "Set out the rice pot, a wide bowl or sushi tub, a rice paddle, a fan and a damp cloth. For the fish, set out a board and knife used only for raw fish, a non-reactive tray, cling film and kitchen paper.",
+      "Keep the nori sealed with a desiccant until plating. Have 10 holders, 10 plates and small bowls for the wasabi and furikake within reach."
+     ]
+    }
+   ],
+   "ingredients": [
+    {
+     "heading": "A. Yuzu-daikon pickle (makes more than the 40 g needed)",
+     "group": "",
+     "labels": {
+      "amount": "Amount",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Daikon, peeled",
+       "amount": "150 g",
+       "extra": [],
+       "note": "Cut into 5 cm × 3 mm matchsticks"
+      },
+      {
+       "name": "Water, for brine",
+       "amount": "500 ml",
+       "extra": []
+      },
+      {
+       "name": "Fine salt, for brine",
+       "amount": "1 tbsp",
+       "extra": []
+      },
+      {
+       "name": "Water, for kombu dashi",
+       "amount": "100 ml",
+       "extra": [],
+       "note": "Heated and measured down to 90 ml dashi"
+      },
+      {
+       "name": "Kombu",
+       "amount": "1 piece, about 5 × 3 cm",
+       "extra": [],
+       "note": "same piece, half the water,"
+      },
+      {
+       "name": "Rice vinegar",
+       "amount": "120 ml",
+       "extra": []
+      },
+      {
+       "name": "Sugar",
+       "amount": "50 g",
+       "extra": []
+      },
+      {
+       "name": "Fine salt, for amazu",
+       "amount": "½ tsp",
+       "extra": []
+      },
+      {
+       "name": "Dried red chilli, seeds removed",
+       "amount": "¼ to ½ chilli",
+       "extra": []
+      },
+      {
+       "name": "Yuzu peel, white pith removed, julienned",
+       "amount": "Peel of ¼ yuzu",
+       "extra": [],
+       "note": "Lemon peel if no yuzu"
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "B. Yuzu-ginger sushi rice (1 go makes about 330 g cooked; 150 g needed)",
+     "group": "",
+     "labels": {
+      "amount": "Amount",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Japanese short-grain rice",
+       "amount": "1 go (180 ml raw)",
+       "extra": [],
+       "note": "Cook slightly firm. About 330 g cooked"
+      },
+      {
+       "name": "Kombu, for cooking",
+       "amount": "1 piece, about 5 cm",
+       "extra": []
+      },
+      {
+       "name": "Rice vinegar",
+       "amount": "17 ml",
+       "extra": []
+      },
+      {
+       "name": "Yuzu juice, 100%",
+       "amount": "8 ml",
+       "extra": [],
+       "note": "About a third of the acid Check for added salt or soy"
+      },
+      {
+       "name": "Sugar",
+       "amount": "1 tbsp (15 ml)",
+       "extra": []
+      },
+      {
+       "name": "Fine salt",
+       "amount": "3 g",
+       "extra": []
+      },
+      {
+       "name": "Fresh ginger, very finely minced",
+       "amount": "5 g",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "C. Zuke salmon",
+     "group": "",
+     "labels": {
+      "amount": "Amount",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Salmon, skinless, for raw eating (user-sourced)",
+       "amount": "250 g trimmed",
+       "extra": [],
+       "note": "Buy a block a little larger to allow trimming"
+      },
+      {
+       "name": "Iced water, for rinse",
+       "amount": "400 ml",
+       "extra": []
+      },
+      {
+       "name": "Ice, for rinse",
+       "amount": "100 g",
+       "extra": []
+      },
+      {
+       "name": "Fine salt, for rinse",
+       "amount": "1 tbsp",
+       "extra": []
+      },
+      {
+       "name": "Mirin",
+       "amount": "15 ml",
+       "extra": []
+      },
+      {
+       "name": "Sake",
+       "amount": "15 ml",
+       "extra": []
+      },
+      {
+       "name": "Gluten-free tamari",
+       "amount": "30 ml",
+       "extra": []
+      },
+      {
+       "name": "Kombu, to steep in the tare",
+       "amount": "1 piece, about 5 × 5 cm",
+       "extra": []
+      },
+      {
+       "name": "Yuzu kosho",
+       "amount": "1.5 to 2 g",
+       "extra": []
+      },
+      {
+       "name": "Toasted sesame oil",
+       "amount": "1 to 2 ml",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "D. Cucumber, mayonnaise and assembly",
+     "group": "",
+     "labels": {
+      "amount": "Amount",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Cucumber, seeded, in 5 cm matchsticks",
+       "amount": "50 g",
+       "extra": [],
+       "note": "Seeded for less moisture"
+      },
+      {
+       "name": "Fine salt, for cucumber",
+       "amount": "About 0.5 g (a pinch)",
+       "extra": [],
+       "note": "about 1%."
+      },
+      {
+       "name": "Japanese-style mayonnaise",
+       "amount": "20 g",
+       "extra": [],
+       "note": "Optional. Check the label"
+      },
+      {
+       "name": "Yuzu kosho, for the mayonnaise",
+       "amount": "0.5 to 1 g",
+       "extra": [],
+       "note": "Optional"
+      },
+      {
+       "name": "Yaki nori, plain",
+       "amount": "10 sheets",
+       "extra": []
+      },
+      {
+       "name": "Wasabi paste",
+       "amount": "5 g",
+       "extra": [],
+       "note": "0.5 g per roll; adjust to taste"
+      },
+      {
+       "name": "Wasabi furikake (Daniela's jar)",
+       "amount": "10 g",
+       "extra": [],
+       "note": "1 g per roll, up from 0.5 g. Wheat check pending; fallback is classic furikake or toasted sesame"
+      },
+      {
+       "name": "Kaiware sprouts",
+       "amount": "10 g",
+       "extra": [],
+       "note": "Optional"
+      },
+      {
+       "name": "Butter lettuce, in strips about 2 × 6 cm",
+       "amount": "10 strips",
+       "extra": [],
+       "note": "Optional prototype test only"
+      }
+     ],
+     "notes": []
+    }
+   ],
+   "method": [
+    {
+     "heading": "Pickle (at least 3 hours ahead; the day before)",
+     "steps": [
+      {
+       "n": 1,
+       "title": "Make the kombu dashi",
+       "text": "Soak **1 piece of kombu (about 5 × 3 cm)** in **100 ml water** for 15–30 min. Heat on medium-low until it just simmers, then turn off the heat. Measure out **90 ml dashi**, topping up with water if needed."
+      },
+      {
+       "n": 2,
+       "title": "Season the amazu",
+       "text": "While the dashi is warm, stir in **50 g sugar** and **½ tsp salt** until dissolved. Add **120 ml rice vinegar** and **¼ to ½ dried chilli**. Leave to cool."
+      },
+      {
+       "n": 3,
+       "title": "Brine the daikon",
+       "text": "Dissolve **1 tbsp salt** in **500 ml water**. Add **150 g daikon matchsticks** and leave for about 30 min."
+      },
+      {
+       "n": 4,
+       "title": "Squeeze",
+       "text": "Drain, then squeeze the daikon firmly by hand in small handfuls. This keeps it crisp and stops it wetting the nori."
+      },
+      {
+       "n": 5,
+       "title": "Pickle",
+       "text": "Put the daikon and the **julienned peel of ¼ yuzu** in the jar. Pour over the cooled amazu, loosen any clumps and refrigerate for **at least 2–3 hours**. Taste: it should be crisp, sharp-sweet and clearly citrus."
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "Rice (service day)",
+     "steps": [
+      {
+       "n": 6,
+       "title": "Cook",
+       "text": "Wash **1 go (180 ml) rice** and cook it slightly firm, with a little less water than the packet says, adding **1 piece of kombu (about 5 cm)**. Remove the kombu when the rice is cooked."
+      },
+      {
+       "n": 7,
+       "title": "Make the awase-zu",
+       "text": "While the rice cooks, stir **17 ml rice vinegar**, **8 ml yuzu juice**, **1 tbsp (15 ml) sugar**, **3 g salt** and **5 g minced ginger** until the sugar and salt dissolve."
+      },
+      {
+       "n": 8,
+       "title": "Season",
+       "text": "Weigh the hot rice into a wide bowl and note the weight. Pour the awase-zu down the paddle, about **1 ml for every 10 g of rice**, so all of it for about 330 g. Mix up from the bottom, then cut sideways with the paddle until the rice is glossy with no lumps."
+      },
+      {
+       "n": 9,
+       "title": "Cool and hold",
+       "text": "Fan the rice and turn it until it reaches **body temperature**. Cover with a damp cloth and keep at room temperature. **Don't refrigerate it**, as that hardens the rice. A safe holding time is not verified; plan to use it the same session."
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "Salmon (service day, close to assembly)",
+     "steps": [
+      {
+       "n": 10,
+       "title": "Make the tare",
+       "text": "Bring **15 ml mirin** and **15 ml sake** to the boil to cook off the alcohol. Cool, then stir in **30 ml tamari**, **1.5 to 2 g yuzu kosho** and **1 to 2 ml sesame oil**. Add **1 piece of kombu (about 5 × 5 cm)** and chill. Steep the kombu for at least 30 min, then remove it."
+      },
+      {
+       "n": 11,
+       "title": "Cut",
+       "text": "On the raw-fish board, trim and cut **250 g salmon** into strips about **5 mm thick, 1 cm wide and 6 cm long**. You should get about 4 strips per roll."
+      },
+      {
+       "n": 12,
+       "title": "Rinse",
+       "text": "Mix **400 ml iced water**, **100 g ice** and **1 tbsp salt** until the salt dissolves. Dip the strips, stir 3–4 times, leave for **1 min**, then lift out and pat thoroughly dry with kitchen paper. The rinse must be ice-cold."
+      },
+      {
+       "n": 13,
+       "title": "Marinate",
+       "text": "Lay the **250 g salmon** in one layer in a non-reactive tray. Pour over the tare, press cling film onto the surface and chill for **about 25 min**. Taste a strip at 20 min. 20–40 min is the usual range for salmon; too long makes it salty, firm and dry."
+      },
+      {
+       "n": 14,
+       "title": "Drain",
+       "text": "Lift out the strips, blot them on kitchen paper and keep chilled on a tray. Discard the tare."
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "Cucumber and mayonnaise",
+     "steps": [
+      {
+       "n": 15,
+       "title": "Salt the cucumber",
+       "text": "Toss **50 g cucumber matchsticks** with **about 0.5 g salt**. Leave for about 5 min, until water appears, then squeeze gently and blot."
+      },
+      {
+       "n": 16,
+       "title": "Yuzu-kosho mayonnaise (optional)",
+       "text": "Stir **20 g mayonnaise** with **0.5 to 1 g yuzu kosho** until smooth. Keep chilled."
+      },
+      {
+       "n": 17,
+       "title": "Drain the pickle",
+       "text": "Lift out **40 g yuzu-daikon pickle**, with some of the peel, and blot it."
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "Assemble (last thing before serving)",
+     "steps": [
+      {
+       "n": 18,
+       "title": "",
+       "text": "Lay **1 nori sheet** on each holder. For the prototype, test **1 lettuce strip** on some sheets."
+      },
+      {
+       "n": 19,
+       "title": "",
+       "text": "Place **15 g rice** in a narrow strip along one side of the sheet, not spread across it."
+      },
+      {
+       "n": 20,
+       "title": "",
+       "text": "On the rice, lay **5 g cucumber** and **4 g pickle**, then a small dot of **2 g yuzu-kosho mayonnaise** if using, then **25 g salmon strips** running along the fold line."
+      },
+      {
+       "n": 21,
+       "title": "",
+       "text": "Add **0.5 g wasabi** and **kaiware** if using. Finish with **1 g wasabi furikake** and serve at once."
+      }
+     ],
+     "notes": [
+      "**Totals for 10 rolls:** rice 15 g × 10 = 150 g, from about 330 g cooked. Salmon 25 g × 10 = 250 g. Cucumber 5 g × 10 = 50 g. Pickle 4 g × 10 = 40 g, from the larger batch. Mayonnaise 2 g × 10 = 20 g. Wasabi 0.5 g × 10 = 5 g. Furikake 1 g × 10 = 10 g."
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "heading": "",
+     "items": [
+      "**Rice:** room temperature under a damp cloth, not refrigerated. Holding time is unverified.",
+      "**Pickle:** the source gives about a week refrigerated for its turnip amazu pickle. The keeping time of this daikon adaptation is **unverified**. The amazu base on its own keeps about six months chilled.",
+      "**Salmon:** marinate close to service. Make-ahead storage is **unverified; don't adopt one**. No marinade or rinse here is a safety step, and vinegar, soy and wasabi don't kill anisakis. Raw-fish safety depends on Daniela's supplier.",
+      "**Nori:** sealed with a desiccant until plating. How long it stays crisp under the toppings is TBD."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rcp-012",
+   "code": "RCP-012",
+   "course": "soup",
+   "title": "Celeriac and Jerusalem artichoke soup",
+   "subtitle": "Fried sage and parsley oil",
+   "makes": "10–12 × 200 ml (target)",
+   "revision": "0.7",
+   "batch": [
+    "**Portions:** 10–12 × **200 ml**, for **8 confirmed guests** plus leftovers. Finished-volume target **2–2.4 litres**, aiming for 2.4 litres; actual yield to be measured. Eight bowls use 1.6 litres, leaving a target 400–800 ml."
+   ],
+   "setup": [
+    {
+     "heading": "",
+     "items": [
+      "Set up only the stage you are cooking now. The soup base, parsley oil and dinner finishing each have their own setup below. Keep the milk refrigerated until needed."
+     ]
+    },
+    {
+     "heading": "Soup-base station",
+     "items": [
+      "**Clear the workspace.** Put out a chopping board, sharp knife, peeler, scales, measuring jug, small bowls, a bowl of cold water for the artichokes and a bowl for peelings. Have a clean cloth ready.",
+      "**Set out the cooking kit.** Place the lidded saucepan on the hob, with a spatula or wooden spoon beside it. Have the stick blender, a tasting spoon and the fine sieve ready. If freezing, put shallow containers, lids, labels and a marker within reach and clear space for cooling and storage.",
+      "**Prepare the ingredients before turning on the heat.** Peel, weigh and finely slice **600 g celeriac and 400 g artichokes**. Keep the artichokes briefly in the cold water, then drain before cooking. Slice **330 g shallots and 3 garlic cloves** and put them together in one bowl. Weigh **80 g butter**, measure **1,250 ml prepared vegetable stock** and put **½ tsp salt** beside the stove. The stock quantity is prepared stock, not concentrate.",
+      "**Keep the finishing ingredients separate.** The **400 ml milk and 25 ml lemon juice** belong to finishing, not to the base going into the freezer. Label the base containers with the fraction stored and the corresponding finishing amounts."
+     ]
+    },
+    {
+     "heading": "Parsley-oil station",
+     "items": [
+      "Have **25 g washed parsley with tender stalks**, **100 ml light olive oil** and the optional extra **50 ml oil** ready. Set out a small saucepan for blanching, a colander, the small blender jug, a sieve lined with clean muslin over a bowl, and a clean lidded jar with a label. Check that the blender can process this small quantity. Set up the strainer before blanching so the finished oil has somewhere to go."
+     ]
+    },
+    {
+     "heading": "Dinner finishing and plating station",
+     "items": [
+      "Have the thawed base and the correctly scaled milk ready; keep the portion intended for leftovers separate before reheating. For the whole batch, measure **400 ml milk**, **15 ml lemon juice** and a separate **10 ml lemon juice** for adjustment. Put salt, pepper, a tasting spoon and a little hot water or stock within reach.",
+      "Pat **16 sage leaves** thoroughly dry for the eight dinner bowls and arrange them in **two groups of 8**. Measure the frying oil into **two 15 ml portions**. Set out the small frying pan, tongs and a plate lined with kitchen paper.",
+      "Arrange **8 soup bowls**, a ladle, a measuring jug to check the **200 ml portion**, a small spoon or dropper for the parsley oil and a clean cloth for the rims. Set aside about **10 ml parsley oil** for those bowls; keep the rest refrigerated. Have the bowls warm when ready to plate."
+     ]
+    }
+   ],
+   "ingredients": [
+    {
+     "heading": "",
+     "group": "Soup base",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Celeriac",
+       "amount": "600 g peeled weight, finely sliced",
+       "extra": []
+      },
+      {
+       "name": "Jerusalem artichokes",
+       "amount": "400 g peeled weight, finely sliced",
+       "extra": []
+      },
+      {
+       "name": "Echalion shallots",
+       "amount": "330 g, finely sliced",
+       "extra": []
+      },
+      {
+       "name": "Garlic",
+       "amount": "3 cloves, finely sliced",
+       "extra": []
+      },
+      {
+       "name": "Unsalted butter",
+       "amount": "80 g",
+       "extra": []
+      },
+      {
+       "name": "Gluten-free vegetable stock",
+       "amount": "1,250 ml prepared stock",
+       "extra": []
+      },
+      {
+       "name": "Fine salt",
+       "amount": "½ tsp initially; additional to taste",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "",
+     "group": "Finish",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Whole milk",
+       "amount": "400 ml for the whole batch",
+       "extra": []
+      },
+      {
+       "name": "Lemon juice",
+       "amount": "25 ml available: 15 ml initially + up to 10 ml",
+       "extra": []
+      },
+      {
+       "name": "Black pepper",
+       "amount": "To taste",
+       "extra": []
+      },
+      {
+       "name": "Hot water or gluten-free vegetable stock",
+       "amount": "As needed for consistency; measure what is added",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "",
+     "group": "Parsley oil",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Flat-leaf parsley",
+       "amount": "25 g, including tender stalks, washed",
+       "extra": []
+      },
+      {
+       "name": "Light olive oil",
+       "amount": "100 ml initially + up to 50 ml if needed, 150 ml maximum",
+       "extra": []
+      },
+      {
+       "name": "Salt",
+       "amount": "To taste in the blanching water",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "",
+     "group": "Fried sage",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Small sage leaves",
+       "amount": "24 for 12 bowls; use 16 for the eight dinner bowls, washed and thoroughly dried",
+       "extra": []
+      },
+      {
+       "name": "Olive oil",
+       "amount": "30 ml, divided into two 15 ml portions",
+       "extra": []
+      }
+     ],
+     "notes": [
+      "The parsley oil is a practical blender batch with surplus, not an amount to pour over the soup. Start with **¼ tsp (1.25 ml) per bowl**. For dinner, fry **16 sage leaves** in two batches of 8; leave the remaining **8 leaves** unfried for later portions. The intended soup texture is silky and flowing, with the garnishes as restrained accents."
+     ]
+    }
+   ],
+   "method": [
+    {
+     "heading": "Make the soup base",
+     "steps": [
+      {
+       "n": 1,
+       "title": "Check your mise en place",
+       "text": "Have **600 g peeled, finely sliced celeriac and 400 g peeled, finely sliced artichokes** ready as above. Drain the artichokes before cooking. The preparation allowance covers this once, not again here."
+      },
+      {
+       "n": 2,
+       "title": "Soften the aromatics",
+       "text": "Melt **80 g butter** over medium-low heat. Add **330 g shallots, 3 sliced garlic cloves and ½ tsp salt**. Cook gently until soft, keeping the garlic pale. Cook to softness; about 8 minutes is a smaller-batch reference, so this batch may differ."
+      },
+      {
+       "n": 3,
+       "title": "Cook the roots",
+       "text": "Add **600 g celeriac and 400 g artichokes**. Stir gently until the edges begin to soften and take a little colour. Aim for light golden edges rather than deep browning; about 10 minutes is a smaller-batch reference."
+      },
+      {
+       "n": 4,
+       "title": "Simmer",
+       "text": "Add **1,250 ml vegetable stock**, bring to a gentle simmer and cover. Start checking after 20 minutes and continue until both roots crush readily against the pan with a spoon. Add a little hot water if needed to prevent catching. Roughly 15–30 minutes, but the larger batch may differ: cook to tenderness, not a compulsory hour."
+      },
+      {
+       "n": 5,
+       "title": "Blend",
+       "text": "Blend thoroughly with a stick blender until silky. Pass through a fine sieve if needed to remove persistent fibres. Keep the **400 ml milk and 25 ml lemon juice** out for now. For advance preparation, cool and store the base as below; otherwise continue to finishing."
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "Make the parsley oil",
+     "steps": [
+      {
+       "n": 6,
+       "title": "Blanch and blend",
+       "text": "Blanch **25 g parsley** in lightly salted boiling water for **30 seconds**. Drain thoroughly, then blend with **100 ml light olive oil** in a small jug until finely processed. If needed, add some of the reserved **50 ml oil**, a little at a time, to blend or soften the intensity. The proposed cue is a clean parsley flavour without an aggressively bitter oil finish."
+      },
+      {
+       "n": 7,
+       "title": "Strain",
+       "text": "Let the oil drain through a muslin-lined sieve into a clean container without pressing the solids. Cover, date and refrigerate. Make up to **3 days ahead**; use within that period. This follows the oil recipe and stays within the general four-day refrigerated limit for homemade herb oils."
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "Finish the soup",
+     "steps": [
+      {
+       "n": 8,
+       "title": "Warm and add milk",
+       "text": "If frozen, thaw the base in the fridge. For the **whole batch**, warm gently, stir in **400 ml whole milk**, and heat until steaming hot throughout, stirring well. Bring just to a gentle simmer, without prolonged boiling. If reheating only part, add the same fraction of the **400 ml milk** and reserve the rest for the stored base."
+      },
+      {
+       "n": 9,
+       "title": "Balance the flavour and texture",
+       "text": "Off the heat, add **15 ml lemon juice** and black pepper. Taste before adding any of the remaining **10 ml lemon juice** or more salt. Aim for a savoury soup lifted by acidity, without tasting distinctly lemony. Loosen with hot water or stock only as needed for a flowing consistency; briefly blend again if necessary. For a partial batch, scale the lemon quantities by the same fraction as the milk."
+      },
+      {
+       "n": 10,
+       "title": "Measure",
+       "text": "Record the finished volume. The target is **2–2.4 litres**, not a measured yield guarantee. Do not dilute a well-balanced soup simply to hit the number. Keep any surplus; do not reduce it solely to fit 12 portions. If reserving leftovers, separate that share of base before reheating and scale its finishing ingredients accordingly."
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "Fry the sage and plate",
+     "steps": [
+      {
+       "n": 11,
+       "title": "Crisp the sage",
+       "text": "Heat **15 ml olive oil** in a small frying pan over medium heat. Add **8 thoroughly dry sage leaves** for the dinner service, or **12** if serving all 12 portions, provided they fit without crowding. Fry until crisp, about **2 minutes**, then drain on kitchen paper. Repeat with the remaining **15 ml oil** and **8 or 12 leaves**. Use the crisp-leaf cue rather than waiting for dark browning."
+      },
+      {
+       "n": 12,
+       "title": "Serve",
+       "text": "Ladle **200 ml hot soup** into each warm bowl. Dot about **¼ tsp (1.25 ml) parsley oil** over the surface and add **2 crisp sage leaves** immediately before serving. Leave most of the pale soup visible; the garnish should complement the roots. For eight bowls this uses **1.6 litres soup, about 10 ml parsley oil and 16 sage leaves**."
+      }
+     ],
+     "notes": []
+    }
+   ],
+   "notes": [
+    {
+     "heading": "",
+     "items": [
+      "**Soup:** cool promptly in shallow containers, using a cold-water bath and stirring if useful, and refrigerate or freeze within 2 hours. Keep refrigerated at 4 °C or below and use within 2 days, or freeze for up to 3 months under the existing general guidance. Freeze the base before adding milk and lemon; butter remains in the base. Thaw in the fridge and reheat only the amount needed, until steaming hot throughout. Reheat once. These are practical handling instructions, not a guarantee of frozen texture.",
+      "**Labels:** note the stored fraction and its finishing ingredients. Half a base batch takes **200 ml milk** and **7.5 ml lemon juice initially, plus up to 5 ml**; the whole batch takes **400 ml milk** and **15 ml + up to 10 ml lemon juice**.",
+      "**Parsley oil:** refrigerate immediately after making, use within 3 days, and keep the main container chilled while using a small serving amount. Do not store at room temperature.",
+      "**Sage:** fry close to plating. Leave leaves for leftover soup unfried; no crisp-storage promise is made."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rcp-006",
+   "code": "RCP-006",
+   "course": "main",
+   "title": "Turkey crown roulade",
+   "subtitle": "Guanciale, chestnut, mushroom and apple",
+   "makes": "2 rolls, one per crown",
+   "revision": "0.4",
+   "batch": [
+    "**Batch:** two rolls, one per **2.2 kg breast-on-bone crown** (4.4 kg total before removing skin and bones). There is no back to remove or reserve. Keep each crown’s two breast halves and skin together for its roll. Dinner is for eight guests overall, with a separate pescatarian main. Portion the turkey for the number of turkey plates at the pass. **Proposed plating allowance:** 150 g cooked roulade per turkey plate alongside mash and sides. Measure the cooked yield before counting spare portions.",
+    "**Scale by meat weight.** After deboning, weigh each crown’s trimmed breast meat for its roll, excluding skin, bones and any removed tenderloins. Multiply the per-kilo quantities by the weight of the meat in kilograms. The **4.4 kg bone-in purchase weight must not be used as the filling multiplier**. The table’s **3 kg trimmed-meat column is only an arithmetic example**, not the predicted yield of these crowns. Use the actual weights to size the batch. Record crown A and B trimmed breast weights separately, then their total. Combine the filling ingredients for both rolls if convenient and divide the cooked filling in proportion to each roll’s meat weight, keeping a little back if it would make either roll hard to close."
+   ],
+   "setup": [
+    {
+     "heading": "",
+     "items": [
+      "**Turkey station:** a raw-poultry board, boning knife, scales, covered tray, paper towels, ruler and kitchen twine. If the butcher debones the crowns, ask for the breast halves, skin and bones packed separately by crown, with as much intact skin as possible. Check whether the turkey is already salted, brined or injected. Keep the turkey refrigerated at **4°C** until needed. Before starting this raw-freezing route, check the use-by date, prior freezing/thawing history and supplier instructions, including suitability for home freezing. If the crowns arrive frozen or previously thawed, resolve those instructions before assembling for freezing.",
+      "**Filling station:** a clean board and knife, wide frying pan, spatula and shallow dish for cooling. Weigh the scaled amounts from the table. Chop the mushrooms and shallots finely. Peel and core the tart apple and cut it into roughly 4–5 mm dice. Crush the reserved chestnuts with a fork and finely chop the rest. Strip the thyme leaves from their stems. Finely dice the guanciale, mince the garlic and have whole nutmeg and a fine grater ready. Set out a slotted spoon and a small heatproof dish for weighing rendered fat. The browned pork pieces stay in the filling for bite; no crisp garnish is needed.",
+      "**Freezing station:** freezer-rated food wrap, heavy freezer bags or foil, labels and a tray that fits the freezer. Check there is room for the two rolls without crushing them, and keep the cold filling and turkey refrigerated until assembly.",
+      "**Oven and carving station:** middle oven shelf, rimmed roasting tray with a rack, foil for shielding, a leave-in probe if available and a reliable instant-read thermometer to verify each roll. Check both rolls fit with space between them. Set out a clean carving board, sharp knife, scissors and scales."
+     ]
+    }
+   ],
+   "ingredients": [
+    {
+     "heading": "",
+     "group": "Turkey",
+     "labels": {
+      "amount": "Per 1 kg trimmed breast meat",
+      "extra": [
+       "Example for 3 kg trimmed breast meat"
+      ]
+     },
+     "rows": [
+      {
+       "name": "Breast meat from 2 × 2.2 kg breast-on-breastbone crowns",
+       "amount": "1 kg, raw trimmed weight",
+       "extra": [
+        {
+         "label": "Example for 3 kg trimmed breast meat",
+         "text": "3 kg, example weight"
+        }
+       ]
+      },
+      {
+       "name": "Reserved turkey skin",
+       "amount": "Enough to cover each roll",
+       "extra": [
+        {
+         "label": "Example for 3 kg trimmed breast meat",
+         "text": "Skin from both crowns"
+        }
+       ]
+      },
+      {
+       "name": "Fine salt, for unseasoned turkey",
+       "amount": "8 g total, 6 g inside + 2 g on skin",
+       "extra": [
+        {
+         "label": "Example for 3 kg trimmed breast meat",
+         "text": "24 g total, 18 g inside + 6 g on skin"
+        }
+       ]
+      },
+      {
+       "name": "Neutral oil",
+       "amount": "5 ml",
+       "extra": [
+        {
+         "label": "Example for 3 kg trimmed breast meat",
+         "text": "15 ml"
+        }
+       ]
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "",
+     "group": "Stuffing",
+     "labels": {
+      "amount": "Per 1 kg trimmed breast meat",
+      "extra": [
+       "Example for 3 kg trimmed breast meat"
+      ]
+     },
+     "rows": [
+      {
+       "name": "Cremini or brown button mushrooms, finely chopped",
+       "amount": "160 g",
+       "extra": [
+        {
+         "label": "Example for 3 kg trimmed breast meat",
+         "text": "480 g"
+        }
+       ]
+      },
+      {
+       "name": "Plain cooked peeled chestnuts",
+       "amount": "80 g total, 60 g chopped + 20 g crushed",
+       "extra": [
+        {
+         "label": "Example for 3 kg trimmed breast meat",
+         "text": "240 g total, 180 g chopped + 60 g crushed"
+        }
+       ]
+      },
+      {
+       "name": "Shallot, peeled and finely chopped",
+       "amount": "45 g",
+       "extra": [
+        {
+         "label": "Example for 3 kg trimmed breast meat",
+         "text": "135 g"
+        }
+       ]
+      },
+      {
+       "name": "Firm tart apple, e.g. Granny Smith, peeled and cored",
+       "amount": "45 g",
+       "extra": [
+        {
+         "label": "Example for 3 kg trimmed breast meat",
+         "text": "135 g"
+        }
+       ]
+      },
+      {
+       "name": "Guanciale, finely diced",
+       "amount": "30 g",
+       "extra": [
+        {
+         "label": "Example for 3 kg trimmed breast meat",
+         "text": "90 g"
+        }
+       ]
+      },
+      {
+       "name": "Rendered guanciale fat, taken from the guanciale above",
+       "amount": "Retain 10 g for the mushroom base; reserve any excess separately",
+       "extra": [
+        {
+         "label": "Example for 3 kg trimmed breast meat",
+         "text": "Retain 30 g for the mushroom base"
+        }
+       ]
+      },
+      {
+       "name": "Unsalted butter",
+       "amount": "6 g for apple, plus only any shortfall needed to reach 10 g base cooking fat",
+       "extra": [
+        {
+         "label": "Example for 3 kg trimmed breast meat",
+         "text": "18 g for apple, plus only any shortfall needed to reach 30 g base cooking fat"
+        }
+       ]
+      },
+      {
+       "name": "Fresh thyme leaves, stems removed",
+       "amount": "2 g",
+       "extra": [
+        {
+         "label": "Example for 3 kg trimmed breast meat",
+         "text": "6 g"
+        }
+       ]
+      },
+      {
+       "name": "Garlic, peeled and finely minced",
+       "amount": "2 g",
+       "extra": [
+        {
+         "label": "Example for 3 kg trimmed breast meat",
+         "text": "6 g"
+        }
+       ]
+      },
+      {
+       "name": "Freshly grated nutmeg",
+       "amount": "A little, to taste; use the 3 kg starting point as a guide",
+       "extra": [
+        {
+         "label": "Example for 3 kg trimmed breast meat",
+         "text": "Start with a scant ⅛ tsp, then taste"
+        }
+       ]
+      },
+      {
+       "name": "Fine salt",
+       "amount": "To taste after adding guanciale; no automatic starting dose",
+       "extra": [
+        {
+         "label": "Example for 3 kg trimmed breast meat",
+         "text": "To taste after adding guanciale; no automatic starting dose"
+        }
+       ]
+      },
+      {
+       "name": "Ground black pepper",
+       "amount": "To taste",
+       "extra": [
+        {
+         "label": "Example for 3 kg trimmed breast meat",
+         "text": "To taste"
+        }
+       ]
+      }
+     ],
+     "notes": [
+      "Use the full turkey salt amount on plain, unseasoned meat only. For a brined or salted crown, check the product information first and omit the measured turkey salt by default. Verify the actual product labels and use cleaned equipment and work surfaces for coeliac-level gluten avoidance.",
+      "The retained guanciale fat is part of the guanciale’s yield, not a second ingredient to buy. Use it in place of the former mushroom-base butter. Measure what renders; top up only a shortfall with unsalted butter, keeping the apple’s **6 g butter per kg meat** separate. Nutmeg remains a small spoon measure adjusted by taste, with no guessed conversion to grams. Porcini and a separate crisp-pork garnish are outside this finalised version."
+     ]
+    }
+   ],
+   "method": [
+    {
+     "heading": "Debone and weigh",
+     "steps": [
+      {
+       "n": 1,
+       "title": "Separate the meat, skin and bones",
+       "text": "From each of the **2 × 2.2 kg breast-on-breastbone crowns**, ease off the skin in one sheet where possible. With the crown steady, follow the breastbone and any attached ribs closely with the boning knife to lift off the breast halves. Check for stray cartilage or bone fragments. Remove any loose tenderloins and reserve them for another use. Weigh the trimmed breast meat for each roll separately and scale the amounts above. Keep the meat and skin covered and refrigerated. Reserve the **2 breastbone frames**, any attached ribs/cartilage and meaty bone trimmings for the stock and demi. These are breast frames without backs. Weigh them together separately from the trimmed breast meat, and keep any supplied giblets separate. The stock recipe adds a **2 kg whole chicken wings**; it no longer assumes two complete carcasses. Clean the poultry station before preparing other food."
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "Cook the stuffing",
+     "steps": [
+      {
+       "n": 2,
+       "title": "Render the guanciale and cook the aromatics",
+       "text": "Per kilo of trimmed breast meat, gently cook **30 g finely diced guanciale** over medium-low heat until its fat has released and the pieces are lightly golden with a little bite. Lift out and reserve all the browned pieces. Retain **10 g rendered fat per kg meat** in the pan and set any excess aside. If less than **10 g per kg** has rendered, add only enough **unsalted butter** to bring that base cooking fat to **10 g per kg**. This is separate from the apple butter. Add **45 g chopped shallot per kg** and cook until soft and gently golden. Add **160 g finely chopped mushrooms per kg**, working in batches if crowded. Cook until the liquid evaporates and the mushrooms develop browned patches. Add **2 g minced garlic and 2 g thyme leaves per kg**, cooking until the garlic smells mellow. The spatula should leave a clear trail without liquid running back into it."
+      },
+      {
+       "n": 3,
+       "title": "Sauté the apple and complete the filling",
+       "text": "Per kilo of meat, sauté **45 g diced tart apple in 6 g unsalted butter** in a separate pan until its edges soften, the dice hold their shape and no juice pools. Fold into the mushroom base with **60 g chopped cooked chestnuts and 20 g crushed cooked chestnuts per kg**, and all the reserved **browned guanciale pieces** from step 2. Add a little **freshly grated nutmeg**, starting with a **scant ⅛ tsp for the 3 kg meat illustration**, then **black pepper to taste**. Taste the completed cooked filling before it touches raw poultry, adding **salt only as needed** because the guanciale is already seasoned. Aim for a savoury filling with clear thyme, mild apple tang and background nutmeg warmth. It should hold together when pressed; the pork supplies bite, without needing to remain crisp. Spread in a shallow dish and chill promptly before rolling."
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "Shape, freeze and thaw",
+     "steps": [
+      {
+       "n": 4,
+       "title": "Butterfly the breast portions",
+       "text": "For each roll, open the thick portions of both breast halves like a book and flatten thick spots gently, aiming for an even sheet about **1–1.5 cm thick** where practical. Lay the halves slightly overlapping to make a rectangle, offsetting the thick ends if that gives a more even sheet. Lay the meat against one edge of its reserved skin, skin side down, so you have spare skin to wrap around the outside. Season plain meat with **6 g fine salt per kg of trimmed breast** on the inside."
+      },
+      {
+       "n": 5,
+       "title": "Spread, roll and tie",
+       "text": "Share the chilled stuffing between the two crowns according to their trimmed meat weights. Spread a thin layer, about **5 mm** as a starting point, with roughly a **2 cm clear border**. Stop when the meat can roll without pushing stuffing out. Roll the meat snugly around the filling, keeping the skin on the outside, and pull the spare skin over the seam. Tie at about **3–4 cm intervals** and once along the length if needed to tuck the ends. Record each roll’s weight, widest diameter and trimmed breast weight, and reserve its **5 ml neutral oil and 2 g fine salt per kg of trimmed breast** for the roasting step. Freeze promptly as below, without an overnight hold of the assembled raw rolls in the fridge. For immediate cooking instead, go straight to step 8 with the oven preheated. Keep any unspread filling that has stayed separate from raw poultry in its own dish. Discard any excess from the raw-poultry station."
+      },
+      {
+       "n": 6,
+       "title": "Wrap and freeze raw",
+       "text": "Wrap each tied roll closely in freezer-rated food wrap, then put it into a heavy freezer bag or overwrap with freezer foil, excluding excess air. Keep the twine in place. Label **raw stuffed turkey, cook before eating**, with the assembly date, roll weight, diameter and reserved skin-seasoning quantities. Place seam down on a tray and freeze promptly at **−18°C or below**, keeping the rolls separate while they freeze. This recipe plans a one-week freeze, not a week of raw refrigerator storage."
+      },
+      {
+       "n": 7,
+       "title": "Thaw fully in the fridge",
+       "text": "Put each wrapped roll in a leakproof tray on the bottom shelf at **4°C**. Allow enough time for the centre to thaw fully; the general **24-hour** guide is not a promise for a large stuffed roll. Follow any stricter supplier instructions. Once fully thawed, cook and serve within **24 hours**. Remove all freezer wrapping before cooking, leaving only the kitchen twine. Do not use the roasting method below on a partly frozen roll."
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "Roast and serve",
+     "steps": [
+      {
+       "n": 8,
+       "title": "Dry, season, roast and verify both rolls",
+       "text": "Preheat to **175°C fan or 190°C conventional**. Pat the thawed skin thoroughly dry, brush each roll with its reserved **5 ml neutral oil per kg of trimmed breast** and season plain, unseasoned turkey skin with its reserved **2 g fine salt per kg**. Set seam down on the rack with space between the rolls. Roast on the middle shelf at **175°C fan or 190°C conventional**. If using a leave-in probe, place it near the centre of the larger roll to follow its progress. For each roll, use an instant-read thermometer to verify at least **75°C in the centre of the stuffing and in the thickest meat beside it**. Check more than one spot around the centre and use the lowest reading. Remove each roll as it passes both checks. If the skin browns too quickly, shield that area loosely with foil. If it needs more colour as the centre approaches the target, a brief, watched grill finish is optional. Verify both temperatures afterwards."
+      },
+      {
+       "n": 9,
+       "title": "Rest, carve and serve",
+       "text": "Rest each cooked roll uncovered for about **15 minutes**. Remove the twine and cut across the roll with a sharp knife. Use **about 150 g cooked roulade per turkey plate** as the draft plating guide. Spoon the separate demi beside the slices to keep the skin crisp. Weigh the total cooked yield and note how cleanly the slices hold together."
+      }
+     ],
+     "notes": []
+    }
+   ],
+   "notes": [
+    {
+     "heading": "",
+     "items": [
+      "**Filling ahead:** Make the filling separately if useful. Cool promptly in a shallow dish, cover and refrigerate at **4°C** within **2 hours**. For this draft, make it up to the day before assembly. Use it cold, keep it separate from raw turkey until rolling, then follow the prompt raw-freezing route in steps 5–7. If cooking immediately instead, assemble only when the preheated oven is ready.",
+      "**After thawing:** roast the fully thawed rolls, rather than partially cooking and finishing later. The **75°C centre checks** in step 8 apply to the stuffing and meat of **each** roll. Raw freezing changes the preparation route, not these cooking checks.",
+      "**After dinner:** Portion leftover cooked roulade into small pieces or slices in shallow containers. Cool and refrigerate at **4°C** or freeze within **2 hours**. Use refrigerated leftovers within **2 days** or frozen leftovers within **3 months**. Thaw in the fridge. If serving hot, reheat only what you need once, until steaming hot throughout, and discard leftovers from that reheated portion. Expect softer skin after chilling."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rcp-008",
+   "code": "RCP-008",
+   "course": "main",
+   "title": "Turkey stock and demi",
+   "subtitle": "Roast stock, frozen as a sauce base",
+   "makes": "About 1 litre finished sauce (target)",
+   "revision": "0.5",
+   "batch": [
+    "Use the **breastbone frames and meaty bone trimmings from the two 2.2 kg crowns**, plus **2 kg whole chicken wings**. Include attached ribs/cartilage if present. Keep the skin required for the roulades with the breast meat; do not strip the wings of their skin or meat.",
+    "**Weigh the stock parts.** Add the turkey frames/trimmings weight to the **whole wings’ raw weight**, including their meat, skin, joints and bones. This combined weight is the multiplier for the aromatic table. For example, **2 kg wings + 1 kg turkey frames = 3 kg stock parts**; the 1 kg of frames is an arithmetic illustration, **not a yield estimate**. Record any giblets separately. The **4.4 kg original crown weight is not the stock-parts weight**.",
+    "**Confirmed serving allowance:** **100–120 ml finished sauce per turkey plate**. For **N turkey plates**, allow **100 × N to 120 × N ml**.",
+    "**Working batch target, not a measured yield:** approximately **1 litre finished sauce**. An eight-portion planning allowance needs **800–960 ml**, leaving **40–200 ml** from a 1 litre batch. Eight guests are confirmed overall, including a pescatarian main requirement; this is an upper planning allowance, not confirmation of eight turkey plates. Keep the poultry sauce separate from the pescatarian main. Confirm actual turkey plate count. The target is not a measured yield or a reason to sacrifice flavour/body.",
+    "Keep the banked **2 kg whole wings plus both turkey breast frames** as the stock starting point. Measure the strained stock and final sauce; more finished sauce does not mean automatically doubling the bones or diluting a finished demi without tasting. If the batch cannot provide the target volume at a pleasant hot coating, record the shortfall and make extra stock before service."
+   ],
+   "setup": [
+    {
+     "heading": "",
+     "items": [
+      "Set out the scales, enough rimmed roasting trays for a single layer of the wings and frames, a stockpot that can hold the broken-down parts, tongs, ladle, fine sieve, measuring jug, wide reduction pan and shallow cooling containers. Check pot and cooling capacity before cooking.",
+      "Check whether any giblets were supplied with these breast-only crowns; none are assumed. If present, use the **heart and cleaned gizzard**, plus **neck if included**. Reserve the **liver** for another preparation. Record what is supplied.",
+      "Break the turkey breast frames into pot-sized pieces or ask the butcher to do this. Separate the **2 kg whole wings** at their joints if useful for tray/pot fit, retaining the tips. Retain cartilage and meaty trim. Weigh the combined stock parts before scaling. Set aside the measured **onion, carrot and celery**, roughly chopped, with **thyme, bay and peppercorns**.",
+      "Have ice and cold water ready for cooling, along with clean freezer containers and labels. Suggested container sizes are **250–500 ml**, subject to capacity. Freeze the reduced base in labelled portions that together cover the working batch.",
+      "Deboning supplies the bones while the breast meat and skin go into the raw frozen roulades in the turkey roulade. Check the actual crown labels and freezing history before starting that route."
+     ]
+    }
+   ],
+   "ingredients": [
+    {
+     "heading": "Stock ingredients",
+     "group": "",
+     "labels": {
+      "amount": "Revised batch",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Turkey breastbone frames, attached ribs/cartilage and meaty bone trim",
+       "amount": "All from **2 × 2.2 kg crowns**, weighed after deboning; actual amount TBD",
+       "extra": []
+      },
+      {
+       "name": "Whole raw chicken wings, including tips if available",
+       "amount": "**2 kg**, weighed with meat, skin and bones",
+       "extra": []
+      },
+      {
+       "name": "Supplied heart, cleaned gizzard and neck",
+       "amount": "Only if present; record separately; no liver in this stock",
+       "extra": []
+      }
+     ],
+     "notes": [
+      "**Optional substitution, not an extra requirement:** replace **500 g of the wings with 500 g turkey necks or meaty chicken backs/neck pieces** if available, retaining **1.5 kg wings**. Weigh the replacement as part of the same combined stock-parts total. The default remains **2 kg wings plus the turkey frames**.",
+      "Multiply these aromatic amounts by the measured kilograms of **combined turkey frames/trimmings plus whole wings (and any replacement parts)**. The example is arithmetic, not the expected weight or sauce yield. Giblets are recorded separately from this scaling base."
+     ]
+    },
+    {
+     "heading": "Stock ingredients",
+     "group": "",
+     "labels": {
+      "amount": "Per 1 kg combined stock parts",
+      "extra": [
+       "Example for 3 kg combined stock parts"
+      ]
+     },
+     "rows": [
+      {
+       "name": "Onion, trimmed",
+       "amount": "100 g",
+       "extra": [
+        {
+         "label": "Example for 3 kg combined stock parts",
+         "text": "300 g"
+        }
+       ]
+      },
+      {
+       "name": "Carrot, trimmed",
+       "amount": "50 g",
+       "extra": [
+        {
+         "label": "Example for 3 kg combined stock parts",
+         "text": "150 g"
+        }
+       ]
+      },
+      {
+       "name": "Celery, trimmed",
+       "amount": "40 g",
+       "extra": [
+        {
+         "label": "Example for 3 kg combined stock parts",
+         "text": "120 g"
+        }
+       ]
+      },
+      {
+       "name": "Neutral oil",
+       "amount": "15 ml total, 10 ml parts + 5 ml vegetables",
+       "extra": [
+        {
+         "label": "Example for 3 kg combined stock parts",
+         "text": "45 ml total, 30 ml parts + 15 ml vegetables"
+        }
+       ]
+      },
+      {
+       "name": "Tomato paste, optional",
+       "amount": "10 g",
+       "extra": [
+        {
+         "label": "Example for 3 kg combined stock parts",
+         "text": "30 g"
+        }
+       ]
+      },
+      {
+       "name": "Thyme",
+       "amount": "1 small sprig",
+       "extra": [
+        {
+         "label": "Example for 3 kg combined stock parts",
+         "text": "3 small sprigs"
+        }
+       ]
+      },
+      {
+       "name": "Bay leaf",
+       "amount": "½ leaf",
+       "extra": [
+        {
+         "label": "Example for 3 kg combined stock parts",
+         "text": "1½ leaves"
+        }
+       ]
+      },
+      {
+       "name": "Black peppercorns",
+       "amount": "3",
+       "extra": [
+        {
+         "label": "Example for 3 kg combined stock parts",
+         "text": "9"
+        }
+       ]
+      },
+      {
+       "name": "Water",
+       "amount": "Enough to just cover in a compact stockpot, including deglazing water",
+       "extra": [
+        {
+         "label": "Example for 3 kg combined stock parts",
+         "text": "Measure actual amount"
+        }
+       ]
+      },
+      {
+       "name": "Added salt",
+       "amount": "Leave until sauce finishing",
+       "extra": [
+        {
+         "label": "Example for 3 kg combined stock parts",
+         "text": "Leave until sauce finishing"
+        }
+       ]
+      }
+     ],
+     "notes": [
+      "For **each 1 litre of measured, unreduced strained stock allocated to the sauce**, set out **75 ml Madeira and 30 g sliced shallot** if choosing this finish. If the stock has already been reduced, calculate from its recorded volume before reduction."
+     ]
+    },
+    {
+     "heading": "Optional flavouring and finishing",
+     "group": "",
+     "labels": {
+      "amount": "For approximately 1 litre sauce",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Cold unsalted butter, diced",
+       "amount": "**40 g**",
+       "extra": []
+      },
+      {
+       "name": "Sherry vinegar",
+       "amount": "**10 ml available: 5 ml initially + up to 5 ml to adjust**",
+       "extra": []
+      },
+      {
+       "name": "Salt",
+       "amount": "To taste, after reduction",
+       "extra": []
+      },
+      {
+       "name": "Reserved unsalted poultry stock",
+       "amount": "As needed to adjust hot consistency and final volume; measure what is used",
+       "extra": []
+      }
+     ],
+     "notes": [
+      "If finishing a different amount, scale the butter and vinegar by the actual batch volume. Madeira/shallot still scale by the **measured unreduced stock volume**, not the 1 litre finished-sauce target."
+     ]
+    }
+   ],
+   "method": [
+    {
+     "heading": "Roast and extract the stock",
+     "steps": [
+      {
+       "n": 1,
+       "title": "Brown the poultry parts",
+       "text": "Using the illustrative **3 kg combined stock-parts** batch, coat **2 kg whole chicken wings plus 1 kg turkey frames/trimmings with 30 ml oil**. For the actual batch, use **10 ml oil per kg of combined parts**. Spread in a single layer, using separate trays or batches as needed, and roast at a **230°C conventional / 210°C fan**, turning as they colour. Start checking after about **30 minutes**. The wings and turkey frames should develop golden patches. Check thin wing tips and pieces of breast frame individually, moving browned pieces off the tray if others need longer. The actual turkey frame weight must be measured before scaling this example."
+      },
+      {
+       "n": 2,
+       "title": "Brown the aromatics",
+       "text": "Toss **300 g onion, 150 g carrot and 120 g celery with the remaining 15 ml oil**, add around the poultry parts and continue roasting until the parts are deeply golden-brown and the vegetables have browned edges. Check regularly, especially any thin pieces. Check after another **15 minutes** and keep turning and checking until evenly browned. Remove any blackened bits."
+      },
+      {
+       "n": 3,
+       "title": "Deglaze",
+       "text": "Transfer the browned **wings, turkey frames and vegetables** to the stockpot. Pour off excess fat from the roasting tray. Add a little **water**, scrape up the brown fond, and pour it into the stockpot. For the illustrative **3 kg combined-parts** batch, add any supplied **heart, cleaned gizzard and neck**, **3 thyme sprigs, 1½ bay leaves, 9 peppercorns** and optional **30 g tomato paste**. For the actual batch, use the scaled table amounts. Add more **water to just cover**. Record the total water added."
+      },
+      {
+       "n": 4,
+       "title": "Extract gently",
+       "text": "Bring to a simmer, skim surface foam, and maintain gentle bubbling. Begin assessing the stock after **2½ hours**, using **2½–3 hours** as the turkey-specific reference range. Top up with a little **water** only as needed to keep the bones covered. Taste for a rounded roasted poultry flavour with turkey character. The mixed stock’s flavour and body need assessing in this batch."
+      },
+      {
+       "n": 5,
+       "title": "Strain and defat",
+       "text": "Lift out large solids, then pass through a fine sieve into a clean pot without mashing the vegetables. Skim fat carefully or use a fat separator. Measure the strained stock. Reserve a small amount for sauce adjustment if useful, cooling and freezing it separately."
+      }
+     ],
+     "notes": [
+      "Steps 1–3 repeat the **3 kg combined-parts example**. Before cooking, calculate every amount from the actual total weight using the table; the example does not assume these crowns provide 1 kg of frames.",
+      "**Pressure-cooker alternative.** If all the wings, turkey frames and liquid fit the Instant Pot within its model-specific fill limits, use the roasted ingredients in the cooker. **90 minutes at high pressure with natural release** is the brown-chicken reference process to adapt. Check the actual cooker instructions and poultry piece sizes."
+     ]
+    },
+    {
+     "heading": "Take the stock close to demi before freezing",
+     "steps": [
+      {
+       "n": 6,
+       "title": "Optional Madeira infusion",
+       "text": "For each **1 litre of unreduced stock allocated**, simmer **75 ml Madeira with 30 g sliced shallot** in a small pan until the wine volume is roughly one-third of its starting amount. Add this to the allocated **stock**. The shallot will be strained out.",
+       "aside": "This flavour option is our adaptation."
+      },
+      {
+       "n": 7,
+       "title": "Reduce and assess hot",
+       "text": "Simmer uncovered in the wide pan, skimming fat and foam. Check flavour and consistency increasingly often as it concentrates. Stop when the hot base tastes of roast poultry and lightly coats a spoon, keeping the **approximately 1 litre finished-sauce target** in view. If that balance is reached at a larger volume, keep the extra rather than reducing solely to reach 1 litre. Strain again and measure the volume. Reserve adjustment stock separately. If the pleasant coating is reached only below the needed volume, record the shortfall and plan extra stock; do not thin it to 1 litre regardless of flavour. The endpoint depends on the stock's strength and natural gelatine. A fixed reduction ratio cannot establish the yield.",
+       "aside": "This master’s default route freezes the base near serving concentration, with butter, vinegar and small consistency adjustments left for service."
+      },
+      {
+       "n": 8,
+       "title": "Cool and freeze",
+       "text": "Portion the hot base into shallow containers, cool quickly with an ice/cold-water bath and stirring, then refrigerate or freeze within **2 hours**. Keep chilled food at **4°C** and frozen food at **−18°C or below**. Label with contents, date, portion volume and whether Madeira has been added. Freeze the base and any reserved stock separately. Leave space for expansion. Use the freezer base within **3 months** under the project's Dutch leftover guidance."
+      }
+     ],
+     "notes": [
+      "**Stock-first alternative.** At step 5, cool and freeze the strained stock with the same controls. After refrigerator thawing, carry out steps 6–7 on the day it will be served, then finish below. This moves more reduction work into the dinner weekend."
+     ]
+    },
+    {
+     "heading": "Thaw and finish",
+     "steps": [
+      {
+       "n": 9,
+       "title": "Thaw in the fridge",
+       "text": "Move the portion needed to the fridge far enough ahead that it is fully thawed. About **24 hours** is a general guide for small portions, with longer possible for a deep container. Keep covered on a tray and check the centre. Plan to finish and serve on the same day after thawing."
+      },
+      {
+       "n": 10,
+       "title": "Reheat and adjust",
+       "text": "Put the thawed **base** into a saucepan and bring to a boil, stirring. Add a little thawed **reserved stock or water** if too concentrated, or reduce a little further if weak. Heat any added reserved stock through in the sauce. Assess while hot, aiming for a fluid, light coating."
+      },
+      {
+       "n": 11,
+       "title": "Finish off the heat",
+       "text": "For the **approximately 1 litre finished batch**, swirl **40 g cold butter** into the hot **sauce base**, then add **5 ml sherry vinegar**. Taste before adding any of the remaining **5 ml vinegar**, then adjust **salt**. If useful, add a little strained, defatted, fully cooked roulade juice and reassess. Measure the finished volume; use hot **reserved unsalted stock** as needed to adjust towards **1 litre**, provided the flavour and light coating remain right. Serve immediately, allowing **100–120 ml per turkey plate**. Scale butter/vinegar proportionately if finishing a different quantity."
+      }
+     ],
+     "notes": []
+    }
+   ],
+   "notes": [
+    {
+     "heading": "",
+     "items": [
+      "Reheat only the portion required and serve after finishing. Food already reheated once is discarded if left over. Avoid thawing, reducing, chilling and then reheating again as the default service sequence. For the recommended route, extraction and reduction happen in one advance cooking session, followed by cooling/freezing and one final reheat.",
+      "If the stock reaches the desired flavour before it has enough body, stop reducing and assess the available cartilage-rich parts or a measured gelatine adjustment in the next revision. The **2 kg wing supplement** is now part of the banked base; further parts or powdered gelatine remain optional development choices. Do not force the reduction past a pleasant flavour to chase thickness. A cold gel shows natural gelatine is present, while the hot spoon test determines serving texture."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rcp-007",
+   "code": "RCP-007",
+   "course": "sides",
+   "title": "Paris mash",
+   "subtitle": "",
+   "makes": "1 kg potato reference batch",
+   "revision": "0.1",
+   "batch": [
+    "**Reference batch:** 1 kg whole potatoes. Source serving estimate: 6–8; this is not an agreed dinner portion count. Dinner is for eight guests overall; final mash quantity remains TBD."
+   ],
+   "setup": [
+    {
+     "heading": "",
+     "items": [
+      "Set out scales, a pot, colander, small knife, clean tea towel, potato ricer or fine food mill, fine sieve, wooden spoon and spatula. Ricer/mill and sieve availability is confirmed. Keep a separate clean serving spoon for the shared mash.",
+      "Weigh **1 kg potatoes**, keeping similar sizes together. Prepare **150 g cold butter**, with **50 g extra cold butter** separately available. Measure **125 ml milk**, with **60 ml extra milk** separately available. Warm the milk for incorporation; keep the butter cold.",
+      "If preparing ahead, have shallow cooling containers, lids and labels ready. For reheating, use the portion needed and set out a saucepan and a little extra milk, amount as needed and recorded separately."
+     ]
+    }
+   ],
+   "ingredients": [
+    {
+     "heading": "",
+     "group": "",
+     "labels": {
+      "amount": "Reference-batch amount",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Whole potatoes, skin on",
+       "amount": "1 kg; source options include Désirée or Maris Piper; actual variety TBD",
+       "extra": []
+      },
+      {
+       "name": "Unsalted butter, cold and cubed",
+       "amount": "150–200 g total: 150 g initially, up to 50 g more if wanted",
+       "extra": []
+      },
+      {
+       "name": "Milk, warmed",
+       "amount": "125–185 ml total: 125 ml initially, up to 60 ml more for texture",
+       "extra": []
+      },
+      {
+       "name": "Salt",
+       "amount": "To taste",
+       "extra": []
+      },
+      {
+       "name": "Milk, for reheating only",
+       "amount": "As needed, additional to the recipe milk; measure what is used",
+       "extra": []
+      }
+     ],
+     "notes": []
+    }
+   ],
+   "method": [
+    {
+     "heading": "",
+     "steps": [
+      {
+       "n": 1,
+       "title": "",
+       "text": "Cover **1 kg scrubbed whole potatoes** with cold water. Bring to a boil, then simmer until very soft, approximately **30–40 minutes**, depending on size."
+      },
+      {
+       "n": 2,
+       "title": "",
+       "text": "Drain. Handle with a tea towel and peel while hot. Rice or mill all the **cooked potatoes**, then push through the fine sieve for the smoothest finish."
+      },
+      {
+       "n": 3,
+       "title": "",
+       "text": "Return the **sieved potato** to low heat and stir for **1 minute** to release moisture."
+      },
+      {
+       "n": 4,
+       "title": "",
+       "text": "Gradually incorporate **150 g cold butter** and **125 ml warm milk**, stirring by hand. If wanted, add up to **50 g more butter**; adjust with up to **60 ml more warm milk**. Add **salt to taste**. Record the amounts used. Serve promptly."
+      }
+     ],
+     "notes": [
+      "Project texture cue: a glossy, soft mound that relaxes under the spoon, with room for demi beside it. This is a plating preference, not the source's almost-pourable endpoint. No blender or electric mixer."
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "heading": "",
+     "items": [
+      "Fresh service is the base method. Advance preparation remains a service option, not a confirmed commitment.",
+      "If storing, cool promptly in shallow containers and refrigerate within **2 hours**, covered, at **4°C**. Use within **2 days**.",
+      "To reheat the needed **prepared mash**, warm a little **additional milk** in a saucepan, add the mash and stir gently until steaming hot throughout. Add further **warm milk as needed**, recording it separately from the original 125–185 ml. Reheat only once; discard any reheated remainder.",
+      "Keep the shared mash separate from turkey juices and demi. Product and gluten cross-contact checks remain pending."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rcp-009c",
+   "code": "RCP-009C",
+   "course": "sides",
+   "title": "Beans, snow peas and sprouts",
+   "subtitle": "Raw and charred, served at room temperature",
+   "makes": "1 kg raw trimmed vegetables, plus dressing",
+   "revision": "0.2",
+   "batch": [
+    "**Reference batch:** 1 kg trimmed raw vegetables plus dressing. **Dinner portions, finished yield and multiplier: TBD.** Eight guests are confirmed overall; this is not a measured ten-portion recipe."
+   ],
+   "setup": [
+    {
+     "heading": "",
+     "items": [
+      "Set out scales, board, sharp knife or mandoline, large blanching pan, ice-water bowl, slotted spoon, clean towels/spinner, wide heavy frying pan, tray, dressing bowl and tongs.",
+      "Prepare **400 g trimmed green beans**, **200 g trimmed snow peas** and **400 g trimmed sprouts**, divided into **200 g finely shredded raw sprouts + 200 g halved or quartered sprouts for blanching and charring**. Quarter larger sprouts so the centres cook evenly. Keep the raw shreds separate.",
+      "Measure **100 ml olive oil**, divided into **90 ml dressing + 10 ml charring**. Prepare **60 g finely diced shallot, 45 ml champagne vinegar, 30 g finely chopped pitted dates and 20 g finely grated Parmesan**. Set out **3 g fine salt**, divided into **2 g dressing + 1 g sprouts**, with black pepper.",
+      "Prepare **4 L blanching water with 40 g salt**, separate from the seasoning salt, and ice water as needed. Have clean covered containers ready if preparing components ahead."
+     ]
+    }
+   ],
+   "ingredients": [
+    {
+     "heading": "",
+     "group": "Vegetables",
+     "labels": {
+      "amount": "Reference-batch amount",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Green beans",
+       "amount": "400 g trimmed",
+       "extra": []
+      },
+      {
+       "name": "Snow peas",
+       "amount": "200 g trimmed, strings removed",
+       "extra": []
+      },
+      {
+       "name": "Brussels sprouts",
+       "amount": "400 g trimmed: 200 g raw shreds + 200 g halves/quarters",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "",
+     "group": "Dressing",
+     "labels": {
+      "amount": "Reference-batch amount",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Shallot",
+       "amount": "60 g, finely diced",
+       "extra": []
+      },
+      {
+       "name": "Champagne vinegar",
+       "amount": "45 ml",
+       "extra": []
+      },
+      {
+       "name": "Pitted dates",
+       "amount": "30 g, finely chopped",
+       "extra": []
+      },
+      {
+       "name": "Parmesan",
+       "amount": "20 g, finely grated; no additional shavings",
+       "extra": []
+      },
+      {
+       "name": "Olive oil",
+       "amount": "90 ml",
+       "extra": []
+      },
+      {
+       "name": "Fine salt",
+       "amount": "2 g",
+       "extra": []
+      },
+      {
+       "name": "Black pepper",
+       "amount": "To taste",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "",
+     "group": "Charring",
+     "labels": {
+      "amount": "Reference-batch amount",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Olive oil",
+       "amount": "10 ml",
+       "extra": []
+      },
+      {
+       "name": "Fine salt",
+       "amount": "1 g",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "",
+     "group": "Blanching",
+     "labels": {
+      "amount": "Reference-batch amount",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Water and salt",
+       "amount": "4 L water + 40 g salt; discarded after cooking",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "",
+     "group": "Refreshing",
+     "labels": {
+      "amount": "Reference-batch amount",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Ice water",
+       "amount": "As needed",
+       "extra": []
+      }
+     ],
+     "notes": []
+    }
+   ],
+   "method": [
+    {
+     "heading": "",
+     "steps": [
+      {
+       "n": 1,
+       "title": "Make the dressing",
+       "text": "Mix **60 g shallot, 45 ml champagne vinegar and 2 g salt**. Let the shallot lose its harsh raw edge. Stir in **30 g dates and 20 g grated Parmesan**, then whisk in **90 ml olive oil** and **black pepper to taste**. Taste with a piece of vegetable: aim for tangy, savoury dressing with small date accents.",
+       "aside": "The maceration duration remains TBD; this sensory cue is a working adaptation."
+      },
+      {
+       "n": 2,
+       "title": "Blanch the beans and snow peas separately",
+       "text": "Bring **4 L water with 40 g salt** to a boil. Cook **400 g beans** until crisp-tender, then transfer to **ice water**. Cook **200 g snow peas** until bright green and still crisp, then refresh separately. Drain and dry thoroughly. Leave the beans whole and halve the snow peas diagonally.",
+       "aside": "Cooking durations depend on the actual vegetables and remain TBD."
+      },
+      {
+       "n": 3,
+       "title": "Prepare the sprouts for charring",
+       "text": "Blanch only the **200 g halved/quartered sprouts** until just tender enough for a knife tip to enter the base, retaining bite. Refresh in **ice water**, drain and dry the cut faces thoroughly. Keep the **200 g raw shredded sprouts** uncooked.",
+       "aside": "The blanch-and-char sequence is an untested adaptation."
+      },
+      {
+       "n": 4,
+       "title": "Char",
+       "text": "Heat the wide pan over medium-high heat. Add **10 ml olive oil**, then the **200 g dried sprout halves/quarters**, cut faces down in one uncrowded layer. Let the faces colour before moving; turn as needed until deeply browned in places and tender through the centres. Season with **1 g salt**. Transfer to a shallow tray so steam escapes. Aim for toasted edges, not an all-over black coating.",
+       "aside": "Pan capacity and cooking duration are TBD; split the same 10 ml oil proportionally if batching."
+      },
+      {
+       "n": 5,
+       "title": "Bring together at room temperature",
+       "text": "For same-day service, let the freshly charred sprouts lose their heat before combining. If components were refrigerated, take out only the quantity needed near service and let them lose their refrigerator chill under the handling limits below. Do not mix hot sprouts into the raw shreds. There is no validated tempering time; room temperature is the chosen presentation, not a holding method."
+      },
+      {
+       "n": 6,
+       "title": "Dress and plate",
+       "text": "Combine the **400 g beans, 200 g snow peas and 200 g raw shredded sprouts**. Add the **prepared dressing** a little at a time, using only enough to coat without pooling. Gently fold in the **200 g charred sprouts**, keeping browned faces visible. Taste, adjust seasoning if needed and record any adjustment. Keep unused dressing back. Serve promptly at room temperature, away from pooled turkey demi.",
+       "aside": "Actual plate weights remain TBD."
+      }
+     ],
+     "notes": []
+    }
+   ],
+   "notes": [
+    {
+     "heading": "",
+     "items": [
+      "Dressing and cooked vegetables can be prepared separately, cooled promptly and refrigerated in clean covered containers at **4°C**, within **2 hours** of cooking. Use within **2 days** and follow any shorter ingredient-pack limits. Wash and dry raw sprouts; shred on the service day as a proposed quality choice.",
+      "Prefer charring on the service day for browned flavour and texture; no crisp crust after storage or dressing is guaranteed. This is a quality preference, not an agreed task placement.",
+      "Bring out only the quantity needed for the room-temperature presentation, serve promptly, and keep total time outside refrigeration within **2 hours**, including cooling/tempering and service. No extended counter hold is approved.",
+      "Keep dressing separate until assembly. Any refrigerated leftovers retain the original preparation limit; bringing to room temperature does not reset it. If cooked components are reheated instead, heat until steaming throughout and reheat only once."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rcp-013a",
+   "code": "RCP-013A",
+   "course": "sides",
+   "title": "Roast Hokkaido pumpkin",
+   "subtitle": "Cardamom-nigella onion, seeds, yogurt, chervil",
+   "makes": "1.25 kg deseeded pumpkin",
+   "revision": "0.4",
+   "batch": [
+    "**Batch:** 1.25 kg deseeded Hokkaido pumpkin, skin on, with toppings below. This is the rev 0.3 1 kg reference batch × 1.25, with rounded spoon and weight amounts. **Finished yield and per-plate weight: TBD.** Eight guests are confirmed overall. Roasting shrinks the pumpkin, so the planning yardstick is about 100 g cooked pumpkin per head plus onion and toppings; neither that yardstick nor the 1.25× margin is a measured yield. The earlier draft's ten small portions were an allowance, not a measured yield."
+   ],
+   "setup": [
+    {
+     "heading": "",
+     "items": [
+      "Set out a sturdy board, strong knife, scales, measuring tools, two lined rimmed roasting trays, wide frying pan, small dry pan, spatula, tongs and clean serving spoons. Confirm usable tray space.",
+      "Wash and deseed the Hokkaido; weigh **1.25 kg prepared pumpkin**, skin on, and cut into wedges approximately **4 cm wide at the outer edge**. Slice **210 g peeled red onion** thinly. Weigh **25 g butter, 40 g pumpkin seeds and 190 g Greek yogurt**. Pick **4 g chervil leaves and tender tips**, keeping them separate from the cooking ingredients.",
+      "Measure **60 ml olive oil**, divided into **40 ml roasting + 20 ml onions**; **1 tsp salt**, divided into **⅝ tsp roasting + ⅜ tsp onions**; and **1⅝ tsp nigella seeds**, divided into **1¼ tsp onions + ⅜ tsp finish**. Set out **1 tbsp + 1 tsp caster sugar, ⅝ tsp ground cumin, ⅝ tsp ground coriander, ⅜ tsp ground turmeric, 5 lightly crushed cardamom pods, 1 cinnamon stick, 1 green chilli halved lengthways and 60 ml vegetable stock**.",
+      "Keep the **190 g yogurt and 4 g chervil** refrigerated while the hot components cook, following their pack instructions. Reserve both for finishing."
+     ]
+    }
+   ],
+   "ingredients": [
+    {
+     "heading": "",
+     "group": "Roast",
+     "labels": {
+      "amount": "Reference-batch amount",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Hokkaido pumpkin",
+       "amount": "1.25 kg deseeded weight, skin on, 4 cm wedges",
+       "extra": []
+      },
+      {
+       "name": "Olive oil",
+       "amount": "40 ml",
+       "extra": []
+      },
+      {
+       "name": "Caster sugar",
+       "amount": "1 tbsp + 1 tsp",
+       "extra": []
+      },
+      {
+       "name": "Salt",
+       "amount": "⅝ tsp",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "",
+     "group": "Onion",
+     "labels": {
+      "amount": "Reference-batch amount",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Red onion",
+       "amount": "210 g peeled, thinly sliced",
+       "extra": []
+      },
+      {
+       "name": "Butter",
+       "amount": "25 g",
+       "extra": []
+      },
+      {
+       "name": "Olive oil",
+       "amount": "20 ml",
+       "extra": []
+      },
+      {
+       "name": "Ground cumin",
+       "amount": "⅝ tsp",
+       "extra": []
+      },
+      {
+       "name": "Ground coriander",
+       "amount": "⅝ tsp",
+       "extra": []
+      },
+      {
+       "name": "Ground turmeric",
+       "amount": "⅜ tsp",
+       "extra": []
+      },
+      {
+       "name": "Nigella seeds",
+       "amount": "1¼ tsp; additional ⅜ tsp reserved for finish",
+       "extra": []
+      },
+      {
+       "name": "Cardamom",
+       "amount": "5 pods, lightly crushed but kept identifiable for removal",
+       "extra": []
+      },
+      {
+       "name": "Cinnamon",
+       "amount": "1 stick",
+       "extra": []
+      },
+      {
+       "name": "Green chilli",
+       "amount": "1, halved lengthways",
+       "extra": []
+      },
+      {
+       "name": "Vegetable stock",
+       "amount": "60 ml",
+       "extra": []
+      },
+      {
+       "name": "Salt",
+       "amount": "⅜ tsp",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "",
+     "group": "Finish",
+     "labels": {
+      "amount": "Reference-batch amount",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Pumpkin seeds",
+       "amount": "40 g",
+       "extra": []
+      },
+      {
+       "name": "Greek yogurt",
+       "amount": "190 g",
+       "extra": []
+      },
+      {
+       "name": "Nigella seeds",
+       "amount": "⅜ tsp, from the 1⅝ tsp total",
+       "extra": []
+      },
+      {
+       "name": "Fresh chervil leaves and tender tips",
+       "amount": "4 g, starting quantity",
+       "extra": []
+      }
+     ],
+     "notes": []
+    }
+   ],
+   "method": [
+    {
+     "heading": "",
+     "steps": [
+      {
+       "n": 1,
+       "title": "Roast the pumpkin",
+       "text": "Heat the oven to **220°C conventional / 200°C fan**, the existing draft's working setting. Toss **1.25 kg Hokkaido wedges with 40 ml olive oil, 1 tbsp + 1 tsp caster sugar and ⅝ tsp salt**. Arrange with a broad cut face against the parchment, leaving gaps; use both trays if needed. Roast until cut faces are browned and a knife enters the flesh easily while wedges retain their shape. Turn to colour the other cut face as needed.",
+       "aside": "Exact duration for these wedges is **TBD**; the earlier untested 30–40-minute estimate is not a verified cooking time."
+      },
+      {
+       "n": 2,
+       "title": "Soften the onion",
+       "text": "Heat **25 g butter and 20 ml olive oil** over medium heat. Add **210 g red onion** and cook, stirring, until soft with lightly golden edges, without taking it to a dark caramel."
+      },
+      {
+       "n": 3,
+       "title": "Add the spices",
+       "text": "Stir in **⅝ tsp cumin, ⅝ tsp ground coriander, ⅜ tsp turmeric, 1¼ tsp nigella seeds, 5 lightly crushed cardamom pods, 1 cinnamon stick and 1 halved green chilli**. Cook gently until aromatic, without scorching the ground spices. Add **60 ml vegetable stock and ⅜ tsp salt**; simmer until the onion is tender and the liquid has nearly evaporated. Remove the **cardamom pods, cinnamon stick and chilli**.",
+       "aside": "This low-liquid onion treatment is an untested adaptation."
+      },
+      {
+       "n": 4,
+       "title": "Toast the seeds",
+       "text": "Toast **40 g pumpkin seeds** in a dry pan, moving them until fragrant and lightly coloured. Tip onto a plate to stop cooking. Keep separate until finishing."
+      },
+      {
+       "n": 5,
+       "title": "Combine and assess",
+       "text": "Spoon the cooked **spiced red onion** around and between the **roasted pumpkin wedges**, turning gently only where needed. Avoid breaking the wedges or coating every browned face. Taste a piece with a little of the reserved **190 g yogurt**; adjust salt only if needed and record additions. Keep any unused tasting yogurt separate from the serving batch using clean utensils."
+      },
+      {
+       "n": 6,
+       "title": "Plate and finish",
+       "text": "Plate the warm **pumpkin and onion** with small spoonfuls from the **190 g yogurt** beside the wedges. Distribute the **40 g toasted pumpkin seeds** and reserved **⅜ tsp nigella**. Finish with **4 g fresh chervil leaves and tender tips** immediately before serving, after all cooking/reheating. Leave small leaves whole.",
+       "aside": "Actual per-plate quantities remain TBD; measure any unused topping rather than forcing it onto the plates."
+      }
+     ],
+     "notes": []
+    }
+   ],
+   "notes": [
+    {
+     "heading": "",
+     "items": [
+      "Quality preference: cook the onion separately ahead; roast the pumpkin on the service day if oven capacity permits. This is not an agreed task schedule. Chilling and reheating can soften the browned edges; performance is untested.",
+      "Cool cooked pumpkin and onion promptly in separate shallow containers; refrigerate within **2 hours**, covered at **4°C**, and use within **2 days**. Follow any shorter ingredient instructions.",
+      "If reheating, heat only the amount needed until steaming throughout, handling wedges gently. Reheat once only and discard reheated leftovers. Reheating temperature/duration and oven overlap remain TBD; no crispy-edge guarantee is made.",
+      "Keep **yogurt and chervil** separate and refrigerated until finishing; follow pack instructions. Add toasted seeds and chervil only after reheating. No freezing or prolonged warm-holding route is specified."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rcp-011",
+   "code": "RCP-011",
+   "course": "dessert",
+   "title": "Vanilla cheesecake",
+   "subtitle": "Gluten-free digestive base",
+   "makes": "One 23 cm cake",
+   "revision": "0.3",
+   "batch": [
+    "**Texture goal:** creamy and softly set, holding a clean slice without a firm, dense interior. Retain the filling amounts below; do not add flour/starch or extra eggs to make slicing easier.",
+    "**Batch:** one full-size cake in the **confirmed 23 cm springform tin**. Use Sally’s original **1× filling**. Her published yield is **12–16 slices**; actual adapted yield/portion weight is unmeasured. Eight guests are confirmed; Daniela now welcomes extra plain cheesecake, superseding the smaller ten-slice cake. Cut elegant slices as needed rather than dividing the whole cake into eight large portions. Compote and shards remain allocated for **10 garnished servings**; extra cake can be kept plain."
+   ],
+   "setup": [
+    {
+     "heading": "",
+     "items": [
+      "Use a conventional oven at **177°C**, lower-middle shelf, a 23 cm springform, roasting tin large enough to surround it, heavy-duty foil, rack, mixer/paddle, scales and kettle. Check water-bath/tin fit before mixing.",
+      "Set out the filling ingredients below at room temperature for smooth mixing. Use **904 g Philadelphia cream cheese**, the confirmed brand. Choose plain **Original**, not Light or whipped, as the working full-fat product recommendation. US block cheese is Sally’s tested format; her non-US note allows that local tub cheese may work, but reports reader experience rather than her own testing. Check the actual pack variant and label; do not alter the filling merely because it comes in a Dutch tub.",
+      "Grind **200 g gluten-free digestives** finely. Have **85 g melted unsalted butter**, **67 g base sugar** and a flat-bottomed cup ready. Use GF-labelled biscuits; taste them first for chalkiness. Keep ordinary biscuit crumbs away from this station.",
+      "At the pass: chilled cake, chilled the cheesecake, dry the cheesecake, **1 washed orange**, zester, sharp knife, warm water for the knife, clean cloth and eight plates."
+     ]
+    }
+   ],
+   "ingredients": [
+    {
+     "heading": "",
+     "group": "Base",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Gluten-free digestive crumbs",
+       "amount": "200 g, finely ground",
+       "extra": []
+      },
+      {
+       "name": "Granulated sugar",
+       "amount": "67 g",
+       "extra": []
+      },
+      {
+       "name": "Unsalted butter",
+       "amount": "85 g melted, divided: 70 g initially + up to 15 g to adjust",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "",
+     "group": "Filling",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Philadelphia cream cheese",
+       "amount": "904 g, room temperature; plain Original recommended, actual pack variant to check",
+       "extra": []
+      },
+      {
+       "name": "Granulated sugar",
+       "amount": "200 g",
+       "extra": []
+      },
+      {
+       "name": "Full-fat sour cream",
+       "amount": "240 g, room temperature",
+       "extra": []
+      },
+      {
+       "name": "Vanilla extract",
+       "amount": "1 tsp (5 ml)",
+       "extra": []
+      },
+      {
+       "name": "Fresh lemon juice",
+       "amount": "2 tsp (10 ml)",
+       "extra": []
+      },
+      {
+       "name": "Large eggs",
+       "amount": "3, room temperature, US source size; EU equivalent not weight-verified",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "",
+     "group": "Water bath",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Just-boiled water",
+       "amount": "Enough for about 2.5 cm depth around the wrapped tin; volume depends on roasting tin",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "",
+     "group": "Plating only",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Cranberry–orange compote, the cheesecake",
+       "amount": "20 g per plate, 200 g for 10 garnished portions: 160 g for eight dinner plates + 40 g for two spares",
+       "extra": []
+      },
+      {
+       "name": "Pistachio shards, the cheesecake",
+       "amount": "1 small thin shard per plate; 10 intact shards: eight for dinner + two spares, weight TBD",
+       "extra": []
+      },
+      {
+       "name": "Orange",
+       "amount": "1 washed orange available for a little fresh zest; amount actually used to taste",
+       "extra": []
+      }
+     ],
+     "notes": [
+      "The component allowances above are transfers from the companion recipes, not additional batches or shopping quantities."
+     ]
+    }
+   ],
+   "method": [
+    {
+     "heading": "",
+     "steps": [
+      {
+       "n": 1,
+       "title": "Prepare the base",
+       "text": "Heat the conventional oven to **177°C**. Mix **200 g GF digestive crumbs**, **67 g sugar** and **70 g melted butter**. The crumbs should be evenly damp and hold when pressed. If still loose, mix in the reserved **up to 15 g butter**, **5 g at a time**; stop before greasy or pasty. Record the amount used, discard unused melted butter.",
+       "aside": "This adjustment is our product-dependent proposal."
+      },
+      {
+       "n": 2,
+       "title": "Shape and prebake",
+       "text": "Press the crumb mixture across the ungreased 23 cm tin base and a little way up its sides. Compact evenly without crushing solid. Prebake **12–14 minutes**; look for a set surface and toasted-biscuit aroma. GF biscuit browning may differ. Leave on the rack while mixing the filling."
+      },
+      {
+       "n": 3,
+       "title": "Mix smoothly",
+       "text": "Beat **904 g Philadelphia cream cheese** with **200 g sugar** until smooth. Blend in **240 g sour cream**, **5 ml vanilla** and **10 ml lemon juice**. Add **3 eggs**, one at a time, stopping as each disappears. Scrape the bowl as needed; avoid whipping in air."
+      },
+      {
+       "n": 4,
+       "title": "Set up the bath",
+       "text": "Wrap the tin exterior in intact heavy-duty foil, bringing it well above the intended water line. Place in the roasting tin, add all the filling and smooth. On the oven shelf, carefully add just-boiled water around the wrapped tin to **about 2.5 cm depth**, keeping water out of the cake."
+      },
+      {
+       "n": 5,
+       "title": "Bake and cool",
+       "text": "Bake at **177°C** until the outside is set but the centre still gives a small wobble, about **55–70 minutes**. Check at the beginning of that range; stop baking when this cue is reached rather than waiting for the centre to become firm or for the full 70 minutes. Look for a cohesive central tremble, not liquid sloshing. The cake continues setting during its cooling and chilling stages. Tent loosely with foil if browning. Switch off, leave the door ajar and keep the cake in its bath for **1 hour**. Then remove the bath and outer foil and cool the tin on a rack; refrigerate once cooled. Follow the handling note below rather than leaving it out indefinitely."
+      },
+      {
+       "n": 6,
+       "title": "Chill and slice",
+       "text": "Cover and chill for **at least 4 hours**, preferably overnight. Loosen the edge and release the rim. For neat wedges, dip the knife into warm water and wipe it clean and dry between cuts. Slice only the number required; keep the rest chilled."
+      },
+      {
+       "n": 7,
+       "title": "Assemble the cheesecake",
+       "text": "For each of eight plates, place **1 slim slice**, spoon **20 g cold the cheesecake compote** towards the broad end, leaving the point and cut face visible, and finish with a little zest from **1 washed orange available**. Add **1 small the cheesecake shard** last, at the dry edge of the slice rather than submerged in compote. Taste the first plate before repeating the zest. Reserve **40 g compote and 2 shards** for two garnished spare portions, keeping sauce chilled and shards dry. Keep additional cake plain and refrigerated. The smaller compote batch is not intended to top every possible leftover slice."
+      }
+     ],
+     "notes": []
+    }
+   ],
+   "notes": [
+    {
+     "heading": "",
+     "items": [
+      "Keep the cake untopped until serving. Sally supports making the plain cake up to **2 days** ahead, with **at least 4 hours** of chilling. Her slow-cooling method is retained; after the one-hour oven stage, cool on the rack promptly and refrigerate without an extended counter hold. Apply a maximum **2-hour counter-cooling window** after removal from the oven, refrigerating sooner once cooled; refrigerator **4°C**.",
+      "For this draft, use refrigerated cake/leftovers within **2 days of baking**, a conservative project limit rather than Sally’s four-day leftover claim. Sally permits the plain cake to be wrapped in several film layers and foil and frozen for **up to 3 months**, thawed overnight in the fridge; confirm fully thawed before slicing. Freezing the GF base’s texture is untested. Never freeze with compote or shards attached."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rcp-011-c",
+   "code": "RCP-011-C",
+   "course": "dessert",
+   "title": "Cranberry–orange compote",
+   "subtitle": "For the cheesecake",
+   "makes": "Half batch, 10 garnished portions",
+   "revision": "0.2",
+   "batch": [
+    "**Batch:** **half** the original source batch, to provide **10 garnished portions** alongside the full-size 23 cm cake. Additional cake is deliberately left plain; this batch does not promise to top every leftover slice. Actual finished mass/volume is **unmeasured**; the source half-yield is 1 US cup, not a gram conversion. Allocation **20 g per portion = 200 g**, including **160 g for eight dinner plates + 40 g for two spares**. Measure the cold batch before portioning."
+   ],
+   "setup": [
+    {
+     "heading": "",
+     "items": [
+      "Use a medium saucepan, scales, spatula, citrus juicer/zester, clean spoon, shallow heatproof storage container and cold-water cooling bath. Rinse/sort **170 g fresh cranberries** (or use **170 g frozen cranberries**, without thawing, as Sally allows). Measure **90 ml water**, **30 ml orange juice**, **75 g light brown sugar** and **1/2 tsp finely grated orange zest** before heating. Avoid white pith."
+     ]
+    }
+   ],
+   "ingredients": [
+    {
+     "heading": "",
+     "group": "",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Cranberries",
+       "amount": "170 g fresh or frozen, no dried fruit",
+       "extra": []
+      },
+      {
+       "name": "Water",
+       "amount": "90 ml",
+       "extra": []
+      },
+      {
+       "name": "Fresh orange juice",
+       "amount": "30 ml, measured after squeezing",
+       "extra": []
+      },
+      {
+       "name": "Light brown sugar",
+       "amount": "75 g",
+       "extra": []
+      },
+      {
+       "name": "Finely grated orange zest",
+       "amount": "1/2 tsp, reserved for after cooking",
+       "extra": []
+      }
+     ],
+     "notes": []
+    }
+   ],
+   "method": [
+    {
+     "heading": "",
+     "steps": [
+      {
+       "n": 1,
+       "title": "Combine",
+       "text": "Put all **170 g cranberries**, **90 ml water**, **30 ml orange juice** and **75 g light brown sugar** into the saucepan. Stir over medium heat until the sugar dissolves and the fruit starts simmering."
+      },
+      {
+       "n": 2,
+       "title": "Cook gently",
+       "text": "Reduce the heat to maintain a gentle simmer. Stir periodically, letting the berries burst and the juices thicken. A full batch takes about **20 minutes total on the hob** (about **15 minutes after simmering**). Follow the cooled-spoon cue rather than halving the time. Crush remaining firm berries with the spatula for a softly textured, spoonable topping. Leave some berry pieces; do not boil down to a stiff jam. A cooled spoonful should settle softly, not stand as a firm lump.",
+       "aside": "This half batch may reduce sooner; its duration is **TBD**. All-fruit-at-start is our adaptation."
+      },
+      {
+       "n": 3,
+       "title": "Finish",
+       "text": "Remove from the heat and stir in the reserved **1/2 tsp orange zest**. The sauce thickens further as it cools. We omit vanilla here because the cake already supplies it.",
+       "aside": "Taste a cooled spoonful with a little cake if available before deciding any later revision to sugar; this draft keeps the source’s fruit-to-sugar proportion."
+      },
+      {
+       "n": 4,
+       "title": "Cool and measure",
+       "text": "Transfer to a shallow container, cool promptly with a cold-water bath if useful, and refrigerate within **2 hours**. Once cold, weigh the compote and record yield. Stir gently before using. Reserve **200 g for 10 20 g servings**, with **160 g for eight dinner plates + 40 g for two spares**; keep the remainder separate and chilled. If too firm for the intended plate, revise consistency before adopting as a master rather than assuming a finished yield."
+      },
+      {
+       "n": 5,
+       "title": "Serve cold",
+       "text": "Use with the cheesecake; the single plating method and fresh orange finish are in that recipe. Never add warm compote to the chilled cake or put brittle into the stored sauce."
+      }
+     ],
+     "notes": []
+    }
+   ],
+   "notes": [
+    {
+     "heading": "",
+     "items": [
+      "Keep covered at **4°C**, use within **2 days of preparation** under the conservative project leftover guidance. Sally’s original cranberry sauce allows five refrigerated days, but this fully cooked, vanilla-free adaptation does not claim that longer window. Make-ahead feasibility is supported; actual texture after chilling remains untested. For earlier preparation, Sally supports sauce freezing up to **3 months** and fridge thawing; use a labelled freezer-safe container with expansion space. Check the thawed consistency before plating."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rcp-011-s",
+   "code": "RCP-011-S",
+   "course": "dessert",
+   "title": "Pistachio shards",
+   "subtitle": "For the cheesecake",
+   "makes": "10 small shards (needed)",
+   "revision": "0.2",
+   "batch": [
+    "**Batch:** **100 g sugar + 50 g pistachios + 0.5 g fine salt**, our proposed small batch. Finished mass, sheet area and intact shard yield are **TBD**; pan residue and breakage vary. Need **10 small, thin, intact shards**, eight for initial service plus two spare, plus spare fragments if the batch permits. One small shard per intended portion; the whole batch is not a ten-way serving allocation. Thickness target is visual, a single nut layer and translucent caramel between pieces, not a guaranteed measurement."
+   ],
+   "setup": [
+    {
+     "heading": "",
+     "items": [
+      "Set out a medium heavy, light-coloured frying pan; a large rimmed baking tray; **two sheets of baking parchment**; heatproof spatula; short rolling pin that fits inside the tray rim; oven gloves; dry airtight container. Ensure the parchment/tray can tolerate the chosen low oven setting. Clear a stable heatproof work surface.",
+      "Chop **50 g plain shelled pistachios** into small pieces, not powder. Measure **100 g caster sugar** and **0.5 g fine salt** (a scale capable of this amount is needed). Do not use salted nuts plus this full salt quantity without revising the formula.",
+      "Warm the parchment-lined tray and **50 g chopped pistachios** in a low conventional oven, **100°C**, while setting up. Keep nuts warm, not browning. Remove with oven gloves only when ready to pour. Lay out the second parchment sheet and rolling pin first. All equipment must be dry."
+     ]
+    }
+   ],
+   "ingredients": [
+    {
+     "heading": "",
+     "group": "",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Caster sugar",
+       "amount": "100 g",
+       "extra": []
+      },
+      {
+       "name": "Plain shelled pistachios",
+       "amount": "50 g, chopped into small pieces and warmed",
+       "extra": []
+      },
+      {
+       "name": "Fine salt",
+       "amount": "0.5 g",
+       "extra": []
+      }
+     ],
+     "notes": [
+      "No fresh zest or juice goes into the caramel; the orange finish belongs to the cheesecake. This is a dry caramel, with no added water, syrup, butter or bicarbonate."
+     ]
+    }
+   ],
+   "method": [
+    {
+     "heading": "",
+     "steps": [
+      {
+       "n": 1,
+       "title": "Make caramel",
+       "text": "Spread **100 g caster sugar** across the dry pan. Heat moderately, tilting gently as it melts; avoid stirring the melting sugar. Let it become evenly amber. Allow about **4–5 minutes**, but watch the colour, not the clock. Do not let it smoke or become nearly black."
+      },
+      {
+       "n": 2,
+       "title": "Add nuts and salt",
+       "text": "Remove from the heat; stir in all **50 g warm chopped pistachios** and **0.5 g fine salt** quickly with the heatproof spatula. Coat evenly and immediately pour onto the warm lined tray. Do not pause to gather tools."
+      },
+      {
+       "n": 3,
+       "title": "Roll a thin sheet",
+       "text": "Spread briefly with the spatula, lay the second sheet of parchment over the hot mixture, and roll promptly from the centre outwards. Keep caramel away from the tray edge. Aim for one layer of small nut pieces and thin, translucent caramel gaps. Whole nuts/overlapping pieces prevent a delicate sheet. Use tools and oven gloves; never touch hot caramel through thin paper with bare fingers. Stop when it resists or starts cracking rather than forcing a setting slab."
+      },
+      {
+       "n": 4,
+       "title": "Cool and break",
+       "text": "Leave flat until fully cold and rigid. Remove the parchment, snap into small irregular shards, and select **10** with a delicate snap and green nut pieces visible. Record total yield and count of usable shards. Store extras separately; do not count them as plated portions."
+      },
+      {
+       "n": 5,
+       "title": "Finish at the pass",
+       "text": "Add **one small shard per plate**, last, following the cheesecake’s assembly. Keep it clear of wet compote as much as possible. Keep the other shards in their dry container while plating."
+      }
+     ],
+     "notes": []
+    }
+   ],
+   "notes": [
+    {
+     "heading": "",
+     "items": [
+      "Once completely cold, store promptly in a **dry airtight container at room temperature**, separated by parchment. Do not refrigerate: condensation/humidity makes brittle sticky. Good Food supports airtight storage for its dry-caramel nut brittle; Celebration Generation supports a dry container and explains moisture sensitivity. [CHG-09/10]",
+      "For this untested thin adaptation, propose making it **no more than one day ahead for quality**, not as a tested shelf-life guarantee. Check a shard for a clean snap before service. Keep separate from cake/compote until plating. Do not use the refrigerator/freezer as a fix for soft caramel. If it has become sticky or bends, it is unsuitable for this garnish texture; do not promise it will recover. No longer storage window is assigned to this adapted formula."
+     ]
+    }
+   ]
+  }
+ ]
+}

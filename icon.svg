@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Thanksgiving Kitchen">
+  <rect width="128" height="128" rx="28" fill="#3a0ca3"/>
+  <path d="M26 70h76c0 18-14 30-38 30S26 88 26 70Z" fill="#fff"/>
+  <path d="M34 70c0-14 12-24 30-24s30 10 30 24" fill="none" stroke="#f72585" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="64" cy="36" r="7" fill="#4cc9f0"/>
+</svg>

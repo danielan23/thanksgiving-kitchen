@@ -1,0 +1,11 @@
+{
+  "name": "Thanksgiving Kitchen",
+  "short_name": "Kitchen",
+  "description": "Daniela’s Thanksgiving recipes for cooking.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f3fb",
+  "theme_color": "#3a0ca3",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
