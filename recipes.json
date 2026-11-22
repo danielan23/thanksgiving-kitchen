@@ -2079,7 +2079,7 @@
       {
        "n": 9,
        "title": "Rest, carve and serve",
-       "text": "Rest each cooked roll uncovered for about **15 minutes**. Remove the twine and cut across the roll with a sharp knife. Use **about 150 g cooked roulade per turkey plate** as the draft plating guide. Spoon the separate demi beside the slices to keep the skin crisp. Weigh the total cooked yield and note how cleanly the slices hold together."
+       "text": "Rest each cooked roll uncovered for about **15 minutes**. Remove the twine and cut across the roll with a sharp knife. Use **about 150 g cooked roulade per turkey plate** as the working plating guide. Spoon the separate demi beside the slices to keep the skin crisp. Weigh the total cooked yield and note how cleanly the slices hold together."
       }
      ],
      "notes": []
@@ -2089,7 +2089,7 @@
     {
      "heading": "",
      "items": [
-      "**Filling ahead:** Make the filling separately if useful. Cool promptly in a shallow dish, cover and refrigerate at **4°C** within **2 hours**. For this draft, make it up to the day before assembly. Use it cold, keep it separate from raw turkey until rolling, then follow the prompt raw-freezing route in steps 5–7. If cooking immediately instead, assemble only when the preheated oven is ready.",
+      "**Filling ahead:** Make the filling separately if useful. Cool promptly in a shallow dish, cover and refrigerate at **4°C** within **2 hours**. For this master, make it up to the day before assembly. Use it cold, keep it separate from raw turkey until rolling, then follow the prompt raw-freezing route in steps 5–7. If cooking immediately instead, assemble only when the preheated oven is ready.",
       "**After thawing:** roast the fully thawed rolls, rather than partially cooking and finishing later. The **75°C centre checks** in step 8 apply to the stuffing and meat of **each** roll. Raw freezing changes the preparation route, not these cooking checks.",
       "**After dinner:** Portion leftover cooked roulade into small pieces or slices in shallow containers. Cool and refrigerate at **4°C** or freeze within **2 hours**. Use refrigerated leftovers within **2 days** or frozen leftovers within **3 months**. Thaw in the fridge. If serving hot, reheat only what you need once, until steaming hot throughout, and discard leftovers from that reheated portion. Expect softer skin after chilling."
      ]
@@ -3094,7 +3094,7 @@
      "heading": "",
      "items": [
       "Keep the cake untopped until serving. Sally supports making the plain cake up to **2 days** ahead, with **at least 4 hours** of chilling. Her slow-cooling method is retained; after the one-hour oven stage, cool on the rack promptly and refrigerate without an extended counter hold. Apply a maximum **2-hour counter-cooling window** after removal from the oven, refrigerating sooner once cooled; refrigerator **4°C**.",
-      "For this draft, use refrigerated cake/leftovers within **2 days of baking**, a conservative project limit rather than Sally’s four-day leftover claim. Sally permits the plain cake to be wrapped in several film layers and foil and frozen for **up to 3 months**, thawed overnight in the fridge; confirm fully thawed before slicing. Freezing the GF base’s texture is untested. Never freeze with compote or shards attached."
+      "For this master, use refrigerated cake/leftovers within **2 days of baking**, a conservative project limit rather than Sally’s four-day leftover claim. Sally permits the plain cake to be wrapped in several film layers and foil and frozen for **up to 3 months**, thawed overnight in the fridge; confirm fully thawed before slicing. Freezing the GF base’s texture is untested. Never freeze with compote or shards attached."
      ]
     }
    ]
@@ -3175,7 +3175,7 @@
        "n": 3,
        "title": "Finish",
        "text": "Remove from the heat and stir in the reserved **1/2 tsp orange zest**. The sauce thickens further as it cools. We omit vanilla here because the cake already supplies it.",
-       "aside": "Taste a cooled spoonful with a little cake if available before deciding any later revision to sugar; this draft keeps the source’s fruit-to-sugar proportion."
+       "aside": "Taste a cooled spoonful with a little cake if available before deciding any later revision to sugar; this master keeps the source’s fruit-to-sugar proportion."
       },
       {
        "n": 4,
@@ -3294,5 +3294,1427 @@
     }
    ]
   }
- ]
+ ],
+ "plan": {
+  "days": [
+   {
+    "date": "2026-11-22",
+    "label": "Sun 22",
+    "move": true
+   },
+   {
+    "date": "2026-11-23",
+    "label": "Mon 23",
+    "move": false
+   },
+   {
+    "date": "2026-11-25",
+    "label": "Wed 25",
+    "move": true
+   },
+   {
+    "date": "2026-11-26",
+    "label": "Thu 26",
+    "move": true
+   },
+   {
+    "date": "2026-11-27",
+    "label": "Fri 27",
+    "move": true
+   },
+   {
+    "date": "2026-11-28",
+    "label": "Sat 28",
+    "move": true
+   }
+  ],
+  "tasks": [
+   {
+    "id": "T-043",
+    "date": "2026-11-22",
+    "start": "09:30",
+    "mins": 45,
+    "title": "Rösti squares: parboil whole potatoes and chill",
+    "recipe": "rcp-003",
+    "owner": "Daniela",
+    "ws": "2026-11-22",
+    "we": "2026-11-22",
+    "priority": "A",
+    "status": "proposed",
+    "note": "45 min elapsed (estimate): cold start, simmer 10–15 min, steam off 15–20 min, then fridge for at least 6 h before “grate, bind, bake and press slab overnight”. If it cannot happen today, re-plan: the whole rösti can move to Thursday (parboil and bake) and Friday (cut and freeze); Monday to Wednesday cannot hold the day-2 cut.",
+    "deps": []
+   },
+   {
+    "id": "T-028",
+    "date": "2026-11-22",
+    "start": "10:15",
+    "mins": 60,
+    "title": "Turkey: verify product and debone or receive butchered crowns",
+    "recipe": "rcp-006",
+    "owner": "Daniela",
+    "ws": "2026-11-22",
+    "we": "2026-11-22",
+    "priority": "A",
+    "status": "proposed",
+    "note": "45–60 min (estimate). Weigh each crown’s trimmed breast separately (scales the stuffing) and the frames (scales the stock). Clean the poultry station afterwards.",
+    "deps": [
+     "T-007"
+    ]
+   },
+   {
+    "id": "T-029",
+    "date": "2026-11-22",
+    "start": "11:15",
+    "mins": 45,
+    "title": "Turkey: prep and cook stuffing",
+    "recipe": "rcp-006",
+    "owner": "Daniela",
+    "ws": "2026-11-22",
+    "we": "2026-11-22",
+    "priority": "A",
+    "status": "proposed",
+    "note": "45 min (estimate) while the stock parts roast. Spread in a shallow dish to chill.",
+    "deps": [
+     "T-028"
+    ]
+   },
+   {
+    "id": "T-037",
+    "date": "2026-11-22",
+    "start": "11:15",
+    "mins": 60,
+    "title": "Sauce: weigh breast frames and wings, roast parts and aromatics",
+    "recipe": "rcp-008",
+    "owner": "Daniela",
+    "ws": "2026-11-22",
+    "we": "2026-11-22",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Oven 230°C conventional / 210°C fan. Recipe cue: check after about 30 min, add vegetables, check after another 15 min, continue until deep golden; 60 min is an allowance.",
+    "deps": [
+     "T-028"
+    ]
+   },
+   {
+    "id": "T-065",
+    "date": "2026-11-22",
+    "start": "11:30",
+    "mins": 110,
+    "title": "Blini: mix sponge, rest, add yolk mixture, rest, fold in white",
+    "recipe": "rcp-002",
+    "owner": "Daniela",
+    "ws": "2026-11-22",
+    "we": "2026-11-26",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Recipe rests 30–60 min, then 30–45 min; active work about 15 min. Can slip to Wednesday night or Thursday (plain blini freeze for up to a month).",
+    "deps": [
+     "T-007"
+    ]
+   },
+   {
+    "id": "T-030",
+    "date": "2026-11-22",
+    "start": "12:00",
+    "mins": 0,
+    "title": "Turkey: cool filling and refrigerate",
+    "recipe": "rcp-006",
+    "owner": "Daniela",
+    "ws": "2026-11-22",
+    "we": "2026-11-22",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Until fully cold; no fixed time. Must be cold before “assemble and tie two raw rolls”.",
+    "deps": [
+     "T-029"
+    ]
+   },
+   {
+    "id": "T-016",
+    "date": "2026-11-22",
+    "start": "12:15",
+    "mins": 30,
+    "title": "Soup: set up and prepare ingredients",
+    "recipe": "rcp-012",
+    "owner": "Daniela",
+    "ws": "2026-11-22",
+    "we": "2026-11-26",
+    "priority": "B",
+    "status": "proposed",
+    "note": "If not made today, make on Thursday and refrigerate (2-day fridge limit covers Saturday); then skip “thaw reserved service base in fridge”.",
+    "deps": [
+     "T-007"
+    ]
+   },
+   {
+    "id": "T-038",
+    "date": "2026-11-22",
+    "start": "12:15",
+    "mins": 135,
+    "title": "Sauce: extract, strain, defat and measure stock",
+    "recipe": "rcp-008",
+    "owner": "Daniela",
+    "ws": "2026-11-22",
+    "we": "2026-11-22",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Instant Pot route confirmed: 90 min at high pressure with natural release (recipe reference), plus release and straining; 135 min is an allowance. Frees a hob burner.",
+    "deps": [
+     "T-037"
+    ]
+   },
+   {
+    "id": "T-017",
+    "date": "2026-11-22",
+    "start": "12:45",
+    "mins": 25,
+    "title": "Soup: soften aromatics and lightly colour roots",
+    "recipe": "rcp-012",
+    "owner": "Daniela",
+    "ws": "2026-11-22",
+    "we": "2026-11-26",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Follows “set up and prepare ingredients”.",
+    "deps": [
+     "T-016"
+    ]
+   },
+   {
+    "id": "T-018",
+    "date": "2026-11-22",
+    "start": "13:10",
+    "mins": 40,
+    "title": "Soup: bring to simmer and cook until tender",
+    "recipe": "rcp-012",
+    "owner": "Daniela",
+    "ws": "2026-11-22",
+    "we": "2026-11-26",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Follows “soften aromatics and lightly colour roots”.",
+    "deps": [
+     "T-017"
+    ]
+   },
+   {
+    "id": "T-066",
+    "date": "2026-11-22",
+    "start": "13:30",
+    "mins": 45,
+    "title": "Blini: cook mini blini, cool on a rack, freeze plain",
+    "recipe": "rcp-002",
+    "owner": "Daniela",
+    "ws": "2026-11-22",
+    "we": "2026-11-26",
+    "priority": "B",
+    "status": "proposed",
+    "note": "45 min (estimate) for about 22–28 minis in batches.",
+    "deps": [
+     "T-065"
+    ]
+   },
+   {
+    "id": "T-019",
+    "date": "2026-11-22",
+    "start": "13:50",
+    "mins": 15,
+    "title": "Soup: blend and portion base",
+    "recipe": "rcp-012",
+    "owner": "Daniela",
+    "ws": "2026-11-22",
+    "we": "2026-11-26",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Follows “bring to simmer and cook until tender”. Portion the service amount separately from leftovers.",
+    "deps": [
+     "T-018"
+    ]
+   },
+   {
+    "id": "T-020",
+    "date": "2026-11-22",
+    "start": "14:05",
+    "mins": 0,
+    "title": "Soup: cool and store base",
+    "recipe": "rcp-012",
+    "owner": "Daniela",
+    "ws": "2026-11-22",
+    "we": "2026-11-26",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Cool in shallow containers and freeze within 2 h (before adding milk and lemon). Thursday route: refrigerate instead.",
+    "deps": [
+     "T-019"
+    ]
+   },
+   {
+    "id": "T-031",
+    "date": "2026-11-22",
+    "start": "14:15",
+    "mins": 45,
+    "title": "Turkey: assemble and tie two raw rolls",
+    "recipe": "rcp-006",
+    "owner": "Daniela",
+    "ws": "2026-11-22",
+    "we": "2026-11-22",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Allowance raised to 45 min (estimate) for butterflying, filling, rolling and tying two rolls. Record each roll’s weight, widest diameter and trimmed breast weight: Saturday’s oven timing depends on them.",
+    "deps": [
+     "T-028",
+     "T-030"
+    ]
+   },
+   {
+    "id": "T-035",
+    "date": "2026-11-22",
+    "start": "15:00",
+    "mins": 15,
+    "title": "Turkey: wrap, label and promptly freeze raw rolls",
+    "recipe": "rcp-006",
+    "owner": "Daniela",
+    "ws": "2026-11-22",
+    "we": "2026-11-22",
+    "priority": "A",
+    "status": "proposed",
+    "note": "15 min (estimate). Label with weight, diameter and skin-seasoning amounts; freeze promptly, rolls separate.",
+    "deps": [
+     "T-031"
+    ]
+   },
+   {
+    "id": "T-067",
+    "date": "2026-11-22",
+    "start": "15:15",
+    "mins": 45,
+    "title": "Brittle: warm nuts, caramelise, spread, cool and store airtight",
+    "recipe": "rcp-001",
+    "owner": "Daniela",
+    "ws": "2026-11-22",
+    "we": "2026-11-27",
+    "priority": "B",
+    "status": "proposed",
+    "note": "45 min active (estimate), then at least 1 h cooling (source). Oven is free between the stock roast and the rösti bake. Keeps airtight for weeks, so it can move to Wednesday night or Thursday.",
+    "deps": []
+   },
+   {
+    "id": "T-039",
+    "date": "2026-11-22",
+    "start": "15:30",
+    "mins": 60,
+    "title": "Sauce: optionally add Madeira and reduce towards demi",
+    "recipe": "rcp-008",
+    "owner": "Daniela",
+    "ws": "2026-11-22",
+    "we": "2026-11-22",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Reduce until it lightly coats a spoon; endpoint, not clock. 60 min allowance (estimate).",
+    "deps": [
+     "T-038"
+    ]
+   },
+   {
+    "id": "T-040",
+    "date": "2026-11-22",
+    "start": "16:30",
+    "mins": 30,
+    "title": "Sauce: promptly cool, portion, label and freeze base",
+    "recipe": "rcp-008",
+    "owner": "Daniela",
+    "ws": "2026-11-22",
+    "we": "2026-11-22",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Ice bath, portion (250–500 ml containers), label, freeze within 2 h.",
+    "deps": [
+     "T-038",
+     "T-039"
+    ]
+   },
+   {
+    "id": "T-044",
+    "date": "2026-11-22",
+    "start": "16:45",
+    "mins": 100,
+    "title": "Rösti squares: grate, bind, bake and press slab overnight",
+    "recipe": "rcp-003",
+    "owner": "Daniela",
+    "ws": "2026-11-22",
+    "we": "2026-11-22",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Grate and bind about 25 min (estimate); bake 200°C conventional / 180°C fan about 35 min covered plus 15–20 min uncovered (recipe, predicted); stand 10 min; press with 1.3 kg weights and chill overnight, at least 8 h. If it cannot happen today, re-plan the whole rösti onto Thursday and Friday; the pressed slab cannot wait past Monday.",
+    "deps": [
+     "T-043"
+    ]
+   },
+   {
+    "id": "T-045",
+    "date": "2026-11-23",
+    "start": "07:15",
+    "mins": 25,
+    "title": "Rösti squares: cut and tray-freeze (keep two offcuts frozen for testing)",
+    "recipe": "rcp-003",
+    "owner": "Daniela",
+    "ws": "2026-11-23",
+    "we": "2026-11-23",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Moved to Monday morning before work, because Monday evening is unavailable. Cut and tray-freeze only (25 min, estimate); offcut test-fry moves to “fry two frozen offcuts to test (also tests the mini fryer)” and packing to “pack frozen squares in layers, label”. The pressed slab cannot wait until Wednesday (2-day limit for cooked potato).",
+    "deps": [
+     "T-044"
+    ]
+   },
+   {
+    "id": "T-068",
+    "date": "2026-11-23",
+    "start": "19:00",
+    "mins": 5,
+    "title": "Rösti squares: pack frozen squares in layers, label",
+    "recipe": "rcp-003",
+    "owner": "Daniela",
+    "ws": "2026-11-23",
+    "we": "2026-11-23",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Five minutes once home; keep frozen until Saturday.",
+    "deps": [
+     "T-045"
+    ]
+   },
+   {
+    "id": "T-069",
+    "date": "2026-11-25",
+    "start": "19:00",
+    "mins": 20,
+    "title": "Rösti squares: fry two frozen offcuts to test (also tests the mini fryer)",
+    "recipe": "rcp-003",
+    "owner": "Daniela",
+    "ws": "2026-11-25",
+    "we": "2026-11-26",
+    "priority": "B",
+    "status": "proposed",
+    "note": "If the offcuts split, switch Saturday to the recipe’s oven fallback. Note the oil depth and how many squares fit per batch.",
+    "deps": [
+     "T-045"
+    ]
+   },
+   {
+    "id": "T-070",
+    "date": "2026-11-25",
+    "start": "19:20",
+    "mins": 25,
+    "title": "Hand roll: make the amazu pickling liquid (kombu dashi, sugar, salt, vinegar, chilli) and chill",
+    "recipe": "rcp-004",
+    "owner": "Daniela",
+    "ws": "2026-11-25",
+    "we": "2026-11-27",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Method steps 1–2 only. The source keeps amazu about six months chilled, so it can be made ahead; the daikon is pickled on Friday (“roast the wedges, cool and refrigerate for reheating”).",
+    "deps": []
+   },
+   {
+    "id": "T-071",
+    "date": "2026-11-25",
+    "start": "19:45",
+    "mins": 30,
+    "title": "Choose the pescatarian main and add its recipe and tasks",
+    "recipe": "",
+    "owner": "Daniela",
+    "ws": "2026-11-22",
+    "we": "2026-11-25",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Needed before the Thursday shop and Friday fish purchase. Options proposed in chat on 22 November.",
+    "deps": []
+   },
+   {
+    "id": "T-072",
+    "date": "2026-11-25",
+    "start": "20:15",
+    "mins": 20,
+    "title": "Check Thursday shopping list against the master list and fridge/freezer space for Friday thawing",
+    "recipe": "",
+    "owner": "Daniela",
+    "ws": "2026-11-25",
+    "we": "2026-11-26",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Space needed from Friday: two turkey rolls on a tray, demi base, soup base, cheesecake.",
+    "deps": []
+   },
+   {
+    "id": "T-073",
+    "date": "2026-11-26",
+    "start": "09:30",
+    "mins": 90,
+    "title": "Top-up shop for fresh items still needed",
+    "recipe": "",
+    "owner": "Daniela",
+    "ws": "2026-11-26",
+    "we": "2026-11-26",
+    "priority": "A",
+    "status": "proposed",
+    "note": "90 min (estimate). Raw-eating salmon and the fish main are bought by Friday (“make the tare, steep the kombu at least 30 min, remove it, chill”).",
+    "deps": [
+     "T-072"
+    ]
+   },
+   {
+    "id": "T-048",
+    "date": "2026-11-26",
+    "start": "11:30",
+    "mins": 45,
+    "title": "Dessert: check products and prepare cake base/filling",
+    "recipe": "rcp-011",
+    "owner": "Daniela",
+    "ws": "2026-11-26",
+    "we": "2026-11-27",
+    "priority": "A",
+    "status": "proposed",
+    "note": "45 min (estimate).",
+    "deps": [
+     "T-007",
+     "T-009"
+    ]
+   },
+   {
+    "id": "T-049",
+    "date": "2026-11-26",
+    "start": "12:15",
+    "mins": 130,
+    "title": "Dessert: bake full-size cheesecake in water bath",
+    "recipe": "rcp-011",
+    "owner": "Daniela",
+    "ws": "2026-11-26",
+    "we": "2026-11-27",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Water-bath bake about 55–70 min plus the recipe’s one-hour oven stage; 130 min allowance. Thursday is within the recipe’s 2-day limit for Saturday.",
+    "deps": [
+     "T-048"
+    ]
+   },
+   {
+    "id": "T-051",
+    "date": "2026-11-26",
+    "start": "13:00",
+    "mins": 40,
+    "title": "Dessert: cook and chill cranberry-orange compote",
+    "recipe": "rcp-011-c",
+    "owner": "Daniela",
+    "ws": "2026-11-26",
+    "we": "2026-11-27",
+    "priority": "B",
+    "status": "proposed",
+    "note": "40 min including cooling (estimate); use within 2 days.",
+    "deps": [
+     "T-007",
+     "T-009"
+    ]
+   },
+   {
+    "id": "T-047",
+    "date": "2026-11-26",
+    "start": "14:00",
+    "mins": 25,
+    "title": "Trout pâté: blend, chill and fill piping bag",
+    "recipe": "rcp-003",
+    "owner": "Daniela",
+    "ws": "2026-11-26",
+    "we": "2026-11-27",
+    "priority": "B",
+    "status": "proposed",
+    "note": "25 min (estimate); one or two days before service. Bag is filled on Friday evening (“mix and chill; trout pâté: fill piping bag”).",
+    "deps": []
+   },
+   {
+    "id": "T-021",
+    "date": "2026-11-26",
+    "start": "14:30",
+    "mins": 30,
+    "title": "Soup: make and strain parsley oil",
+    "recipe": "rcp-012",
+    "owner": "Daniela",
+    "ws": "2026-11-25",
+    "we": "2026-11-27",
+    "priority": "C",
+    "status": "proposed",
+    "note": "Use within 3 days. If dropped, serve the soup with fried sage only.",
+    "deps": [
+     "T-009"
+    ]
+   },
+   {
+    "id": "T-050",
+    "date": "2026-11-26",
+    "start": "14:30",
+    "mins": 0,
+    "title": "Dessert: cool and refrigerate plain cheesecake",
+    "recipe": "rcp-011",
+    "owner": "Daniela",
+    "ws": "2026-11-26",
+    "we": "2026-11-27",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Counter cooling up to 2 h, then refrigerate at least 4 h (overnight is fine).",
+    "deps": [
+     "T-049"
+    ]
+   },
+   {
+    "id": "T-074",
+    "date": "2026-11-26",
+    "start": "15:30",
+    "mins": 45,
+    "title": "Write Saturday plating list, label serving dishes and brief the helper",
+    "recipe": "",
+    "owner": "Daniela",
+    "ws": "2026-11-26",
+    "we": "2026-11-27",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Helper tasks: Gilda, brittle and cheddar, blini topping, passing, fanning rice, putting turkey in on cue, dessert plating, clearing.",
+    "deps": []
+   },
+   {
+    "id": "T-036",
+    "date": "2026-11-27",
+    "start": "08:00",
+    "mins": 5,
+    "title": "Turkey: refrigerator-thaw raw rolls and verify complete thaw",
+    "recipe": "rcp-006",
+    "owner": "Daniela",
+    "ws": "2026-11-27",
+    "we": "2026-11-27",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Friday morning, not Thursday: the recipe says to cook within 24 h of a full thaw, so thawing too early is as risky as too late. Leakproof tray, bottom shelf, 4°C. Checked on Saturday morning (“yuzu-kosho mayonnaise, drain and blot 40 g pickle, cut cucumber (salt later)”).",
+    "deps": [
+     "T-035"
+    ]
+   },
+   {
+    "id": "T-041",
+    "date": "2026-11-27",
+    "start": "08:05",
+    "mins": 5,
+    "title": "Sauce: refrigerator-thaw required base and reserve stock",
+    "recipe": "rcp-008",
+    "owner": "Daniela",
+    "ws": "2026-11-27",
+    "we": "2026-11-27",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Move the demi base and reserved stock to the fridge (about 24 h for small portions).",
+    "deps": [
+     "T-040"
+    ]
+   },
+   {
+    "id": "T-022",
+    "date": "2026-11-27",
+    "start": "08:10",
+    "mins": 5,
+    "title": "Soup: thaw reserved service base in fridge",
+    "recipe": "rcp-012",
+    "owner": "Daniela",
+    "ws": "2026-11-27",
+    "we": "2026-11-27",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Only if the soup base was frozen on Sunday.",
+    "deps": [
+     "T-020"
+    ]
+   },
+   {
+    "id": "T-052",
+    "date": "2026-11-27",
+    "start": "09:00",
+    "mins": 45,
+    "title": "Dessert: cook and roll separate pistachio brittle batch",
+    "recipe": "rcp-011-s",
+    "owner": "Daniela",
+    "ws": "2026-11-27",
+    "we": "2026-11-27",
+    "priority": "C",
+    "status": "proposed",
+    "note": "45 min (estimate). No more than one day ahead (recipe). If dropped, serve the cheesecake with compote and orange only.",
+    "deps": [
+     "T-007",
+     "T-009"
+    ]
+   },
+   {
+    "id": "T-053",
+    "date": "2026-11-27",
+    "start": "09:45",
+    "mins": 0,
+    "title": "Dessert: cool shards and store dry; check usable yield",
+    "recipe": "rcp-011-s",
+    "owner": "Daniela",
+    "ws": "2026-11-27",
+    "we": "2026-11-27",
+    "priority": "C",
+    "status": "proposed",
+    "note": "Cool completely, store dry and airtight at room temperature.",
+    "deps": [
+     "T-052"
+    ]
+   },
+   {
+    "id": "T-075",
+    "date": "2026-11-27",
+    "start": "10:00",
+    "mins": 45,
+    "title": "Beetroot pickle: simmer beetroot, dice, glaze and chill",
+    "recipe": "rcp-002",
+    "owner": "Daniela",
+    "ws": "2026-11-26",
+    "we": "2026-11-27",
+    "priority": "B",
+    "status": "proposed",
+    "note": "45 min plus cooling (estimate); within 2 days of serving (recipe).",
+    "deps": []
+   },
+   {
+    "id": "T-076",
+    "date": "2026-11-27",
+    "start": "10:45",
+    "mins": 15,
+    "title": "Horseradish cream: mix and chill; trout pâté: fill piping bag",
+    "recipe": "rcp-002",
+    "owner": "Daniela",
+    "ws": "2026-11-26",
+    "we": "2026-11-27",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Cream within 2 days of serving. Piping bag stays flat in the fridge.",
+    "deps": [
+     "T-047"
+    ]
+   },
+   {
+    "id": "T-077",
+    "date": "2026-11-27",
+    "start": "11:00",
+    "mins": 45,
+    "title": "Kimchi eggs: cook, peel, halve; blend filling; store whites and filling separately",
+    "recipe": "rcp-018",
+    "owner": "Daniela",
+    "ws": "2026-11-26",
+    "we": "2026-11-27",
+    "priority": "B",
+    "status": "proposed",
+    "note": "45 min (estimate); prepare the day before, pipe on Saturday.",
+    "deps": []
+   },
+   {
+    "id": "T-078",
+    "date": "2026-11-27",
+    "start": "11:45",
+    "mins": 45,
+    "title": "Hand roll: brine, squeeze and pickle the daikon with the amazu",
+    "recipe": "rcp-004",
+    "owner": "Daniela",
+    "ws": "2026-11-27",
+    "we": "2026-11-28",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Brine about 30 min, squeeze, then at least 2–3 h in the amazu; the recipe proposes the day before.",
+    "deps": [
+     "T-070"
+    ]
+   },
+   {
+    "id": "T-058",
+    "date": "2026-11-27",
+    "start": "13:15",
+    "mins": 50,
+    "title": "Greens: make dressing, blanch vegetables and dry separately",
+    "recipe": "rcp-009c",
+    "owner": "Daniela",
+    "ws": "2026-11-26",
+    "we": "2026-11-27",
+    "priority": "B",
+    "status": "proposed",
+    "note": "50 min (estimate). Also wash and dry the sprouts. Use within 2 days.",
+    "deps": [
+     "T-055"
+    ]
+   },
+   {
+    "id": "T-061",
+    "date": "2026-11-27",
+    "start": "14:15",
+    "mins": 30,
+    "title": "Pumpkin: prepare cardamom-nigella red onion separately",
+    "recipe": "rcp-013a",
+    "owner": "Daniela",
+    "ws": "2026-11-26",
+    "we": "2026-11-27",
+    "priority": "B",
+    "status": "proposed",
+    "note": "30 min (estimate).",
+    "deps": [
+     "T-055"
+    ]
+   },
+   {
+    "id": "T-079",
+    "date": "2026-11-27",
+    "start": "14:45",
+    "mins": 50,
+    "title": "Pumpkin: roast the wedges, cool and refrigerate for reheating",
+    "recipe": "rcp-013a",
+    "owner": "Daniela",
+    "ws": "2026-11-26",
+    "we": "2026-11-27",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Roasting time is TBD in the recipe (cue: browned cut faces, knife-tender); 50 min is an allowance. Roasting ahead frees the oven for the turkey on Saturday; the recipe allows cooling and one reheat within 2 days, with softer edges possible.",
+    "deps": []
+   },
+   {
+    "id": "T-056",
+    "date": "2026-11-27",
+    "start": "15:45",
+    "mins": 75,
+    "title": "Mash: cook reference formula and prepare selected advance route",
+    "recipe": "rcp-007",
+    "owner": "Daniela",
+    "ws": "2026-11-26",
+    "we": "2026-11-27",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Day-before route chosen by Daniela. Simmer about 30–40 min, rice and sieve, enrich, then cool in shallow containers and refrigerate within 2 h; use within 2 days. 75 min allowance.",
+    "deps": [
+     "T-055"
+    ]
+   },
+   {
+    "id": "T-080",
+    "date": "2026-11-27",
+    "start": "17:00",
+    "mins": 45,
+    "title": "Collect raw-eating salmon and the fish for the pescatarian main",
+    "recipe": "",
+    "owner": "Daniela",
+    "ws": "2026-11-27",
+    "we": "2026-11-27",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Time to suit the supplier. Raw-fish safety depends on the supplier; ask how it should be stored until Saturday.",
+    "deps": [
+     "T-071"
+    ]
+   },
+   {
+    "id": "T-081",
+    "date": "2026-11-27",
+    "start": "18:00",
+    "mins": 30,
+    "title": "Set up Saturday stations: measure fryer oil, lay out serving dishes and labels, clear the fridge shelf for service",
+    "recipe": "",
+    "owner": "Daniela",
+    "ws": "2026-11-27",
+    "we": "2026-11-27",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Leave tonight with every component labelled and the Saturday list printed.",
+    "deps": [
+     "T-074"
+    ]
+   },
+   {
+    "id": "T-082",
+    "date": "2026-11-28",
+    "start": "08:30",
+    "mins": 5,
+    "title": "Turkey: check both rolls are fully thawed",
+    "recipe": "rcp-006",
+    "owner": "Daniela",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "A",
+    "status": "proposed",
+    "note": "The recipe forbids roasting a partly frozen roll. If either centre is still frozen, message Claude straight away to re-plan.",
+    "deps": [
+     "T-036"
+    ]
+   },
+   {
+    "id": "T-083",
+    "date": "2026-11-28",
+    "start": "10:00",
+    "mins": 45,
+    "title": "Hand roll: make the tare, steep the kombu at least 30 min, remove it, chill",
+    "recipe": "rcp-004",
+    "owner": "Daniela",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Kitchen block. Run it before or after the cleaners (time TBC). About 10 min active.",
+    "deps": []
+   },
+   {
+    "id": "T-059",
+    "date": "2026-11-28",
+    "start": "10:15",
+    "mins": 40,
+    "title": "Greens: shred raw sprouts and char the cooked sprout component",
+    "recipe": "rcp-009c",
+    "owner": "Daniela",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Shred the raw sprouts; char the cooked sprout component, cool quickly and refrigerate. 40 min (estimate).",
+    "deps": [
+     "T-058"
+    ]
+   },
+   {
+    "id": "T-084",
+    "date": "2026-11-28",
+    "start": "11:00",
+    "mins": 25,
+    "title": "Hand roll: yuzu-kosho mayonnaise, drain and blot 40 g pickle, cut cucumber (salt later)",
+    "recipe": "rcp-004",
+    "owner": "Daniela",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "B",
+    "status": "proposed",
+    "note": "25 min (estimate).",
+    "deps": [
+     "T-078"
+    ]
+   },
+   {
+    "id": "T-023",
+    "date": "2026-11-28",
+    "start": "11:30",
+    "mins": 10,
+    "title": "Soup: set out finishing and plating station",
+    "recipe": "rcp-012",
+    "owner": "Daniela",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Measure milk and lemon, pick sage leaves, decant parsley oil and chill; set out bowls.",
+    "deps": [
+     "T-022",
+     "T-021"
+    ]
+   },
+   {
+    "id": "T-085",
+    "date": "2026-11-28",
+    "start": "11:45",
+    "mins": 30,
+    "title": "Pumpkin: toast the seeds; fish main: advance prep (TBD)",
+    "recipe": "rcp-013a",
+    "owner": "Daniela",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Fish-main prep is a placeholder until “choose the pescatarian main and add its recipe and tasks” is decided.",
+    "deps": [
+     "T-071"
+    ]
+   },
+   {
+    "id": "T-086",
+    "date": "2026-11-28",
+    "start": "12:30",
+    "mins": 30,
+    "title": "Clean down the kitchen before the cleaners",
+    "recipe": "",
+    "owner": "Daniela",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Cleaners and deliveries: times TBC, hoped for the morning. If they come in the morning, run the kitchen block afterwards instead.",
+    "deps": []
+   },
+   {
+    "id": "T-087",
+    "date": "2026-11-28",
+    "start": "13:00",
+    "mins": 120,
+    "title": "Cleaners in the apartment, kitchen clear (time TBC)",
+    "recipe": "",
+    "owner": "cleaners",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Placeholder slot. Deliveries of tables, chairs, cutlery and glassware also TBC.",
+    "deps": []
+   },
+   {
+    "id": "T-011",
+    "date": "2026-11-28",
+    "start": "15:00",
+    "mins": 120,
+    "title": "Prepare agreed table and serving setup",
+    "recipe": "",
+    "owner": "Daniela + helper",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Reserved: set the table, lay everything, decorate. Helper can join.",
+    "deps": [
+     "T-002",
+     "T-009"
+    ]
+   },
+   {
+    "id": "T-088",
+    "date": "2026-11-28",
+    "start": "17:00",
+    "mins": 90,
+    "title": "Get ready",
+    "recipe": "",
+    "owner": "Daniela",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Reserved 1.5 h.",
+    "deps": []
+   },
+   {
+    "id": "T-064",
+    "date": "2026-11-28",
+    "start": "18:30",
+    "mins": 15,
+    "title": "Gilda: check products and count; drain, thread and finish with olive oil",
+    "recipe": "rcp-017",
+    "owner": "helper",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Helper task. Assembled close to arrival; no holding window is inferred.",
+    "deps": [
+     "T-009"
+    ]
+   },
+   {
+    "id": "T-089",
+    "date": "2026-11-28",
+    "start": "18:30",
+    "mins": 30,
+    "title": "Kitchen go: oven to 175°C fan, mini fryer on to 180°C, rice washed and cooking with kombu",
+    "recipe": "rcp-004",
+    "owner": "Daniela",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Rice is cooked close to service and held at room temperature under a damp cloth; holding time is unverified, so it is cooked last.",
+    "deps": [
+     "T-088"
+    ]
+   },
+   {
+    "id": "T-090",
+    "date": "2026-11-28",
+    "start": "18:40",
+    "mins": 10,
+    "title": "Brittle: cut 10 g cheddar per shard and plate",
+    "recipe": "rcp-001",
+    "owner": "helper",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Helper task, just before serving.",
+    "deps": [
+     "T-067"
+    ]
+   },
+   {
+    "id": "T-091",
+    "date": "2026-11-28",
+    "start": "18:40",
+    "mins": 15,
+    "title": "Kimchi eggs: pipe the filling, garnish, keep chilled",
+    "recipe": "rcp-018",
+    "owner": "Daniela",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "B",
+    "status": "proposed",
+    "note": "15 min (estimate).",
+    "deps": [
+     "T-077"
+    ]
+   },
+   {
+    "id": "T-092",
+    "date": "2026-11-28",
+    "start": "18:45",
+    "mins": 15,
+    "title": "Blini: warm or serve thawed; top with horseradish cream and pickle",
+    "recipe": "rcp-002",
+    "owner": "helper",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Recipe allows serving thawed, or reheating at 150°C conventional / 130°C fan; use the combination oven so the main oven stays at turkey temperature.",
+    "deps": [
+     "T-066",
+     "T-075",
+     "T-076"
+    ]
+   },
+   {
+    "id": "T-093",
+    "date": "2026-11-28",
+    "start": "18:45",
+    "mins": 15,
+    "title": "Hand roll: cut the salmon, ice-rinse and pat dry",
+    "recipe": "rcp-004",
+    "owner": "Daniela",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "A",
+    "status": "proposed",
+    "note": "15 min (estimate).",
+    "deps": [
+     "T-080",
+     "T-083"
+    ]
+   },
+   {
+    "id": "T-094",
+    "date": "2026-11-28",
+    "start": "19:00",
+    "mins": 25,
+    "title": "Hand roll: season the rice and fan it to body temperature; marinate the salmon 25 min",
+    "recipe": "rcp-004",
+    "owner": "Daniela + helper",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Helper fans the rice. Salmon in the tare about 25 min (taste at 20), then drain and chill.",
+    "deps": [
+     "T-089",
+     "T-093"
+    ]
+   },
+   {
+    "id": "T-046",
+    "date": "2026-11-28",
+    "start": "19:05",
+    "mins": 25,
+    "title": "Rösti squares: fry from frozen, pipe trout pâté, top with salmon roe, pass",
+    "recipe": "rcp-003",
+    "owner": "Daniela",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Fry in batches of 6–8 for about 3–4 min, bring the oil back to 180°C between batches, pipe pâté, add roe; helper passes. If “fry two frozen offcuts to test (also tests the mini fryer)” failed, use the oven fallback in the combination oven.",
+    "deps": [
+     "T-068",
+     "T-076",
+     "T-089"
+    ]
+   },
+   {
+    "id": "T-032",
+    "date": "2026-11-28",
+    "start": "19:10",
+    "mins": 70,
+    "title": "Turkey: preheat oven, dry skin, season, roast and probe both rolls",
+    "recipe": "rcp-006",
+    "owner": "Daniela",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Into the preheated oven at 175°C fan as guests arrive (helper can do it on cue). Roasting time is not in the recipe: 70 min is an assistant estimate pending Sunday’s roll weights and diameters. Remove each roll when the stuffing centre and the thickest meat beside it read at least 75°C.",
+    "deps": [
+     "T-082",
+     "T-089"
+    ]
+   },
+   {
+    "id": "T-095",
+    "date": "2026-11-28",
+    "start": "19:15",
+    "mins": 5,
+    "title": "Hand roll: salt the cucumber",
+    "recipe": "rcp-004",
+    "owner": "Daniela",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "B",
+    "status": "proposed",
+    "note": "About 5 min before squeezing.",
+    "deps": [
+     "T-084"
+    ]
+   },
+   {
+    "id": "T-096",
+    "date": "2026-11-28",
+    "start": "19:30",
+    "mins": 15,
+    "title": "Sit down. Assemble the hand rolls and serve",
+    "recipe": "rcp-004",
+    "owner": "Daniela",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Serve at once so the nori stays crisp.",
+    "deps": [
+     "T-094",
+     "T-095"
+    ]
+   },
+   {
+    "id": "T-024",
+    "date": "2026-11-28",
+    "start": "19:40",
+    "mins": 25,
+    "title": "Soup: reheat base with milk",
+    "recipe": "rcp-012",
+    "owner": "Daniela",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Start straight after the hand roll course.",
+    "deps": [
+     "T-023"
+    ]
+   },
+   {
+    "id": "T-025",
+    "date": "2026-11-28",
+    "start": "20:05",
+    "mins": 5,
+    "title": "Soup: season and check consistency",
+    "recipe": "rcp-012",
+    "owner": "Daniela",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Follows “reheat base with milk”.",
+    "deps": [
+     "T-024"
+    ]
+   },
+   {
+    "id": "T-026",
+    "date": "2026-11-28",
+    "start": "20:05",
+    "mins": 8,
+    "title": "Soup: fry and drain sage for eight bowls",
+    "recipe": "rcp-012",
+    "owner": "Daniela",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Close to plating.",
+    "deps": [
+     "T-025"
+    ]
+   },
+   {
+    "id": "T-027",
+    "date": "2026-11-28",
+    "start": "20:10",
+    "mins": 8,
+    "title": "Soup: plate eight bowls and serve",
+    "recipe": "rcp-012",
+    "owner": "Daniela",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Soup course.",
+    "deps": [
+     "T-026",
+     "T-021"
+    ]
+   },
+   {
+    "id": "T-057",
+    "date": "2026-11-28",
+    "start": "20:15",
+    "mins": 20,
+    "title": "Mash: finish or reheat needed batch and plate",
+    "recipe": "rcp-007",
+    "owner": "Daniela",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Warm a little extra milk, add the mash, stir until steaming hot throughout; reheat once only.",
+    "deps": [
+     "T-056"
+    ]
+   },
+   {
+    "id": "T-060",
+    "date": "2026-11-28",
+    "start": "20:15",
+    "mins": 25,
+    "title": "Greens: temper within handling limits, dress and plate at room temperature",
+    "recipe": "rcp-009c",
+    "owner": "Daniela",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Out of the fridge at about 20:15; dress at plating (within the 2-hour limit outside refrigeration).",
+    "deps": [
+     "T-059"
+    ]
+   },
+   {
+    "id": "T-062",
+    "date": "2026-11-28",
+    "start": "20:15",
+    "mins": 20,
+    "title": "Pumpkin: reheat the roasted wedges until steaming throughout",
+    "recipe": "rcp-013a",
+    "owner": "Daniela",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Reheat the Friday wedges in the main oven beside the turkey (or the air fryer) until steaming throughout. Reheating time is TBD in the recipe; 20 min is an assistant estimate.",
+    "deps": [
+     "T-061"
+    ]
+   },
+   {
+    "id": "T-033",
+    "date": "2026-11-28",
+    "start": "20:20",
+    "mins": 15,
+    "title": "Turkey: rest before carving",
+    "recipe": "rcp-006",
+    "owner": "Daniela",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Start time depends on the probe readings.",
+    "deps": [
+     "T-032"
+    ]
+   },
+   {
+    "id": "T-042",
+    "date": "2026-11-28",
+    "start": "20:20",
+    "mins": 15,
+    "title": "Sauce: reheat, adjust, finish and serve with turkey",
+    "recipe": "rcp-008",
+    "owner": "Daniela",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Bring to the boil, adjust, then off the heat swirl in butter and vinegar.",
+    "deps": [
+     "T-041"
+    ]
+   },
+   {
+    "id": "T-097",
+    "date": "2026-11-28",
+    "start": "20:20",
+    "mins": 20,
+    "title": "Pescatarian main: cook and plate (TBD)",
+    "recipe": "",
+    "owner": "Daniela",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Placeholder until the dish is chosen. Aim for a dish that shares the turkey’s oven temperature or needs only a short last-minute cook.",
+    "deps": [
+     "T-071",
+     "T-085"
+    ]
+   },
+   {
+    "id": "T-034",
+    "date": "2026-11-28",
+    "start": "20:35",
+    "mins": 10,
+    "title": "Turkey: carve, weigh and plate",
+    "recipe": "rcp-006",
+    "owner": "Daniela",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Main course plated around 20:40.",
+    "deps": [
+     "T-033",
+     "T-042"
+    ]
+   },
+   {
+    "id": "T-063",
+    "date": "2026-11-28",
+    "start": "20:35",
+    "mins": 0,
+    "title": "Pumpkin: finish with yogurt, seeds and fresh chervil; plate",
+    "recipe": "rcp-013a",
+    "owner": "Daniela",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Yogurt, seeds, nigella and chervil after reheating.",
+    "deps": [
+     "T-062"
+    ]
+   },
+   {
+    "id": "T-054",
+    "date": "2026-11-28",
+    "start": "21:30",
+    "mins": 15,
+    "title": "Dessert: slice cake and plate compote, orange and shards",
+    "recipe": "rcp-011",
+    "owner": "Daniela + helper",
+    "ws": "2026-11-28",
+    "we": "2026-11-28",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Helper can plate.",
+    "deps": [
+     "T-050",
+     "T-051",
+     "T-053"
+    ]
+   }
+  ]
+ }
 }

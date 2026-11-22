@@ -30,6 +30,8 @@
   let state = store.get('tk:state', { v: 1, recipes: {} });
   let timers = store.get('tk:timers', []);
   let current = null; // { recipe, tab }
+  let onPlan = false;
+  if (!state.plan) state.plan = { done: {}, moved: {} };
 
   const saveState = () => store.set('tk:state', state);
   const savePrefs = () => store.set('tk:prefs', prefs);
@@ -182,6 +184,7 @@
     return `<header class="bar"><div class="bar-inner"><div class="bar-title">Thanksgiving Kitchen</div>${tools(false)}</div></header>
       <main class="wrap">
         <div class="home-head"><h1>What are we cooking?</h1><p>Saturday 28 November · 8 guests</p></div>
+        ${DATA.plan && DATA.plan.tasks.length ? planCard() : ''}
         ${started ? `<a class="resume" href="#/r/${started.id}/method"><small>Pick up where you left off</small><strong>${esc(started.title)}</strong><span>${doneCount(started)} of ${totalSteps(started)} steps done</span></a>` : ''}
         ${sections}
         <p class="home-foot">Your ticks are saved on this device. Open a recipe, tick ingredients as you weigh them and tick each step as you finish it.</p>
@@ -275,6 +278,88 @@
       </div>`;
   }
 
+  // ---------- game plan ----------
+  // Tasks, times and windows come from operations/master-schedule.csv via the build script.
+  const P = () => DATA.plan;
+  const dayLabel = d => (P().days.find(x => x.date === d) || { label: d }).label;
+  const todayISO = () => { const n = new Date(); return `${n.getFullYear()}-${String(n.getMonth() + 1).padStart(2, '0')}-${String(n.getDate()).padStart(2, '0')}`; };
+  function effDate(t) { const m = state.plan.moved[t.id]; return m && m.from === t.date ? m.to : t.date; }
+  function nextDayFor(t) { const d = effDate(t); const nd = P().days.find(x => x.date > d && x.date <= t.we && x.move !== false); return nd ? nd.date : null; }
+  function defaultDay() { const t = todayISO(), days = P().days.map(d => d.date); return days.includes(t) ? t : (days.find(d => d > t) || days[days.length - 1]); }
+  const tasksOn = d => P().tasks.filter(t => effDate(t) === d);
+  const ownerLabel = o => ({ 'Daniela + helper': 'With helper', helper: 'Helper', cleaners: 'Cleaners' }[o] || '');
+
+  function planCard() {
+    const d = defaultDay(), list = tasksOn(d), done = list.filter(t => state.plan.done[t.id]).length;
+    const next = list.find(t => !state.plan.done[t.id]);
+    return `<a class="plan-card" href="#/plan/${d}"><small>Game plan · ${esc(dayLabel(d))}${d === todayISO() ? ' (today)' : ''}</small>
+      <strong>${done} of ${list.length} tasks done</strong>
+      <span>${next ? `Next: ${next.start ? esc(next.start) + ' · ' : ''}${esc(next.title)}` : 'All done for this day'}</span></a>`;
+  }
+
+  function badge(t, d) {
+    if (t.priority === 'C') return '<span class="badge opt">Optional</span>';
+    if (t.we > d) return `<span class="badge flex">Can wait until ${esc(dayLabel(t.we))}</span>`;
+    return '<span class="badge fixed">This day only</span>';
+  }
+
+  function planView(day) {
+    const list = tasksOn(day), isToday = day === todayISO();
+    const firstOpen = list.find(t => !state.plan.done[t.id]);
+    const chips = P().days.map(d => {
+      const l = tasksOn(d.date), n = l.filter(t => state.plan.done[t.id]).length;
+      return `<a class="daychip" href="#/plan/${d.date}" ${d.date === day ? 'aria-current="page"' : ''}>${esc(d.label)}<small>${n}/${l.length}</small></a>`;
+    }).join('');
+    const items = list.map(t => {
+      const done = !!state.plan.done[t.id], moved = effDate(t) !== t.date, nd = nextDayFor(t), who = ownerLabel(t.owner);
+      const more = t.note || nd || moved;
+      return `<li class="task pri-${t.priority}${done ? ' done' : ''}${isToday && t === firstOpen ? ' next' : ''}">
+        <button class="tick" data-act="ptask" data-id="${t.id}" aria-pressed="${done}" aria-label="${done ? 'Mark not done' : 'Mark done'}: ${esc(t.title)}"><span class="box">${ICON.check}</span></button>
+        <div class="task-body">
+          <div class="task-time">${moved ? 'Fit in when you can' : (t.start ? esc(t.start) : 'Any time')}${t.mins ? ' · ' + fmtMins(t.mins) : ''}</div>
+          <h3 class="task-title">${esc(t.title)}</h3>
+          <div class="task-meta">${badge(t, effDate(t))}${who ? `<span class="badge who">${who}</span>` : ''}${moved ? `<span class="badge moved">Moved from ${esc(dayLabel(t.date))}</span>` : ''}${t.recipe ? `<a class="recipe-link" href="#/r/${t.recipe}/method">Recipe ›</a>` : ''}</div>
+          ${more ? `<details class="task-more"><summary>Details</summary>${t.note ? `<p>${md(t.note)}</p>` : ''}<div class="task-actions">${nd ? `<button class="pill" data-act="pmove" data-id="${t.id}" data-to="${nd}">Move to ${esc(dayLabel(nd))}</button>` : ''}${moved ? `<button class="pill ghost" data-act="punmove" data-id="${t.id}">Move back to ${esc(dayLabel(t.date))}</button>` : ''}</div></details>` : ''}
+        </div></li>`;
+    }).join('');
+    return `<header class="bar"><div class="bar-inner"><a class="back" href="#/" aria-label="Back to all recipes">${ICON.back}<span>Recipes</span></a><div class="bar-title"></div>${tools(true)}</div></header>
+      <main class="wrap plan">
+        <div class="home-head"><h1>Game plan</h1><p>A proposed plan: times are allowances, not promises. When things change, copy your status and send it to Claude to re-plan.</p></div>
+        <nav class="days" aria-label="Days">${chips}</nav>
+        <h2 class="sec">${esc(dayLabel(day))}${isToday ? ' · today' : ''}</h2>
+        ${list.length ? `<ol class="tasks">${items}</ol>` : '<p class="small-note">Nothing planned for this day.</p>'}
+        <div class="plan-foot"><button class="btn" data-act="pcopy">Copy my status for Claude</button>
+          <textarea id="status-text" class="status-text" readonly hidden aria-label="Your plan status"></textarea>
+          <p class="small-note">Ticks and moves are saved on this device. A task can only move inside its window; anything else needs a re-plan.</p></div>
+      </main>`;
+  }
+
+  function statusText() {
+    const t0 = todayISO();
+    const stamp = new Date().toLocaleString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
+    const done = P().tasks.filter(t => state.plan.done[t.id]);
+    const open = P().tasks.filter(t => !state.plan.done[t.id] && effDate(t) <= t0);
+    const moved = P().tasks.filter(t => effDate(t) !== t.date);
+    const lines = [`Thanksgiving plan status, ${stamp}`, '', `Done (${done.length}):`, ...done.map(t => `- ${t.id} ${t.title}`),
+      '', `Not done yet, due today or earlier (${open.length}):`, ...open.map(t => `- ${t.id} ${t.title} (planned ${dayLabel(effDate(t))}${t.start ? ' ' + t.start : ''}; window until ${dayLabel(t.we)})`)];
+    if (moved.length) lines.push('', 'Moved:', ...moved.map(t => `- ${t.id} ${t.title}: ${dayLabel(t.date)} → ${dayLabel(effDate(t))}`));
+    return lines.join('\n');
+  }
+
+  function showDayChip() {
+    const chip = $('.daychip[aria-current="page"]'), row = $('.days');
+    if (chip && row) row.scrollLeft = chip.offsetLeft - row.offsetLeft - (row.clientWidth - chip.offsetWidth) / 2;
+  }
+
+  function rerenderPlan() {
+    const y = window.scrollY, openIds = $$('details.task-more[open]').map(d => d.closest('.task').querySelector('[data-id]').dataset.id);
+    const x = $('.days') ? $('.days').scrollLeft : 0;
+    $('#app').innerHTML = planView(onPlan);
+    if ($('.days')) $('.days').scrollLeft = x;
+    openIds.forEach(id => { const b = $(`.tick[data-id="${id}"]`); if (b) { const det = b.closest('.task').querySelector('details'); if (det) det.open = true; } });
+    window.scrollTo(0, y);
+  }
+
   // ---------- step state ----------
   function updateSteps() {
     if (!current) return;
@@ -312,8 +397,21 @@
     const m = location.hash.match(/^#\/r\/([\w-]+)(?:\/(ingredients|method|notes))?/);
     const app = $('#app');
     if (current) session.set('tk:scroll:' + current.recipe.id + ':' + current.tab, String(window.scrollY));
-    else session.set('tk:home', String(window.scrollY));
+    else if (!onPlan) session.set('tk:home', String(window.scrollY));
+    const pm = location.hash.match(/^#\/plan(?:\/(\d{4}-\d{2}-\d{2}))?/);
     const r = m && recipeById(m[1]);
+    if (pm && DATA.plan) {
+      current = null;
+      onPlan = pm[1] && P().days.some(d => d.date === pm[1]) ? pm[1] : defaultDay();
+      app.innerHTML = planView(onPlan);
+      document.title = 'Game plan · Thanksgiving Kitchen';
+      window.scrollTo(0, 0);
+      showDayChip();
+      setWake(prefs.wake);
+      tick();
+      return;
+    }
+    onPlan = false;
     if (r) {
       const tab = m[2] || (doneCount(r) > 0 ? 'method' : 'ingredients');
       current = { recipe: r, tab };
@@ -376,6 +474,29 @@
       prefs.wake = !prefs.wake; savePrefs(); setWake(prefs.wake);
       el.setAttribute('aria-pressed', prefs.wake);
       toast(prefs.wake ? 'Screen will stay on while you cook' : 'Screen can sleep again');
+    } else if (act === 'ptask') {
+      const id = el.dataset.id;
+      if (state.plan.done[id]) delete state.plan.done[id]; else state.plan.done[id] = Date.now();
+      saveState(); rerenderPlan();
+    } else if (act === 'pmove' || act === 'punmove') {
+      // Same-day follow-on tasks (those depending on this one) move with it when their window allows.
+      const t = P().tasks.find(x => x.id === el.dataset.id), from = effDate(t), to = el.dataset.to;
+      const group = [t], seen = new Set([t.id]);
+      for (let i = 0; i < group.length; i++) {
+        P().tasks.forEach(x => {
+          if (!seen.has(x.id) && x.deps.includes(group[i].id) && effDate(x) === from && (act === 'punmove' || x.we >= to)) { seen.add(x.id); group.push(x); }
+        });
+      }
+      group.forEach(x => { if (act === 'pmove') state.plan.moved[x.id] = { from: x.date, to }; else delete state.plan.moved[x.id]; });
+      saveState(); rerenderPlan();
+      const n = group.length > 1 ? `${group.length} tasks` : 'Task';
+      toast(act === 'pmove' ? `${n} moved to ${dayLabel(to)}` : `${n} back on ${dayLabel(t.date)}`);
+    } else if (act === 'pcopy') {
+      const txt = statusText(), box = $('#status-text');
+      box.value = txt; box.hidden = false;
+      const fallback = () => { box.focus(); box.select(); toast('Select the text below and copy it'); };
+      if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(txt).then(() => toast('Status copied. Paste it into your chat with Claude.'), fallback);
+      else fallback();
     } else if (act === 'reset') {
       if (confirm('Clear all ticks for this recipe?')) {
         state.recipes[r.id] = { rev: r.revision, steps: {}, ing: {}, touched: 0 }; saveState();
