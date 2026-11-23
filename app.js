@@ -43,8 +43,16 @@
     let s = state.recipes[r.id];
     if (!s || s.rev !== r.revision) {
       const stale = !!s;
-      s = state.recipes[r.id] = { rev: r.revision, steps: {}, ing: {}, touched: 0 };
-      if (stale) setTimeout(() => toast('This recipe was revised, so your earlier ticks were cleared.'), 400);
+      // A recipe may list older revisions whose step ticks still line up (keepStepsFrom): keep the
+      // step ticks, clear only the ingredient ticks, which are keyed by table position.
+      const keepSteps = stale && Array.isArray(r.keepStepsFrom) && r.keepStepsFrom.includes(s.rev) && s.steps && typeof s.steps === 'object';
+      s = state.recipes[r.id] = keepSteps
+        ? Object.assign({}, s, { rev: r.revision, ing: {} })
+        : { rev: r.revision, steps: {}, ing: {}, touched: 0 };
+      if (stale) setTimeout(() => toast(keepSteps
+        ? 'Recipe revised: your step ticks are kept, ingredient ticks were cleared.'
+        : 'This recipe was revised, so your earlier ticks were cleared.'), 400);
+      if (stale) saveState(); // write the migrated state now so the notice shows once
     }
     return s;
   }

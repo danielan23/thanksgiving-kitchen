@@ -101,7 +101,7 @@
      "rows": [
       {
        "name": "Maple extract",
-       "amount": "¼ tsp, subtle starting amount",
+       "amount": "¼ tsp, proposed subtle starting amount",
        "extra": []
       }
      ],
@@ -186,7 +186,7 @@
    "makes": "About 22–28 mini blini (predicted)",
    "revision": "0.2",
    "batch": [
-    "**Batch:** one quarter-size source batch of blini, one quarter-size pickle batch and a small cream batch. Make blini about 4–5 cm across. **Predicted yield is about 22–28 mini pancakes** at 1½ tsp batter each (assistant estimate from the batter volume, unmeasured), enough for 2 per guest with spares. Count the finished mini pancakes and measure the pickle yield, both TBD. Eight guests are confirmed; the number to serve per guest remains open. Freeze spare plain blini separately."
+    "**Batch:** one quarter-size source batch of blini, one quarter-size pickle batch and a small cream batch. Make blini about 4–5 cm across. **Predicted yield is about 22–28 mini pancakes** at 1½ tsp batter each (estimated from the batter volume, unmeasured), enough for 2 per guest with spares. Count the finished mini pancakes and measure the pickle yield, both TBD. Eight guests are confirmed; the number to serve per guest remains open. Freeze spare plain blini separately."
    ],
    "setup": [
     {
@@ -453,146 +453,137 @@
    "course": "welcome",
    "title": "Pressed rösti squares",
    "subtitle": "Trout pâté and salmon roe",
-   "makes": "One 20 × 20 cm slab, 25 squares (predicted)",
-   "revision": "0.3",
+   "makes": "Up to 36 squares from batch B, 25 from batch A (targets)",
+   "revision": "0.4",
    "batch": [
-    "**Portions:** one 20 × 20 cm slab, cut into **25 squares of about 3.5 × 3.5 × 1.5 cm, about 18–22 g each** (predicted, not measured). For eight guests that allows about 3 per guest plus spares and breakage. The pâté batch (about 195 g) covers one slab at about 6 g per square.",
-    "**Elapsed time over two days (predicted):** Day 1 morning, parboil and chill for at least 6 hours. Day 1 evening, grate, bake, then press and chill overnight. Day 2, cut and freeze. Pâté: one or two days before service. Service, fry from frozen and top. (The parboil can also be done the evening before, with an overnight chill.)",
-    "**Serving face:** the **bottom**, which baked against the lined tin, is the smoothest, densest face. Serve the squares bottom side up and pipe onto that face."
+    "**For Daniela's current batch, use column B throughout the potato steps.** It uses all **1,056 g grated, par-cooked potato** in the available **23 × 23 × 5 cm tin**. Potato preparation is already complete, so start at step 4 if the potato is cold and grated. Do not add binder or butter again if already incorporated. Column A retains the banked 750 g reference batch.",
+    "**Internal tin base** A, reference batch: 20 × 20 cm, at least 3 cm deep; B, current measured batch: 23 × 23 cm, 5 cm deep",
+    "**Grated, par-cooked potato** A, reference batch: 750 g; B, current measured batch: 1,056 g",
+    "**Packed depth before baking** A, reference batch: About 1.8 cm; B, current measured batch: About 1.9 cm",
+    "**Finished depth after pressing** A, reference batch: About 1.5 cm, predicted; B, current measured batch: About 1.5–1.6 cm, predicted",
+    "**Added pressing load, after baking only** A, reference batch: About 1.3 kg; B, current measured batch: About 1.7 kg, calculated to preserve load per base area",
+    "**Cutting guide** A, reference batch: Trim to 17.5 cm square, then 5 × 5 pieces at 3.5 cm; B, current measured batch: If the slab permits, trim to 21 cm square, then 6 × 6 pieces at 3.5 cm",
+    "**Yield** A targets 25 squares; B could give 36 at the stated cutting dimensions, before any pieces rejected for breakage. Both are geometric targets, not measured yields. Do not trim away sound potato just to achieve a fixed border. If the cold slab is smaller, retain 3.5 cm pieces and accept fewer pieces or offcuts.",
+    "**Topping batch** The pâté and **30 g roe** below remain the reference allowance for **25 topped squares**, not an automatic increase for B's possible 36. Select up to 25 squares to top from this allowance and keep other potato squares separate.. The approximately 195 g pâté batch includes a margin for the processor and piping bag at about 6 g per square."
    ],
    "setup": [
     {
-     "heading": "Day 1 morning: parboil station",
+     "heading": "Paper, cover and pressing setup",
      "items": [
-      "**Set out** a large saucepan, a wire rack over a tray, a skewer and a clean shallow container for the fridge.",
-      "**Weigh** **1 kg floury potatoes** (*kruimig*: e.g. Agria, Bintje or Maris Piper), similar-sized, about 150–200 g each (five or six), scrubbed, skins on. Weigh **10 g fine salt** for **1 litre cold water**."
+      "**Paper A, the tin liner.** Use oven-rated baking parchment, not waxed paper. For B, cut a sheet about **40 × 40 cm**; for A, about **35 × 35 cm**. Crease it into the base and up all four sides, folding excess neatly at the corners. Leave at least **3 cm above two opposite rims** to grip later. Paper A stays under the potato throughout baking, pressing and chilling, and lifts the cold slab out.",
+      "**Paper B, the separate top sheet.** Cut a square just smaller than the internal base, about **22.5 × 22.5 cm for B**, or **19.5 × 19.5 cm for A**. This lies directly on the buttered potato surface during the covered bake. It is separate from Paper A's overhang. Remove it for the uncovered bake, then reuse it for pressing if intact and clean; otherwise cut a replacement of the same size.",
+      "**Foil cover.** Have a sheet large enough to seal across the tin rim over Paper B during the covered bake. It is not the pressing plate. No second tin or weights go in the oven in this clarified method.",
+      "**Pressing plate, for use after baking only.** Use a clean, rigid, flat insert just smaller than the base, about **22.5 cm square for B** or **19.5 cm square for A**. It must reach the potato surface without catching on the sides or bridging the rim. A small flat tray or board that fits is suitable. Alternatively, make a firm foil-wrapped cardboard insert. Keep any board/cardboard out of the oven. The two narrow tins listed in the source do not cover the square slab evenly.",
+      "**Weights.** Weigh closed food cans or another stable clean load to about **1.7 kg for B**, or **1.3 kg for A**, and distribute it across the pressing plate after baking. Do not balance a tall stack. Clear fridge space for the tin plus plate and load."
      ]
     },
     {
-     "heading": "Day 1 evening: slab station",
+     "heading": "Potato station",
      "items": [
-      "**Line** a **20 × 20 cm square metal baking tin, at least 3 cm deep**, with baking paper, leaving a sling overhanging two opposite sides. Cut a second sheet for the top. Have a second tin or tray that sits inside it, and about **1.3 kg of weights** (tins or a bag of rice) for pressing.",
-      "**Set out** a box grater (coarse holes), a large bowl, a small bowl and a fork, a pastry brush and scales.",
-      "**Weigh** into small bowls: **20 g potato starch** (gluten-free label), **7 g fine salt**, **25 g egg white** (lightly beat **1 large egg white, about 35 g**, and weigh out 25 g), **53 g clarified butter or ghee**, melted and divided **27 g for the mix + 13 g for the tin + 13 g for the top**. Grind a pinch of **white pepper** (optional).",
-      "**Heat the oven** to **200°C conventional / 180°C fan**."
+      "Box grater with coarse holes, scales, large mixing bowl, fork, small bowls, pastry brush and a flat-bottomed measuring cup for initial packing.",
+      "For parboiling only, saucepan, skewer, rack and shallow cooling container. This stage is already done for the current measured batch.",
+      "Weigh the starch, mix salt, lightly beaten egg white and melted clarified butter from the chosen column below. Keep **mix butter**, **liner butter** and **top butter** in separate bowls so none is counted twice.",
+      "Use a middle oven shelf, with room for the foil cover. Preheat to **200°C conventional / 180°C fan** when ready to bake."
      ]
     },
     {
-     "heading": "Day 2: cutting and freezing station",
+     "heading": "Cutting, pâté and finishing station",
      "items": [
-      "A long, thin, sharp knife, a ruler, a jug of hot water and a cloth for wiping the blade.",
-      "Two flat metal trays lined with baking paper that fit flat in the freezer. Freezer bags or a rigid box, baking-paper squares for layers and a label."
-     ]
-    },
-    {
-     "heading": "Pâté station (one or two days before service)",
-     "items": [
-      "**Set out** a small food processor or stick blender with its beaker, a spatula, scales, a fine grater, a citrus squeezer, a lidded container, a piping bag and a **1 cm open star or plain round nozzle**.",
-      "**Weigh**, keeping the dairy in the fridge until needed: **100 g hot-smoked trout**, skin and any bones removed; **65 g full-fat cream cheese**, cold; **20 g full-fat crème fraîche**, cold, plus up to **10 g extra** in reserve.",
-      "**Prepare** the finely grated zest of **⅓ unwaxed lemon** and **7 ml lemon juice**, plus a little more lemon in reserve. Measure a **generous pinch of cayenne pepper** (about a twelfth of a teaspoon, scaled from ⅛ tsp for the full batch; start light and taste) and a pinch of **white pepper**."
-     ]
-    },
-    {
-     "heading": "Service: frying and assembly station",
-     "items": [
-      "Fryer or a deep, heavy saucepan, a thermometer, a spider or slotted spoon, and a wire rack over a tray (not kitchen paper).",
-      "**About 1.5 litres fresh sunflower or rapeseed oil**, used only for gluten-free food (use the depth your fryer needs).",
-      "Flaky salt.",
-      "The filled piping bag of pâté and **30 g salmon roe**, both kept in the fridge until the first batch is fried, a small spoon for the roe, and a few very finely snipped chives if using."
+      "Sharp knife, ruler, board, hot-water jug and wiping cloth. Freezer trays lined with **additional baking parchment**, plus a rigid freezer container and parchment for separating layers. This tray paper is extra material, not Paper A or B.",
+      "Small processor or blender, spatula, lemon grater, scales and a piping bag with a **1 cm plain round nozzle**. An open star nozzle may be used only if the smooth pâté passes through it easily.",
+      "Fryer or suitable deep heavy saucepan, oil thermometer, slotted spoon and wire rack over a tray. Use the appliance's permitted oil level and capacity. **About 1.5 litres oil is an allowance, not a direction to pour that quantity into every pan.** Use fresh oil and equipment reserved for gluten-free food.",
+      "Keep the trout, dairy, pâté and roe refrigerated until their step; use a clean spoon for the roe. Check the actual packaged products against the recorded coeliac requirement."
      ]
     }
    ],
    "ingredients": [
     {
-     "heading": "",
-     "group": "Parboil",
+     "heading": "Potato slab",
+     "group": "",
      "labels": {
-      "amount": "Amount and preparation",
-      "extra": []
+      "amount": "B, current measured batch",
+      "extra": [
+       "A, reference"
+      ]
      },
      "rows": [
       {
-       "name": "Floury potatoes, skins on",
-       "amount": "1 kg as bought, about 150–200 g each; gives about 790 g peeled parcooked potato (predicted)",
-       "extra": []
+       "name": "Grated, par-cooked peeled potato, cold",
+       "amount": "1,056 g",
+       "extra": [
+        {
+         "label": "A, reference",
+         "text": "750 g"
+        }
+       ]
       },
       {
-       "name": "Fine salt",
-       "amount": "10 g",
-       "extra": []
+       "name": "Potato starch, gluten-free label",
+       "amount": "28.5 g",
+       "extra": [
+        {
+         "label": "A, reference",
+         "text": "20 g"
+        }
+       ]
       },
       {
-       "name": "Cold water",
-       "amount": "1 litre, or enough to cover by 2 cm",
-       "extra": []
-      }
-     ],
-     "notes": []
-    },
-    {
-     "heading": "",
-     "group": "Slab",
-     "labels": {
-      "amount": "Amount and preparation",
-      "extra": []
-     },
-     "rows": [
-      {
-       "name": "Parcooked potato, peeled and coarsely grated",
-       "amount": "750 g, weighed after grating",
-       "extra": []
+       "name": "Fine salt, for the mix only",
+       "amount": "9.5 g",
+       "extra": [
+        {
+         "label": "A, reference",
+         "text": "7 g"
+        }
+       ]
       },
       {
-       "name": "Potato starch (*aardappelzetmeel*), gluten-free label",
-       "amount": "20 g",
-       "extra": []
+       "name": "Egg white, lightly beaten, then weighed",
+       "amount": "34 g",
+       "extra": [
+        {
+         "label": "A, reference",
+         "text": "25 g"
+        }
+       ]
       },
       {
-       "name": "Fine salt",
-       "amount": "7 g",
-       "extra": []
+       "name": "Clarified butter or ghee, melted, total",
+       "amount": "74 g",
+       "extra": [
+        {
+         "label": "A, reference",
+         "text": "53 g"
+        }
+       ]
       },
       {
-       "name": "Egg white",
-       "amount": "25 g, from 1 large white (about 35 g), lightly beaten",
-       "extra": []
-      },
-      {
-       "name": "Clarified butter or ghee, melted",
-       "amount": "53 g total: 27 g in the mix + 13 g for the tin + 13 g for the top",
-       "extra": []
+       "name": "Butter division",
+       "amount": "38 g mix + 18 g liner + 18 g top",
+       "extra": [
+        {
+         "label": "A, reference",
+         "text": "27 g mix + 13 g liner + 13 g top"
+        }
+       ]
       },
       {
        "name": "White pepper",
        "amount": "A pinch, optional",
-       "extra": []
+       "extra": [
+        {
+         "label": "A, reference",
+         "text": "A pinch, optional"
+        }
+       ]
       }
      ],
-     "notes": []
+     "notes": [
+      "**Parboiling the reference batch only** Start with **1 kg whole floury potatoes**, roughly 150–200 g each, and **1 litre cold water with 10 g fine salt**, adding more water at the same 10 g salt per litre only if needed to cover by about 2 cm. Purchased-to-grated yield is unmeasured; weigh after grating. These parboil amounts do not describe the already-prepared B batch, whose raw purchase weight is unknown. Parboil salt is separate from the mix salt and is not added to the grated potato again."
+     ]
     },
     {
-     "heading": "",
-     "group": "Fry",
-     "labels": {
-      "amount": "Amount and preparation",
-      "extra": []
-     },
-     "rows": [
-      {
-       "name": "Sunflower or rapeseed oil, fresh",
-       "amount": "About 1.5 litres, depth to suit the fryer",
-       "extra": []
-      },
-      {
-       "name": "Flaky salt",
-       "amount": "To finish",
-       "extra": []
-      }
-     ],
-     "notes": []
-    },
-    {
-     "heading": "",
+     "heading": "Pâté, roe and frying, unchanged reference allowance",
      "group": "Pâté",
      "labels": {
       "amount": "Amount and preparation",
@@ -601,12 +592,12 @@
      "rows": [
       {
        "name": "Hot-smoked trout",
-       "amount": "100 g net, skinned and boned, broken into flakes",
+       "amount": "100 g net after removing skin and bones",
        "extra": []
       },
       {
        "name": "Lemon juice",
-       "amount": "7 ml, plus a little in reserve",
+       "amount": "7 ml, plus a little extra only if needed after tasting",
        "extra": []
       },
       {
@@ -615,7 +606,7 @@
        "extra": []
       },
       {
-       "name": "Cayenne pepper",
+       "name": "Cayenne",
        "amount": "A generous pinch, about a twelfth of a teaspoon",
        "extra": []
       },
@@ -625,25 +616,25 @@
        "extra": []
       },
       {
-       "name": "Full-fat cream cheese, cold",
-       "amount": "65 g",
+       "name": "Full-fat cream cheese",
+       "amount": "65 g, cold",
        "extra": []
       },
       {
-       "name": "Full-fat crème fraîche, cold",
-       "amount": "20 g, plus up to 10 g in reserve to loosen",
+       "name": "Full-fat crème fraîche",
+       "amount": "20 g initially + up to 10 g reserve, 30 g maximum",
        "extra": []
       },
       {
-       "name": "Salt",
-       "amount": "Only if needed after tasting with the roe",
+       "name": "Fine salt",
+       "amount": "Only if needed after tasting with roe",
        "extra": []
       }
      ],
      "notes": []
     },
     {
-     "heading": "",
+     "heading": "Pâté, roe and frying, unchanged reference allowance",
      "group": "Finish",
      "labels": {
       "amount": "Amount and preparation",
@@ -652,172 +643,194 @@
      "rows": [
       {
        "name": "Salmon roe",
-       "amount": "30 g working allowance, about ¼ tsp per square",
+       "amount": "30 g for up to 25 selected squares; distribute as small garnishes, about 1.2 g each if topping 25",
        "extra": []
       },
       {
        "name": "Chives",
-       "amount": "A few, very finely snipped, optional",
+       "amount": "A few finely snipped, optional",
        "extra": []
       }
      ],
-     "notes": [
-      "Weigh the grated potato and keep the binder in proportion if the yield differs: **per 100 g grated potato, 2.7 g potato starch, 0.9 g salt, 3.2 g egg white and 3.6 g clarified butter in the mix.**"
-     ]
+     "notes": []
+    },
+    {
+     "heading": "Pâté, roe and frying, unchanged reference allowance",
+     "group": "Fry",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Fresh sunflower or rapeseed oil",
+       "amount": "About 1.5 litres available; actual fill follows appliance/pan limits",
+       "extra": []
+      },
+      {
+       "name": "Flaky salt",
+       "amount": "A light finishing sprinkle",
+       "extra": []
+      }
+     ],
+     "notes": []
     }
    ],
    "method": [
     {
-     "heading": "Parboil and chill (day 1 morning)",
+     "heading": "Parboil and chill, skip if already cold and grated",
      "steps": [
       {
        "n": 1,
        "title": "Start cold",
-       "text": "Put **1 kg potatoes** in the saucepan with **1 litre cold water** and **10 g salt**. Bring to a gentle simmer over medium heat."
+       "text": "For A, put **1 kg whole floury potatoes** into **1 litre cold water and 10 g salt**, adding more salted water only as described above if needed to cover. Bring to a gentle simmer."
       },
       {
        "n": 2,
-       "title": "Undercook on purpose",
-       "text": "Simmer gently until a skewer slides through the outer 1–1.5 cm easily but meets **firm resistance in the centre**. Expect about 10–15 minutes from the simmer for 150–200 g potatoes; start checking at 8 minutes. They must not be tender all the way through."
+       "title": "Parcook",
+       "text": "A skewer should pass through the outer 1–1.5 cm but still meet firm resistance in the centre. The established estimate is **10–15 minutes from simmering**, checking from 8 minutes for 150–200 g potatoes. Size and variety affect this; they should not be fully tender yet."
       },
       {
        "n": 3,
-       "title": "Steam off, then chill",
-       "text": "Lift onto the rack and leave until no longer steaming, about 15–20 minutes. Refrigerate uncovered within two hours of cooking and chill for **at least 6 hours**, or overnight. *Cue: cold right through, firm and dry-skinned.*"
+       "title": "Chill",
+       "text": "Drain onto a rack, let steam escape, then refrigerate promptly and within **two hours of cooking**. Cover once cooled. Keep at **4°C**.",
+       "aside": "Chill until cold right through, the master's **at least six hours or overnight** texture allowance. Cooling/storage guidance is the source, texture time is an untested recipe choice."
       }
      ],
      "notes": []
     },
     {
-     "heading": "Grate, bind and bake the slab (day 1 evening)",
+     "heading": "Bind, pack and bake",
      "steps": [
       {
        "n": 4,
-       "title": "Peel and grate",
-       "text": "Rub or scrape the skins off the cold potatoes. Grate on the coarse side of the box grater, using long strokes along the potato for long strands. Weigh **750 g grated potato** into the large bowl; scale the binder per the note above if you have more or less. *Cue: separate, slightly tacky strands, not mush. A soft core grates to paste; leave such a centre out.*"
+       "title": "Prepare the potato",
+       "text": "If not already grated, peel the chilled potatoes and grate coarsely into strands. Weigh **750 g for A** or use the measured **1,056 g for B**. Exclude any mushy pieces rather than working them into paste. If your batch is already mixed, skip step 5 rather than adding ingredients twice."
       },
       {
        "n": 5,
        "title": "Bind",
-       "text": "Scatter **20 g potato starch**, **7 g fine salt** and the pinch of **white pepper** over the potato and toss with your fingers until no white patches remain. Add **25 g egg white** and **27 g melted clarified butter** and toss lightly until every strand is glossy. Do not knead."
+       "text": "Toss the potato with **20 g starch + 7 g mix salt for A**, or **28.5 g starch + 9.5 g mix salt for B**, and the optional pinch of white pepper. Once no patches of dry starch remain, toss through **25 g egg white + 27 g mix butter for A**, or **34 g egg white + 38 g mix butter for B**. Coat evenly without kneading or mashing."
       },
       {
        "n": 6,
-       "title": "Pack the tin",
-       "text": "Brush the lined tin with **13 g clarified butter**. Tip in the potato, spread it evenly into the corners, then press it down firmly with the base of a measuring cup or the second tin to an even layer of about **1.8 cm** (predicted; it settles to about 1.5 cm). Brush the top with the remaining **13 g clarified butter**."
+       "title": "Pack",
+       "text": "Brush Paper A inside the tin with **13 g liner butter for A**, or **18 g for B**. Add all the chosen batch. Press firmly into an even layer, including the corners, with the flat-bottomed cup. Target **about 1.8 cm for A**, or **about 1.9 cm for B**. Brush the surface with **13 g top butter for A**, or **18 g for B**. Judge actual depth with a ruler; the depth calculation is not a measured density guarantee."
       },
       {
        "n": 7,
-       "title": "Bake covered",
-       "text": "Lay the second sheet of baking paper on top, set the second tin on it, and bake at **200°C conventional / 180°C fan** for about **35 minutes** (predicted)."
+       "title": "Bake covered, no weights",
+       "text": "Place **Paper B directly on the potato**. Seal the tin rim with the foil cover. Bake on the middle shelf at **200°C conventional / 180°C fan**, initially about **35 minutes**, an estimate. The layer order is tin → Paper A → potato → Paper B → foil. Do not put the pressing plate or cans in the oven."
       },
       {
        "n": 8,
-       "title": "Bake uncovered",
-       "text": "Remove the top tin and paper and bake for a further **15–20 minutes** (predicted). *Cue: top pale gold, edges sizzling and pulling slightly from the sides, a knife in the centre meets no raw crunch.* It colours fully only at the fry."
+       "title": "Finish uncovered",
+       "text": "Remove the foil and Paper B, keeping Paper A in place. Set Paper B aside on a clean surface. Bake uncovered for an estimated **15–20 minutes more**. The surface should be pale gold, the edges sizzling, and a thin knife in the centre should meet no firm/raw potato resistance. If still firm, continue and check again; these times are not a deadline. Deep browning is reserved for frying. No shorter or longer duration has been validated for B or the revised cover."
       }
      ],
      "notes": []
     },
     {
-     "heading": "Press and chill (day 1, overnight)",
+     "heading": "Press and chill",
      "steps": [
       {
        "n": 9,
-       "title": "Press",
-       "text": "Let the slab stand 10 minutes. Lay the paper back on, set the second tin on top and load it with about **1.3 kg weights**. Once it has stopped steaming, move the weighted tin to the fridge within two hours of baking and chill overnight, at least 8 hours. *Cue: cold slab is firm, flat and dense, with no springy give.*"
+       "title": "Fit the press after baking",
+       "text": "Rest the tin for about **10 minutes**, then return Paper B to the potato surface. Put the fitted pressing plate on Paper B, followed by the evenly distributed **1.3 kg load for A**, or **1.7 kg for B**. The plate must contact the slab across its surface, not rest on the tin rim. Let excess steam escape, then refrigerate promptly, always within **two hours of leaving the oven**. Keep the tin on a stable fridge shelf at **4°C**, with the weights in place, for **at least eight hours or overnight**. Do not wait on the counter for the slab to become completely cold. The cold slab should be flat and firm with no springy give."
       }
      ],
      "notes": []
     },
     {
-     "heading": "Cut and freeze (day 2)",
+     "heading": "Cut, check and freeze",
      "steps": [
       {
        "n": 10,
-       "title": "Unmould, bottom up",
-       "text": "Lift the cold slab out by the paper sling, then turn it over onto a board so the smooth, tin-side bottom faces up. Peel off the paper. This is the serving face."
+       "title": "Unmould",
+       "text": "Remove the weights, pressing plate and Paper B. Use Paper A's overhang to lift the cold slab onto a board. If it catches, ease the paper away from the tin sides before lifting. Turn the slab over, then peel off Paper A. The smooth face that touched the tin liner is now uppermost and is the serving face."
       },
       {
        "n": 11,
-       "title": "Trim and cut",
-       "text": "Dip the knife in hot water and wipe it between cuts. Trim about 1.25 cm from each edge for clean sides, keeping the trimmings. Cut the slab into a **5 × 5 grid of 3.5 cm squares**, pressing straight down rather than sawing. *Cue: clean faces with strands visibly bound, no crumbling.*"
+       "title": "Cut to size",
+       "text": "Measure the actual slab. For A, a **17.5 × 17.5 cm trimmed square** gives a **5 × 5 grid of 3.5 cm pieces**. For B, a **21 × 21 cm trimmed square** gives a **6 × 6 grid of 3.5 cm pieces**, if the cold slab is large enough. These are cutting plans, not guaranteed yields. Trim only what is needed to square off ragged edges, retaining offcuts. Mark cuts with a ruler, then press the knife straight down. Dip the blade in hot water and wipe it dry between cuts."
       },
       {
        "n": 12,
-       "title": "Freeze fast",
-       "text": "Space the squares 1 cm apart on the lined trays, **serving face up**, uncovered, in the coldest part of the freezer until hard right through, about 2–3 hours (predicted)."
+       "title": "Freeze the pieces and test offcuts",
+       "text": "Place the squares and two offcuts on the additional parchment-lined freezer trays, smooth face up, about **1 cm apart**. Freeze uncovered until hard throughout, an estimated **2–3 hours**, with time dependent on the freezer. They must be solid, not merely crusted outside."
       },
       {
        "n": 13,
-       "title": "Check with offcuts",
-       "text": "While the squares freeze, freeze two trimmings with them. Once hard, fry these straight from frozen as in steps 20–21. If they hold, carry on. If they split, use the oven finish below instead of frying."
+       "title": "Check cohesion using the offcuts",
+       "text": "Once hard, fry the two frozen offcuts using steps 20–21. Check that they hold together and become hot through the centre. If they split, stop using the deep-fry method and use the oven fallback for the remaining squares. This check happens during preparation; it is not a separate recipe trial."
       },
       {
        "n": 14,
-       "title": "Pack",
-       "text": "Transfer the hard squares into a rigid box, serving face up, in layers separated by baking paper. Press out air, label *the rösti squares, gluten-free, cooked, fry from frozen, date*, and keep frozen until service. Do not thaw."
+       "title": "Pack the frozen squares",
+       "text": "Lift them off the tray paper and put them in a rigid freezer container, smooth side up, separating layers with additional parchment. Close and label with recipe name, preparation date and **fry from frozen**. Remove excess air only if using bags, without crushing the pieces. Keep frozen until needed; do not thaw before frying."
       }
      ],
      "notes": []
     },
     {
-     "heading": "Make the pâté (one or two days before service)",
+     "heading": "Make the pâté",
      "steps": [
       {
        "n": 15,
-       "title": "Blend the fish first",
-       "text": "Put **100 g trout**, **7 ml lemon juice**, the **lemon zest**, the **generous pinch of cayenne** and the **pinch of white pepper** in the processor or beaker and blend to a fine, even paste, scraping down once. *Cue: no visible flakes.*"
+       "title": "Blend the fish",
+       "text": "Blend **100 g hot-smoked trout**, **7 ml lemon juice**, **zest of ⅓ lemon**, the **generous pinch of cayenne** and **pinch of white pepper** until no visible fish flakes remain. Scrape down as needed."
       },
       {
        "n": 16,
-       "title": "Add the dairy cold, briefly",
-       "text": "Add **65 g cold cream cheese** and **20 g cold crème fraîche** and pulse just until smooth and evenly pale pink, about 10–15 seconds (predicted). Stop as soon as it is uniform: overmixing warms and thins cream cheese."
+       "title": "Add dairy",
+       "text": "Add **65 g cold cream cheese** and **20 g cold crème fraîche**.",
+       "aside": "Pulse briefly until smooth, stopping as soon as combined; **10–15 seconds** was the master's estimate, not a required duration."
       },
       {
        "n": 17,
-       "title": "Check the texture",
-       "text": "*Cue: it holds a soft peak on the spatula and falls off slowly.* If too stiff to pipe, pulse in **reserve crème fraîche 5 g at a time, up to 10 g**. Chilling firms it further."
+       "title": "Adjust piping texture",
+       "text": "It should hold a soft peak on a spatula. If too stiff to pipe, add reserve crème fraîche in **5 g additions, up to 10 g extra total**. Do not pour in the full reserve automatically."
       },
       {
        "n": 18,
-       "title": "Taste with roe",
-       "text": "Taste a little pâté with a few eggs of roe. Add a few drops of lemon if it needs lifting, and salt only if it still needs it; the roe is salty."
+       "title": "Season with the finish in mind",
+       "text": "Taste a small amount with a few grains of roe. Add a few drops of the reserve lemon juice if needed and fine salt only if still needed. No extra horseradish is included in this pâté."
       },
       {
        "n": 19,
-       "title": "Chill and fill",
-       "text": "Refrigerate covered at 4°C. On service day or the evening before, spoon the cold pâté into the piping bag with the **1 cm nozzle**, twist closed and keep it flat in the fridge. *Cue: firm and spreadable, like softened butter.*"
+       "title": "Chill and bag",
+       "text": "Cover and refrigerate at **4°C**. Transfer cold pâté into the bag fitted with the **1 cm nozzle**, close the top and return to the fridge. It should hold a piped rosette when cold. Bagging does not restart its storage time; use within **two days of making** and within any shorter ingredient use-by/opened limits."
       }
      ],
      "notes": []
     },
     {
-     "heading": "Fry and finish (service)",
+     "heading": "Fry and top only the squares being served",
      "steps": [
       {
        "n": 20,
-       "title": "",
-       "text": "**Heat the oil** to **180°C**. Take out only the squares for this batch; tap off loose frost."
+       "title": "Set up",
+       "text": "Heat the fresh frying oil to **180°C**, using the appliance's permitted fill. The approximately **1.5 litres** is stock to have available, not an instruction to exceed that fill. Remove only the squares needed for this round; keep the others frozen. Tap off loose frost. Keep the pâté and the **30 g roe allowance** refrigerated until topping, and return reserves between rounds."
       },
       {
        "n": 21,
-       "title": "",
-       "text": "**Fry from frozen** in batches of 6–8 (predicted, depending on pan size) so the oil stays above about 170°C. Lower them in gently and fry for about **3–4 minutes**, turning once (predicted). *Cue: deep golden brown on all faces, bubbles calmed from a roar to a steady fizz, centre hot right through when a test piece is broken open.*"
+       "title": "Fry from frozen",
+       "text": "Lower a small batch gently into the oil. The master suggests **6–8 pieces**, but use fewer if crowding or the oil temperature falls below about **170°C**. Fry for an estimated **3–4 minutes**, turning once, until deep golden and hot throughout. Break open a test piece to check the centre; colour alone is insufficient. Bring the oil back to **180°C** before another batch.",
+       "aside": "These fry times remain untested for the actual batch."
       },
       {
        "n": 22,
-       "title": "Drain, serving face up",
-       "text": "Lift onto the wire rack, not kitchen paper, turning each square so the smooth face is on top, and sprinkle with flaky salt. Bring the oil back to 180°C before the next batch."
+       "title": "Drain",
+       "text": "Lift onto the wire rack, smooth face up, and add a light sprinkle of flaky salt. The tray underneath catches oil; the potato rests on the rack, not paper."
       },
       {
        "n": 23,
-       "title": "Rest, pipe, top, serve",
-       "text": "Leave 1–2 minutes so the surface sets and stops steaming hard. Pipe a small rosette of about **6 g** fridge-cold pâté onto the centre of the smooth face. Spoon about **¼ tsp salmon roe** on top, add a pinch of chives if using, and pass promptly. Keep the bag and roe cold between batches so the rosettes hold their shape. No holding time has been established once topped."
+       "title": "Top and serve",
+       "text": "Let the hard steaming subside, about **1–2 minutes** as a working cue. Pipe **about 6 g cold pâté per selected square**. Divide the **30 g roe allowance across up to 25 selected squares**, about **1.2 g each if using all 25**, and add the optional finely snipped chives. Do not scale the pâté or roe automatically to B's possible 36 pieces. Serve promptly; there is no established hold once topped."
       }
      ],
      "notes": [
-      "**Oven fallback (if frying is impractical, untested):** frozen squares on a rack over a tray at 220°C conventional / 200°C fan, turned once, until deep golden and hot throughout. Expect a less crisp result; no time is established."
+      "**Oven fallback, if pieces split or frying is impractical** Put frozen pieces on a rack over a tray in a **220°C conventional / 200°C fan oven** and turn once, cooking until deep golden and hot throughout. No duration is established. This remains an untested fallback, with a less crisp result predicted. Keep toppings off until after cooking and the brief resting cue."
      ]
     }
    ],
@@ -825,14 +838,16 @@
     {
      "heading": "",
      "items": [
-      "**Parboiled potatoes and pressed slab:** cool and refrigerate within two hours of cooking; keep covered once cold. The overnight chills are part of the method, not long holds.",
-      "**Frozen squares:** freeze as soon as cut and keep frozen until frying; fry straight from frozen. They are made for this dinner within the week; longer freezer storage has not been assessed.",
-      "**Pâté:** make one or two days ahead, keep covered at 4°C and use within two days of making, and within the trout's and dairy's use-by dates. Not frozen: cream cheese is likely to turn grainy (prediction, not assessed). Keep separate from the potato until topping.",
-      "**Salmon roe:** follow the jar's refrigeration and opened-use instructions; use a clean spoon and keep the reserve chilled.",
-      "**Partial batches:** fry only what each round of service needs; keep the rest frozen.",
-      "**Leftovers:** fried squares are best eaten at once. Topped squares are not kept. Unused pâté and roe stay refrigerated under their own limits."
+      "**Potato components** Refrigerate promptly and within two hours after each cooking stage. Cover once cooled; keep at 4°C. Complete the recipe's cold stages and freeze the cut pieces promptly rather than extending fridge holds. Prepared-food guidance is a maximum two-day refrigerated hold, not an extra two days granted at each step.",
+      "**Frozen squares** Keep frozen until frying. Longer freezer quality has not been assessed for this adapted recipe; freeze hard before packing and use the prepared batch for this dinner.",
+      "**Pâté** Keep covered at 4°C and use within two days of making or an earlier ingredient limit. Keep separate from potato; do not freeze this pâté as part of this recipe.",
+      "**Roe** Follow the jar's chilled-storage and opened-use instructions. Use a clean spoon and keep the reserve chilled.",
+      "**Partial batches and surplus** Untopped frozen squares can stay frozen for later rounds under the same handling plan. Fried topped squares are intended for immediate service; no leftover storage or reheating method is established for them."
      ]
     }
+   ],
+   "keepStepsFrom": [
+    "0.3"
    ]
   },
   {
@@ -1153,7 +1168,7 @@
        "name": "Daikon, peeled",
        "amount": "150 g",
        "extra": [],
-       "note": "Cut into 5 cm × 3 mm matchsticks"
+       "note": "Proposed. Cut into 5 cm × 3 mm matchsticks"
       },
       {
        "name": "Water, for brine",
@@ -1175,7 +1190,7 @@
        "name": "Kombu",
        "amount": "1 piece, about 5 × 3 cm",
        "extra": [],
-       "note": "same piece, half the water,"
+       "note": "same piece, half the water, proposed"
       },
       {
        "name": "Rice vinegar",
@@ -1223,33 +1238,38 @@
       {
        "name": "Kombu, for cooking",
        "amount": "1 piece, about 5 cm",
-       "extra": []
+       "extra": [],
+       "note": "Proposed"
       },
       {
        "name": "Rice vinegar",
        "amount": "17 ml",
-       "extra": []
+       "extra": [],
+       "note": "Proposed"
       },
       {
        "name": "Yuzu juice, 100%",
        "amount": "8 ml",
        "extra": [],
-       "note": "About a third of the acid Check for added salt or soy"
+       "note": "Proposed. About a third of the acid Check for added salt or soy"
       },
       {
        "name": "Sugar",
        "amount": "1 tbsp (15 ml)",
-       "extra": []
+       "extra": [],
+       "note": "Proposed"
       },
       {
        "name": "Fine salt",
        "amount": "3 g",
-       "extra": []
+       "extra": [],
+       "note": "Proposed"
       },
       {
        "name": "Fresh ginger, very finely minced",
        "amount": "5 g",
-       "extra": []
+       "extra": [],
+       "note": "Proposed"
       }
      ],
      "notes": []
@@ -1301,17 +1321,20 @@
       {
        "name": "Kombu, to steep in the tare",
        "amount": "1 piece, about 5 × 5 cm",
-       "extra": []
+       "extra": [],
+       "note": "Proposed"
       },
       {
        "name": "Yuzu kosho",
        "amount": "1.5 to 2 g",
-       "extra": []
+       "extra": [],
+       "note": "Proposed"
       },
       {
        "name": "Toasted sesame oil",
        "amount": "1 to 2 ml",
-       "extra": []
+       "extra": [],
+       "note": "Proposed"
       }
      ],
      "notes": []
@@ -1334,7 +1357,7 @@
        "name": "Fine salt, for cucumber",
        "amount": "About 0.5 g (a pinch)",
        "extra": [],
-       "note": "about 1%."
+       "note": "Proposed, about 1%."
       },
       {
        "name": "Japanese-style mayonnaise",
@@ -1346,7 +1369,7 @@
        "name": "Yuzu kosho, for the mayonnaise",
        "amount": "0.5 to 1 g",
        "extra": [],
-       "note": "Optional"
+       "note": "Optional; proposed"
       },
       {
        "name": "Yaki nori, plain",
@@ -1383,7 +1406,7 @@
    ],
    "method": [
     {
-     "heading": "Pickle (at least 3 hours ahead; the day before)",
+     "heading": "Pickle (at least 3 hours ahead; proposed: the day before)",
      "steps": [
       {
        "n": 1,
@@ -1445,12 +1468,12 @@
       {
        "n": 10,
        "title": "Make the tare",
-       "text": "Bring **15 ml mirin** and **15 ml sake** to the boil to cook off the alcohol. Cool, then stir in **30 ml tamari**, **1.5 to 2 g yuzu kosho** and **1 to 2 ml sesame oil**. Add **1 piece of kombu (about 5 × 5 cm)** and chill. Steep the kombu for at least 30 min, then remove it."
+       "text": "Bring **15 ml mirin** and **15 ml sake** to the boil to cook off the alcohol. Cool, then stir in **30 ml tamari**, **1.5 to 2 g yuzu kosho** and **1 to 2 ml sesame oil**. Add **1 piece of kombu (about 5 × 5 cm)** and chill. Proposed: steep the kombu for at least 30 min, then remove it."
       },
       {
        "n": 11,
        "title": "Cut",
-       "text": "On the raw-fish board, trim and cut **250 g salmon** into strips about **5 mm thick, 1 cm wide and 6 cm long**. You should get about 4 strips per roll."
+       "text": "On the raw-fish board, trim and cut **250 g salmon** into strips about **5 mm thick, 1 cm wide and 6 cm long** (proposed). You should get about 4 strips per roll."
       },
       {
        "n": 12,
@@ -2021,7 +2044,7 @@
       {
        "n": 1,
        "title": "Separate the meat, skin and bones",
-       "text": "From each of the **2 × 2.2 kg breast-on-breastbone crowns**, ease off the skin in one sheet where possible. With the crown steady, follow the breastbone and any attached ribs closely with the boning knife to lift off the breast halves. Check for stray cartilage or bone fragments. Remove any loose tenderloins and reserve them for another use. Weigh the trimmed breast meat for each roll separately and scale the amounts above. Keep the meat and skin covered and refrigerated. Reserve the **2 breastbone frames**, any attached ribs/cartilage and meaty bone trimmings for the stock and demi. These are breast frames without backs. Weigh them together separately from the trimmed breast meat, and keep any supplied giblets separate. The stock recipe adds a **2 kg whole chicken wings**; it no longer assumes two complete carcasses. Clean the poultry station before preparing other food."
+       "text": "From each of the **2 × 2.2 kg breast-on-breastbone crowns**, ease off the skin in one sheet where possible. With the crown steady, follow the breastbone and any attached ribs closely with the boning knife to lift off the breast halves. Check for stray cartilage or bone fragments. Remove any loose tenderloins and reserve them for another use. Weigh the trimmed breast meat for each roll separately and scale the amounts above. Keep the meat and skin covered and refrigerated. Reserve the **2 breastbone frames**, any attached ribs/cartilage and meaty bone trimmings for the stock and demi. These are breast frames without backs. Weigh them together separately from the trimmed breast meat, and keep any supplied giblets separate. The stock recipe adds a proposed **2 kg whole chicken wings**; it no longer assumes two complete carcasses. Clean the poultry station before preparing other food."
       }
      ],
      "notes": []
@@ -2309,7 +2332,7 @@
       {
        "n": 1,
        "title": "Brown the poultry parts",
-       "text": "Using the illustrative **3 kg combined stock-parts** batch, coat **2 kg whole chicken wings plus 1 kg turkey frames/trimmings with 30 ml oil**. For the actual batch, use **10 ml oil per kg of combined parts**. Spread in a single layer, using separate trays or batches as needed, and roast at a **230°C conventional / 210°C fan**, turning as they colour. Start checking after about **30 minutes**. The wings and turkey frames should develop golden patches. Check thin wing tips and pieces of breast frame individually, moving browned pieces off the tray if others need longer. The actual turkey frame weight must be measured before scaling this example."
+       "text": "Using the illustrative **3 kg combined stock-parts** batch, coat **2 kg whole chicken wings plus 1 kg turkey frames/trimmings with 30 ml oil**. For the actual batch, use **10 ml oil per kg of combined parts**. Spread in a single layer, using separate trays or batches as needed, and roast at a proposed **230°C conventional / 210°C fan**, turning as they colour. Start checking after about **30 minutes**. The wings and turkey frames should develop golden patches. Check thin wing tips and pieces of breast frame individually, moving browned pieces off the tray if others need longer. The actual turkey frame weight must be measured before scaling this example."
       },
       {
        "n": 2,
@@ -2708,7 +2731,7 @@
    "makes": "1.25 kg deseeded pumpkin",
    "revision": "0.4",
    "batch": [
-    "**Batch:** 1.25 kg deseeded Hokkaido pumpkin, skin on, with toppings below. This is the rev 0.3 1 kg reference batch × 1.25, with rounded spoon and weight amounts. **Finished yield and per-plate weight: TBD.** Eight guests are confirmed overall. Roasting shrinks the pumpkin, so the planning yardstick is about 100 g cooked pumpkin per head plus onion and toppings; neither that yardstick nor the 1.25× margin is a measured yield. The earlier draft's ten small portions were an allowance, not a measured yield."
+    "**Batch:** 1.25 kg deseeded Hokkaido pumpkin, skin on, with toppings below. This is the 1 kg reference batch × 1.25, with rounded spoon and weight amounts. **Finished yield and per-plate weight: TBD.** Eight guests are confirmed overall. Roasting shrinks the pumpkin, so the planning yardstick is about 100 g cooked pumpkin per head plus onion and toppings; neither that yardstick nor the 1.25× margin is a measured yield. The earlier draft's ten small portions were an allowance, not a measured yield."
    ],
    "setup": [
     {
@@ -2849,7 +2872,7 @@
       },
       {
        "name": "Fresh chervil leaves and tender tips",
-       "amount": "4 g, starting quantity",
+       "amount": "4 g, proposed starting quantity",
        "extra": []
       }
      ],
@@ -2901,7 +2924,7 @@
     {
      "heading": "",
      "items": [
-      "Quality preference: cook the onion separately ahead; roast the pumpkin on the service day if oven capacity permits. This is not an agreed task schedule. Chilling and reheating can soften the browned edges; performance is untested.",
+      "Proposed quality preference: cook the onion separately ahead; roast the pumpkin on the service day if oven capacity permits. This is not an agreed task schedule. Chilling and reheating can soften the browned edges; performance is untested.",
       "Cool cooked pumpkin and onion promptly in separate shallow containers; refrigerate within **2 hours**, covered at **4°C**, and use within **2 days**. Follow any shorter ingredient instructions.",
       "If reheating, heat only the amount needed until steaming throughout, handling wedges gently. Reheat once only and discard reheated leftovers. Reheating temperature/duration and oven overlap remain TBD; no crispy-edge guarantee is made.",
       "Keep **yogurt and chervil** separate and refrigerated until finishing; follow pack instructions. Add toasted seeds and chervil only after reheating. No freezing or prolonged warm-holding route is specified."
@@ -2925,10 +2948,10 @@
     {
      "heading": "",
      "items": [
-      "Use a conventional oven at **177°C**, lower-middle shelf, a 23 cm springform, roasting tin large enough to surround it, heavy-duty foil, rack, mixer/paddle, scales and kettle. Check water-bath/tin fit before mixing.",
+      "Use a conventional oven at **177°C** (350°F; fan adjustment unverified), lower-middle shelf, a 23 cm springform, roasting tin large enough to surround it, heavy-duty foil, rack, mixer/paddle, scales and kettle. Check water-bath/tin fit before mixing.",
       "Set out the filling ingredients below at room temperature for smooth mixing. Use **904 g Philadelphia cream cheese**, the confirmed brand. Choose plain **Original**, not Light or whipped, as the working full-fat product recommendation. US block cheese is Sally’s tested format; her non-US note allows that local tub cheese may work, but reports reader experience rather than her own testing. Check the actual pack variant and label; do not alter the filling merely because it comes in a Dutch tub.",
       "Grind **200 g gluten-free digestives** finely. Have **85 g melted unsalted butter**, **67 g base sugar** and a flat-bottomed cup ready. Use GF-labelled biscuits; taste them first for chalkiness. Keep ordinary biscuit crumbs away from this station.",
-      "At the pass: chilled cake, chilled the cheesecake, dry the cheesecake, **1 washed orange**, zester, sharp knife, warm water for the knife, clean cloth and eight plates."
+      "At the pass: chilled cake, chilled compote, dry pistachio shards, **1 washed orange**, zester, sharp knife, warm water for the knife, clean cloth and eight plates."
      ]
     }
    ],
@@ -3025,12 +3048,12 @@
      },
      "rows": [
       {
-       "name": "Cranberry–orange compote, the cheesecake",
-       "amount": "20 g per plate, 200 g for 10 garnished portions: 160 g for eight dinner plates + 40 g for two spares",
+       "name": "Cranberry–orange compote",
+       "amount": "Proposed 20 g per plate, 200 g for 10 garnished portions: 160 g for eight dinner plates + 40 g for two spares",
        "extra": []
       },
       {
-       "name": "Pistachio shards, the cheesecake",
+       "name": "Pistachio shards",
        "amount": "1 small thin shard per plate; 10 intact shards: eight for dinner + two spares, weight TBD",
        "extra": []
       },
@@ -3083,7 +3106,7 @@
       {
        "n": 7,
        "title": "Assemble the cheesecake",
-       "text": "For each of eight plates, place **1 slim slice**, spoon **20 g cold the cheesecake compote** towards the broad end, leaving the point and cut face visible, and finish with a little zest from **1 washed orange available**. Add **1 small the cheesecake shard** last, at the dry edge of the slice rather than submerged in compote. Taste the first plate before repeating the zest. Reserve **40 g compote and 2 shards** for two garnished spare portions, keeping sauce chilled and shards dry. Keep additional cake plain and refrigerated. The smaller compote batch is not intended to top every possible leftover slice."
+       "text": "For each of eight plates, place **1 slim slice**, spoon **20 g cold compote** towards the broad end, leaving the point and cut face visible, and finish with a little zest from **1 washed orange available**. Add **1 small pistachio shard** last, at the dry edge of the slice rather than submerged in compote. Taste the first plate before repeating the zest. Reserve **40 g compote and 2 shards** for two garnished spare portions, keeping sauce chilled and shards dry. Keep additional cake plain and refrigerated. The smaller compote batch is not intended to top every possible leftover slice."
       }
      ],
      "notes": []
@@ -3108,7 +3131,7 @@
    "makes": "Half batch, 10 garnished portions",
    "revision": "0.2",
    "batch": [
-    "**Batch:** **half** the original source batch, to provide **10 garnished portions** alongside the full-size 23 cm cake. Additional cake is deliberately left plain; this batch does not promise to top every leftover slice. Actual finished mass/volume is **unmeasured**; the source half-yield is 1 US cup, not a gram conversion. Allocation **20 g per portion = 200 g**, including **160 g for eight dinner plates + 40 g for two spares**. Measure the cold batch before portioning."
+    "**Batch:** **half** the original source batch, to provide **10 garnished portions** alongside the full-size 23 cm cake. Additional cake is deliberately left plain; this batch does not promise to top every leftover slice. Actual finished mass/volume is **unmeasured**; the source half-yield is 1 US cup, not a gram conversion. Proposed allocation **20 g per portion = 200 g**, including **160 g for eight dinner plates + 40 g for two spares**. Measure the cold batch before portioning."
    ],
    "setup": [
     {
@@ -3180,7 +3203,7 @@
       {
        "n": 4,
        "title": "Cool and measure",
-       "text": "Transfer to a shallow container, cool promptly with a cold-water bath if useful, and refrigerate within **2 hours**. Once cold, weigh the compote and record yield. Stir gently before using. Reserve **200 g for 10 20 g servings**, with **160 g for eight dinner plates + 40 g for two spares**; keep the remainder separate and chilled. If too firm for the intended plate, revise consistency before adopting as a master rather than assuming a finished yield."
+       "text": "Transfer to a shallow container, cool promptly with a cold-water bath if useful, and refrigerate within **2 hours**. Once cold, weigh the compote and record yield. Stir gently before using. Reserve **200 g for 10 proposed 20 g servings**, with **160 g for eight dinner plates + 40 g for two spares**; keep the remainder separate and chilled. If too firm for the intended plate, revise consistency before adopting as a master rather than assuming a finished yield."
       },
       {
        "n": 5,
@@ -3217,7 +3240,7 @@
      "items": [
       "Set out a medium heavy, light-coloured frying pan; a large rimmed baking tray; **two sheets of baking parchment**; heatproof spatula; short rolling pin that fits inside the tray rim; oven gloves; dry airtight container. Ensure the parchment/tray can tolerate the chosen low oven setting. Clear a stable heatproof work surface.",
       "Chop **50 g plain shelled pistachios** into small pieces, not powder. Measure **100 g caster sugar** and **0.5 g fine salt** (a scale capable of this amount is needed). Do not use salted nuts plus this full salt quantity without revising the formula.",
-      "Warm the parchment-lined tray and **50 g chopped pistachios** in a low conventional oven, **100°C**, while setting up. Keep nuts warm, not browning. Remove with oven gloves only when ready to pour. Lay out the second parchment sheet and rolling pin first. All equipment must be dry."
+      "Warm the parchment-lined tray and **50 g chopped pistachios** in a low conventional oven, proposed **100°C**, while setting up. Keep nuts warm, not browning. Remove with oven gloves only when ready to pour. Lay out the second parchment sheet and rolling pin first. All equipment must be dry."
      ]
     }
    ],
