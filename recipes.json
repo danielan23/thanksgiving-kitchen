@@ -3580,11 +3580,6 @@
     "move": false
    },
    {
-    "date": "2026-11-25",
-    "label": "Wed 25",
-    "move": true
-   },
-   {
     "date": "2026-11-26",
     "label": "Thu 26",
     "move": true
@@ -3612,7 +3607,7 @@
     "ws": "2026-11-22",
     "we": "2026-11-22",
     "priority": "A",
-    "status": "proposed",
+    "status": "done",
     "note": "45 min elapsed (estimate): cold start, simmer 10–15 min, steam off 15–20 min, then fridge for at least 6 h before “grate, bind, bake and press slab overnight”. If it cannot happen today, re-plan: the whole rösti can move to Thursday (parboil and bake) and Friday (cut and freeze); Monday to Wednesday cannot hold the day-2 cut.",
     "deps": []
    },
@@ -3627,7 +3622,7 @@
     "ws": "2026-11-22",
     "we": "2026-11-22",
     "priority": "A",
-    "status": "proposed",
+    "status": "done",
     "note": "45–60 min (estimate). Weigh each crown’s trimmed breast separately (scales the stuffing) and the frames (scales the stock). Clean the poultry station afterwards.",
     "deps": [
      "T-007"
@@ -3644,7 +3639,7 @@
     "ws": "2026-11-22",
     "we": "2026-11-22",
     "priority": "A",
-    "status": "proposed",
+    "status": "done",
     "note": "45 min (estimate) while the stock parts roast. Spread in a shallow dish to chill.",
     "deps": [
      "T-028"
@@ -3661,27 +3656,10 @@
     "ws": "2026-11-22",
     "we": "2026-11-22",
     "priority": "A",
-    "status": "proposed",
+    "status": "done",
     "note": "Oven 230°C conventional / 210°C fan. Recipe cue: check after about 30 min, add vegetables, check after another 15 min, continue until deep golden; 60 min is an allowance.",
     "deps": [
      "T-028"
-    ]
-   },
-   {
-    "id": "T-065",
-    "date": "2026-11-22",
-    "start": "11:30",
-    "mins": 110,
-    "title": "Blini: mix sponge, rest, add yolk mixture, rest, fold in white",
-    "recipe": "rcp-002",
-    "owner": "Daniela",
-    "ws": "2026-11-22",
-    "we": "2026-11-26",
-    "priority": "B",
-    "status": "proposed",
-    "note": "Recipe rests 30–60 min, then 30–45 min; active work about 15 min. Can slip to Wednesday night or Thursday (plain blini freeze for up to a month).",
-    "deps": [
-     "T-007"
     ]
    },
    {
@@ -3695,27 +3673,10 @@
     "ws": "2026-11-22",
     "we": "2026-11-22",
     "priority": "A",
-    "status": "proposed",
+    "status": "done",
     "note": "Until fully cold; no fixed time. Must be cold before “assemble and tie two raw rolls”.",
     "deps": [
      "T-029"
-    ]
-   },
-   {
-    "id": "T-016",
-    "date": "2026-11-22",
-    "start": "12:15",
-    "mins": 30,
-    "title": "Soup: set up and prepare ingredients",
-    "recipe": "rcp-012",
-    "owner": "Daniela",
-    "ws": "2026-11-22",
-    "we": "2026-11-26",
-    "priority": "B",
-    "status": "proposed",
-    "note": "If not made today, make on Thursday and refrigerate (2-day fridge limit covers Saturday); then skip “thaw reserved service base in fridge”.",
-    "deps": [
-     "T-007"
     ]
    },
    {
@@ -3729,44 +3690,10 @@
     "ws": "2026-11-22",
     "we": "2026-11-22",
     "priority": "A",
-    "status": "proposed",
+    "status": "done",
     "note": "Instant Pot route confirmed: 90 min at high pressure with natural release (recipe reference), plus release and straining; 135 min is an allowance. Frees a hob burner.",
     "deps": [
      "T-037"
-    ]
-   },
-   {
-    "id": "T-017",
-    "date": "2026-11-22",
-    "start": "12:45",
-    "mins": 25,
-    "title": "Soup: soften aromatics and lightly colour roots",
-    "recipe": "rcp-012",
-    "owner": "Daniela",
-    "ws": "2026-11-22",
-    "we": "2026-11-26",
-    "priority": "B",
-    "status": "proposed",
-    "note": "Follows “set up and prepare ingredients”.",
-    "deps": [
-     "T-016"
-    ]
-   },
-   {
-    "id": "T-018",
-    "date": "2026-11-22",
-    "start": "13:10",
-    "mins": 40,
-    "title": "Soup: bring to simmer and cook until tender",
-    "recipe": "rcp-012",
-    "owner": "Daniela",
-    "ws": "2026-11-22",
-    "we": "2026-11-26",
-    "priority": "B",
-    "status": "proposed",
-    "note": "Follows “soften aromatics and lightly colour roots”.",
-    "deps": [
-     "T-017"
     ]
    },
    {
@@ -3780,44 +3707,10 @@
     "ws": "2026-11-22",
     "we": "2026-11-26",
     "priority": "B",
-    "status": "proposed",
+    "status": "done",
     "note": "45 min (estimate) for about 22–28 minis in batches.",
     "deps": [
      "T-065"
-    ]
-   },
-   {
-    "id": "T-019",
-    "date": "2026-11-22",
-    "start": "13:50",
-    "mins": 15,
-    "title": "Soup: blend and portion base",
-    "recipe": "rcp-012",
-    "owner": "Daniela",
-    "ws": "2026-11-22",
-    "we": "2026-11-26",
-    "priority": "B",
-    "status": "proposed",
-    "note": "Follows “bring to simmer and cook until tender”. Portion the service amount separately from leftovers.",
-    "deps": [
-     "T-018"
-    ]
-   },
-   {
-    "id": "T-020",
-    "date": "2026-11-22",
-    "start": "14:05",
-    "mins": 0,
-    "title": "Soup: cool and store base",
-    "recipe": "rcp-012",
-    "owner": "Daniela",
-    "ws": "2026-11-22",
-    "we": "2026-11-26",
-    "priority": "B",
-    "status": "proposed",
-    "note": "Cool in shallow containers and freeze within 2 h (before adding milk and lemon). Thursday route: refrigerate instead.",
-    "deps": [
-     "T-019"
     ]
    },
    {
@@ -3831,7 +3724,7 @@
     "ws": "2026-11-22",
     "we": "2026-11-22",
     "priority": "A",
-    "status": "proposed",
+    "status": "done",
     "note": "Allowance raised to 45 min (estimate) for butterflying, filling, rolling and tying two rolls. Record each roll’s weight, widest diameter and trimmed breast weight: Saturday’s oven timing depends on them.",
     "deps": [
      "T-028",
@@ -3849,26 +3742,11 @@
     "ws": "2026-11-22",
     "we": "2026-11-22",
     "priority": "A",
-    "status": "proposed",
+    "status": "done",
     "note": "15 min (estimate). Label with weight, diameter and skin-seasoning amounts; freeze promptly, rolls separate.",
     "deps": [
      "T-031"
     ]
-   },
-   {
-    "id": "T-067",
-    "date": "2026-11-22",
-    "start": "15:15",
-    "mins": 45,
-    "title": "Brittle: warm nuts, caramelise, spread, cool and store airtight",
-    "recipe": "rcp-001",
-    "owner": "Daniela",
-    "ws": "2026-11-22",
-    "we": "2026-11-27",
-    "priority": "B",
-    "status": "proposed",
-    "note": "45 min active (estimate), then at least 1 h cooling (source). Oven is free between the stock roast and the rösti bake. Keeps airtight for weeks, so it can move to Wednesday night or Thursday.",
-    "deps": []
    },
    {
     "id": "T-039",
@@ -3881,7 +3759,7 @@
     "ws": "2026-11-22",
     "we": "2026-11-22",
     "priority": "A",
-    "status": "proposed",
+    "status": "done",
     "note": "Reduce until it lightly coats a spoon; endpoint, not clock. 60 min allowance (estimate).",
     "deps": [
      "T-038"
@@ -3898,7 +3776,7 @@
     "ws": "2026-11-22",
     "we": "2026-11-22",
     "priority": "A",
-    "status": "proposed",
+    "status": "done",
     "note": "Ice bath, portion (250–500 ml containers), label, freeze within 2 h.",
     "deps": [
      "T-038",
@@ -3916,7 +3794,7 @@
     "ws": "2026-11-22",
     "we": "2026-11-22",
     "priority": "A",
-    "status": "proposed",
+    "status": "done",
     "note": "Grate and bind about 25 min (estimate); bake 200°C conventional / 180°C fan about 35 min covered plus 15–20 min uncovered (recipe, predicted); stand 10 min; press with 1.3 kg weights and chill overnight, at least 8 h. If it cannot happen today, re-plan the whole rösti onto Thursday and Friday; the pressed slab cannot wait past Monday.",
     "deps": [
      "T-043"
@@ -3933,7 +3811,7 @@
     "ws": "2026-11-23",
     "we": "2026-11-23",
     "priority": "A",
-    "status": "proposed",
+    "status": "done",
     "note": "Moved to Monday morning before work, because Monday evening is unavailable. Cut and tray-freeze only (25 min, estimate); offcut test-fry moves to “fry two frozen offcuts to test (also tests the mini fryer)” and packing to “pack frozen squares in layers, label”. The pressed slab cannot wait until Wednesday (2-day limit for cooked potato).",
     "deps": [
      "T-044"
@@ -3950,72 +3828,40 @@
     "ws": "2026-11-23",
     "we": "2026-11-23",
     "priority": "A",
-    "status": "proposed",
+    "status": "done",
     "note": "Five minutes once home; keep frozen until Saturday.",
     "deps": [
      "T-045"
     ]
    },
    {
-    "id": "T-069",
-    "date": "2026-11-25",
-    "start": "19:00",
-    "mins": 20,
-    "title": "Rösti squares: fry two frozen offcuts to test (also tests the mini fryer)",
-    "recipe": "rcp-003",
-    "owner": "Daniela",
-    "ws": "2026-11-25",
-    "we": "2026-11-26",
-    "priority": "B",
-    "status": "proposed",
-    "note": "If the offcuts split, switch Saturday to the recipe’s oven fallback. Note the oil depth and how many squares fit per batch.",
-    "deps": [
-     "T-045"
-    ]
-   },
-   {
-    "id": "T-070",
-    "date": "2026-11-25",
-    "start": "19:20",
-    "mins": 25,
-    "title": "Hand roll: make the amazu pickling liquid (kombu dashi, sugar, salt, vinegar, chilli) and chill",
-    "recipe": "rcp-004",
-    "owner": "Daniela",
-    "ws": "2026-11-25",
-    "we": "2026-11-27",
-    "priority": "B",
-    "status": "proposed",
-    "note": "Method steps 1–2 only. The source keeps amazu about six months chilled, so it can be made ahead; the daikon is pickled on Friday (“roast the wedges, cool and refrigerate for reheating”).",
-    "deps": []
-   },
-   {
     "id": "T-071",
-    "date": "2026-11-25",
-    "start": "19:45",
+    "date": "2026-11-26",
+    "start": "08:30",
     "mins": 30,
     "title": "Choose the pescatarian main and add its recipe and tasks",
     "recipe": "",
     "owner": "Daniela",
-    "ws": "2026-11-22",
-    "we": "2026-11-25",
+    "ws": "2026-11-26",
+    "we": "2026-11-26",
     "priority": "A",
     "status": "proposed",
-    "note": "Needed before the Thursday shop and Friday fish purchase. Options proposed in chat on 22 November.",
+    "note": "Overdue from Wednesday. Choose it before the 09:30 shop so the list covers it, and no later than Friday midday so the fish can be collected at 17:00. This is the only dish still undecided; options were proposed in chat on 22 November.",
     "deps": []
    },
    {
     "id": "T-072",
-    "date": "2026-11-25",
-    "start": "20:15",
+    "date": "2026-11-26",
+    "start": "09:00",
     "mins": 20,
     "title": "Check Thursday shopping list against the master list and fridge/freezer space for Friday thawing",
     "recipe": "",
     "owner": "Daniela",
-    "ws": "2026-11-25",
+    "ws": "2026-11-26",
     "we": "2026-11-26",
     "priority": "B",
     "status": "proposed",
-    "note": "Space needed from Friday: two turkey rolls on a tray, demi base, soup base, cheesecake.",
+    "note": "Do this before the shop. Space needed: Thursday, the soup base in the freezer; from Friday, two turkey rolls on a tray, demi base and cheesecake.",
     "deps": []
    },
    {
@@ -4030,32 +3876,186 @@
     "we": "2026-11-26",
     "priority": "A",
     "status": "proposed",
-    "note": "90 min (estimate). Raw-eating salmon and the fish main are bought by Friday (“make the tare, steep the kombu at least 30 min, remove it, chill”).",
+    "note": "90 min (estimate). Look for a ready-made smoked-trout pâté (if you find one, skip making it on Friday). Gluten labels first: wasabi furikake, tamari, prepared horseradish, vegetable stock, the GF plain blend for blini, GF-only frying oil for the rösti test. Also ground almonds and light brown sugar for the cheesecake base, and anything the main needs. Raw-eating salmon and the fish main are collected on Friday.",
     "deps": [
+     "T-071",
      "T-072"
     ]
    },
    {
+    "id": "T-016",
+    "date": "2026-11-26",
+    "start": "11:15",
+    "mins": 30,
+    "title": "Soup: set up and prepare ingredients",
+    "recipe": "rcp-012",
+    "owner": "Daniela",
+    "ws": "2026-11-26",
+    "we": "2026-11-26",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Thursday, after the shop. The soup was meant for Sunday. Soften the shallots first and add the garlic towards the end (audit suggestion).",
+    "deps": [
+     "T-007",
+     "T-073"
+    ]
+   },
+   {
+    "id": "T-017",
+    "date": "2026-11-26",
+    "start": "11:45",
+    "mins": 25,
+    "title": "Soup: soften aromatics and lightly colour roots",
+    "recipe": "rcp-012",
+    "owner": "Daniela",
+    "ws": "2026-11-26",
+    "we": "2026-11-26",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Follows setting up. Move on once the roots soften at the edges.",
+    "deps": [
+     "T-016"
+    ]
+   },
+   {
+    "id": "T-018",
+    "date": "2026-11-26",
+    "start": "12:10",
+    "mins": 40,
+    "title": "Soup: bring to simmer and cook until tender",
+    "recipe": "rcp-012",
+    "owner": "Daniela",
+    "ws": "2026-11-26",
+    "we": "2026-11-26",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Follows softening. Tenderness governs. The rösti test and the amazu liquid fit in this simmer.",
+    "deps": [
+     "T-017"
+    ]
+   },
+   {
+    "id": "T-069",
+    "date": "2026-11-26",
+    "start": "12:10",
+    "mins": 20,
+    "title": "Rösti squares: fry two frozen offcuts to test (also tests the mini fryer)",
+    "recipe": "rcp-003",
+    "owner": "Daniela",
+    "ws": "2026-11-26",
+    "we": "2026-11-26",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Thursday, during the soup simmer, once the GF-only frying oil is bought. If the offcuts split, switch Saturday to the recipe’s oven fallback. Note the oil depth and how many squares fit per batch.",
+    "deps": [
+     "T-045",
+     "T-073"
+    ]
+   },
+   {
+    "id": "T-070",
+    "date": "2026-11-26",
+    "start": "12:35",
+    "mins": 25,
+    "title": "Hand roll: make the amazu pickling liquid (kombu dashi, sugar, salt, vinegar, chilli) and chill",
+    "recipe": "rcp-004",
+    "owner": "Daniela",
+    "ws": "2026-11-26",
+    "we": "2026-11-27",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Thursday, during the soup simmer. Method steps 1–2 only. Lift the kombu out before measuring the 90 ml dashi (audit suggestion). The source keeps amazu about six months chilled; the daikon is pickled on Friday.",
+    "deps": [
+     "T-073"
+    ]
+   },
+   {
+    "id": "T-019",
+    "date": "2026-11-26",
+    "start": "12:50",
+    "mins": 15,
+    "title": "Soup: blend and portion base",
+    "recipe": "rcp-012",
+    "owner": "Daniela",
+    "ws": "2026-11-26",
+    "we": "2026-11-26",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Follows the simmer. Measure the blended base, then portion the dinner share separately from leftovers.",
+    "deps": [
+     "T-018"
+    ]
+   },
+   {
+    "id": "T-020",
+    "date": "2026-11-26",
+    "start": "13:05",
+    "mins": 0,
+    "title": "Soup: cool and store base",
+    "recipe": "rcp-012",
+    "owner": "Daniela",
+    "ws": "2026-11-26",
+    "we": "2026-11-26",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Cool in shallow containers and freeze within 2 h, before adding milk and lemon. Frozen is the plan because refrigerated from Thursday afternoon it would be about 53 h by Saturday service, over your 48-hour reading. It needs freezer space: tell me before you start if the freezer is too full.",
+    "deps": [
+     "T-019"
+    ]
+   },
+   {
+    "id": "T-067",
+    "date": "2026-11-26",
+    "start": "13:15",
+    "mins": 45,
+    "title": "Brittle: warm nuts, caramelise, spread, cool and store airtight",
+    "recipe": "rcp-001",
+    "owner": "Daniela",
+    "ws": "2026-11-26",
+    "we": "2026-11-27",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Thursday after the soup is in the freezer. 45 min active (estimate), then at least 1 h cooling (source). Keeps airtight for weeks. Go lighter on the finishing salt, since the cheddar is salty (audit suggestion).",
+    "deps": []
+   },
+   {
     "id": "T-021",
     "date": "2026-11-26",
-    "start": "14:30",
+    "start": "14:05",
     "mins": 30,
     "title": "Soup: make and strain parsley oil",
     "recipe": "rcp-012",
     "owner": "Daniela",
-    "ws": "2026-11-25",
+    "ws": "2026-11-26",
     "we": "2026-11-27",
     "priority": "C",
     "status": "proposed",
-    "note": "Use within 3 days. If dropped, serve the soup with fried sage only.",
+    "note": "Thursday afternoon, after the brittle. After the 30-second blanch, shock the parsley in iced water and squeeze it bone-dry, blend 1–2 minutes and strain without pressing. Use within 3 days; Saturday service is about 54 h. If dropped, serve the soup with fried sage only.",
     "deps": [
      "T-009"
     ]
    },
    {
+    "id": "T-065",
+    "date": "2026-11-26",
+    "start": "14:40",
+    "mins": 110,
+    "title": "Blini: mix sponge, rest, add yolk mixture, rest, fold in white",
+    "recipe": "rcp-002",
+    "owner": "Daniela",
+    "ws": "2026-11-26",
+    "we": "2026-11-26",
+    "priority": "B",
+    "status": "proposed",
+    "note": "If the blini you froze tonight passed the one-blini test, tick this and skip it. If not, tell me before you start and I will add a cook step (that one is already ticked). Recipe rests 30–60 min, then 30–45 min; active work about 15 min.",
+    "deps": [
+     "T-007"
+    ]
+   },
+   {
     "id": "T-074",
     "date": "2026-11-26",
-    "start": "15:30",
+    "start": "16:30",
     "mins": 45,
     "title": "Write Saturday plating list, label serving dishes and brief the helper",
     "recipe": "",
@@ -4064,7 +4064,7 @@
     "we": "2026-11-27",
     "priority": "B",
     "status": "proposed",
-    "note": "Helper tasks: Gilda, brittle and cheddar, blini topping, passing, fanning rice, putting turkey in on cue, dessert plating, clearing.",
+    "note": "Moved to Thursday afternoon to take it off Friday. Helper tasks: Gilda, brittle and cheddar, blini topping, passing, fanning rice, putting turkey in on cue, dessert plating, clearing.",
     "deps": []
    },
    {
@@ -4099,23 +4099,6 @@
     "note": "Move the demi base and reserved stock to the fridge (about 24 h for small portions).",
     "deps": [
      "T-040"
-    ]
-   },
-   {
-    "id": "T-022",
-    "date": "2026-11-27",
-    "start": "08:10",
-    "mins": 5,
-    "title": "Soup: thaw reserved service base in fridge",
-    "recipe": "rcp-012",
-    "owner": "Daniela",
-    "ws": "2026-11-27",
-    "we": "2026-11-27",
-    "priority": "A",
-    "status": "proposed",
-    "note": "Only if the soup base was frozen on Sunday.",
-    "deps": [
-     "T-020"
     ]
    },
    {
@@ -4345,9 +4328,26 @@
     "we": "2026-11-27",
     "priority": "A",
     "status": "proposed",
-    "note": "Time to suit the supplier. Raw-fish safety depends on the supplier; ask how it should be stored until Saturday.",
+    "note": "Time to suit the supplier. Needs the main chosen on Thursday morning. Raw-fish safety depends on the supplier; ask how it should be stored until Saturday.",
     "deps": [
      "T-071"
+    ]
+   },
+   {
+    "id": "T-022",
+    "date": "2026-11-27",
+    "start": "18:00",
+    "mins": 5,
+    "title": "Soup: thaw reserved service base in fridge",
+    "recipe": "rcp-012",
+    "owner": "Daniela",
+    "ws": "2026-11-27",
+    "we": "2026-11-27",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Friday evening, not morning: the base is only frozen on Thursday afternoon and needs the night to thaw. Shallow container in the fridge. Confirm it is fully thawed when you set out the station on Saturday; if it is still icy, tell me and we re-plan.",
+    "deps": [
+     "T-020"
     ]
    },
    {
