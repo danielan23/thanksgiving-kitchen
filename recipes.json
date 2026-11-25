@@ -454,7 +454,7 @@
    "title": "Pressed rösti squares",
    "subtitle": "Trout pâté and salmon roe",
    "makes": "Up to 36 squares from batch B, 25 from batch A (targets)",
-   "revision": "0.4",
+   "revision": "0.5",
    "batch": [
     "**For Daniela's current batch, use column B throughout the potato steps.** It uses all **1,056 g grated, par-cooked potato** in the available **23 × 23 × 5 cm tin**. Potato preparation is already complete, so start at step 4 if the potato is cold and grated. Do not add binder or butter again if already incorporated. Column A retains the banked 750 g reference batch.",
     "**Internal tin base** A, reference batch: 20 × 20 cm, at least 3 cm deep; B, current measured batch: 23 × 23 cm, 5 cm deep",
@@ -846,9 +846,84 @@
      ]
     }
    ],
-   "keepStepsFrom": [
-    "0.3"
-   ]
+   "carry": {
+    "0.4": {
+     "steps": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "17": 17,
+      "18": 18,
+      "19": 19,
+      "20": 20,
+      "21": 21,
+      "22": 22,
+      "23": 23
+     },
+     "ing": {
+      "0.0": "0.0",
+      "0.1": "0.1",
+      "0.2": "0.2",
+      "0.3": "0.3",
+      "0.4": "0.4",
+      "0.5": "0.5",
+      "0.6": "0.6",
+      "1.0": "1.0",
+      "1.1": "1.1",
+      "1.2": "1.2",
+      "1.3": "1.3",
+      "1.4": "1.4",
+      "1.5": "1.5",
+      "1.6": "1.6",
+      "1.7": "1.7",
+      "2.0": "2.0",
+      "2.1": "2.1",
+      "3.0": "3.0",
+      "3.1": "3.1"
+     }
+    },
+    "0.3": {
+     "steps": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "17": 17,
+      "18": 18,
+      "19": 19,
+      "20": 20,
+      "21": 21,
+      "22": 22,
+      "23": 23
+     },
+     "ing": {}
+    }
+   }
   },
   {
    "id": "rcp-017",
@@ -972,7 +1047,7 @@
    "title": "Kimchi devilled eggs",
    "subtitle": "",
    "makes": "8 eggs, 16 filled halves",
-   "revision": "0.3",
+   "revision": "0.5",
    "batch": [
     "**Batch:** 8 eggs, making 16 filled halves, which is 2 per guest for eight guests with no spares. Eight guests are confirmed; the final serving count remains TBD."
    ],
@@ -983,7 +1058,7 @@
       "Set out a saucepan that holds **8 large eggs** in one layer, an ice-water bowl, slotted spoon, knife, board, fine sieve, mini processor, spatula and piping bag with a broad plain nozzle.",
       "Set out shallow covered containers for whites and filling. Clear space in the fridge at **4°C**.",
       "Drain the kimchi, reserving **13 ml brine**. Weigh **55 g drained kimchi**, then chop finely. Divide **15 g for tasting/adjustment and 40 g for the topping**. Keep the tasting portion separate from the garnish.",
-      "Check the actual kimchi, mayonnaise and gochujang labels for coeliac suitability. Use bought mayonnaise. Kimchi flavour and heat vary, so season the filling with the actual garnish."
+      "Check the actual kimchi, mayonnaise and gochujang labels for coeliac suitability; Daniela has a gluten-free gochujang paste. Use bought mayonnaise. Kimchi flavour and heat vary, so season the filling with the actual garnish."
      ]
     }
    ],
@@ -1018,7 +1093,7 @@
        "extra": []
       },
       {
-       "name": "Gochujang",
+       "name": "Gluten-free gochujang (chilli paste)",
        "amount": "13 g available, 7 g initially + up to 6 g adjustment",
        "extra": []
       },
@@ -1127,7 +1202,27 @@
       "Label containers with the preparation date and follow the kimchi/mayonnaise pack's opened-use instructions. Prepared components keep their original preparation limit after assembly."
      ]
     }
-   ]
+   ],
+   "carry": {
+    "0.3": {
+     "steps": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5
+     },
+     "ing": {
+      "0.0": "0.0",
+      "1.0": "1.0",
+      "1.2": "1.2",
+      "2.0": "2.0",
+      "3.0": "3.0",
+      "4.0": "4.0",
+      "4.1": "4.1"
+     }
+    }
+   }
   },
   {
    "id": "rcp-004",
@@ -1136,10 +1231,10 @@
    "title": "Salmon hand roll",
    "subtitle": "Yuzu rice, yuzu-daikon pickle, wasabi furikake",
    "makes": "10 hand rolls (working batch)",
-   "revision": "0.3",
+   "revision": "0.4",
    "batch": [
     "**Working batch: 10 open hand rolls**, for 8 confirmed guests plus 2 spares or tests. Final count TBD.",
-    "**Per roll (working amounts):** 15 g yuzu rice, 25 g zuke salmon, 5 g salted cucumber, 4 g yuzu-daikon pickle, 2 g yuzu-kosho mayonnaise (optional), 0.5 g wasabi, 1 g wasabi furikake, 1 nori sheet (size TBD: half or quarter sheet to suit the holder).",
+    "**Per roll (working amounts):** 20 g yuzu rice, 25 g zuke salmon, 5 g salted cucumber, 4 g yuzu-daikon pickle, 2 g yuzu-kosho mayonnaise (optional), 0.5 g wasabi, 1 g wasabi furikake, ½ nori sheet.",
     "The rice and pickle batches make more than 10 rolls need, so you can taste and adjust. Weigh and record the cooked rice and drained pickle."
    ],
    "setup": [
@@ -1222,7 +1317,7 @@
      "notes": []
     },
     {
-     "heading": "B. Yuzu-ginger sushi rice (1 go makes about 330 g cooked; 150 g needed)",
+     "heading": "B. Yuzu-ginger sushi rice (1 go makes about 330 g cooked; 200 g needed)",
      "group": "",
      "labels": {
       "amount": "Amount",
@@ -1373,8 +1468,9 @@
       },
       {
        "name": "Yaki nori, plain",
-       "amount": "10 sheets",
-       "extra": []
+       "amount": "5 sheets, each cut in half to make 10 half sheets",
+       "extra": [],
+       "note": "One half sheet per roll"
       },
       {
        "name": "Wasabi paste",
@@ -1520,12 +1616,12 @@
       {
        "n": 18,
        "title": "",
-       "text": "Lay **1 nori sheet** on each holder. For the prototype, test **1 lettuce strip** on some sheets."
+       "text": "Lay **1 half sheet of nori** on each holder. For the prototype, test **1 lettuce strip** on some sheets."
       },
       {
        "n": 19,
        "title": "",
-       "text": "Place **15 g rice** in a narrow strip along one side of the sheet, not spread across it."
+       "text": "Place **20 g rice** in a narrow strip along one side of the sheet, not spread across it."
       },
       {
        "n": 20,
@@ -1539,7 +1635,7 @@
       }
      ],
      "notes": [
-      "**Totals for 10 rolls:** rice 15 g × 10 = 150 g, from about 330 g cooked. Salmon 25 g × 10 = 250 g. Cucumber 5 g × 10 = 50 g. Pickle 4 g × 10 = 40 g, from the larger batch. Mayonnaise 2 g × 10 = 20 g. Wasabi 0.5 g × 10 = 5 g. Furikake 1 g × 10 = 10 g."
+      "**Totals for 10 rolls:** rice 20 g × 10 = 200 g, from about 330 g cooked. Salmon 25 g × 10 = 250 g. Cucumber 5 g × 10 = 50 g. Pickle 4 g × 10 = 40 g, from the larger batch. Mayonnaise 2 g × 10 = 20 g. Wasabi 0.5 g × 10 = 5 g. Furikake 1 g × 10 = 10 g."
      ]
     }
    ],
@@ -1553,7 +1649,62 @@
       "**Nori:** sealed with a desiccant until plating. How long it stays crisp under the toppings is TBD."
      ]
     }
-   ]
+   ],
+   "carry": {
+    "0.3": {
+     "steps": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "17": 17,
+      "20": 20,
+      "21": 21
+     },
+     "ing": {
+      "0.0": "0.0",
+      "0.1": "0.1",
+      "0.2": "0.2",
+      "0.3": "0.3",
+      "0.4": "0.4",
+      "0.5": "0.5",
+      "0.6": "0.6",
+      "0.7": "0.7",
+      "0.8": "0.8",
+      "0.9": "0.9",
+      "2.0": "2.0",
+      "2.1": "2.1",
+      "2.2": "2.2",
+      "2.3": "2.3",
+      "2.4": "2.4",
+      "2.5": "2.5",
+      "2.6": "2.6",
+      "2.7": "2.7",
+      "2.8": "2.8",
+      "2.9": "2.9",
+      "3.0": "3.0",
+      "3.1": "3.1",
+      "3.2": "3.2",
+      "3.3": "3.3",
+      "3.5": "3.5",
+      "3.6": "3.6",
+      "3.7": "3.7",
+      "3.8": "3.8"
+     }
+    }
+   }
   },
   {
    "id": "rcp-012",
@@ -1830,7 +1981,7 @@
    "title": "Turkey crown roulade",
    "subtitle": "Guanciale, chestnut, mushroom and apple",
    "makes": "2 rolls, one per crown",
-   "revision": "0.4",
+   "revision": "0.5",
    "batch": [
     "**Batch:** two rolls, one per **2.2 kg breast-on-bone crown** (4.4 kg total before removing skin and bones). There is no back to remove or reserve. Keep each crown’s two breast halves and skin together for its roll. Dinner is for eight guests overall, with a separate pescatarian main. Portion the turkey for the number of turkey plates at the pass. **Proposed plating allowance:** 150 g cooked roulade per turkey plate alongside mash and sides. Measure the cooked yield before counting spare portions.",
     "**Scale by meat weight.** After deboning, weigh each crown’s trimmed breast meat for its roll, excluding skin, bones and any removed tenderloins. Multiply the per-kilo quantities by the weight of the meat in kilograms. The **4.4 kg bone-in purchase weight must not be used as the filling multiplier**. The table’s **3 kg trimmed-meat column is only an arithmetic example**, not the predicted yield of these crowns. Use the actual weights to size the batch. Record crown A and B trimmed breast weights separately, then their total. Combine the filling ingredients for both rolls if convenient and divide the cooked filling in proportion to each roll’s meat weight, keeping a little back if it would make either roll hard to close."
@@ -2097,12 +2248,12 @@
       {
        "n": 8,
        "title": "Dry, season, roast and verify both rolls",
-       "text": "Preheat to **175°C fan or 190°C conventional**. Pat the thawed skin thoroughly dry, brush each roll with its reserved **5 ml neutral oil per kg of trimmed breast** and season plain, unseasoned turkey skin with its reserved **2 g fine salt per kg**. Set seam down on the rack with space between the rolls. Roast on the middle shelf at **175°C fan or 190°C conventional**. If using a leave-in probe, place it near the centre of the larger roll to follow its progress. For each roll, use an instant-read thermometer to verify at least **75°C in the centre of the stuffing and in the thickest meat beside it**. Check more than one spot around the centre and use the lowest reading. Remove each roll as it passes both checks. If the skin browns too quickly, shield that area loosely with foil. If it needs more colour as the centre approaches the target, a brief, watched grill finish is optional. Verify both temperatures afterwards."
+       "text": "Preheat to **175°C fan or 190°C conventional**. Pat the thawed skin thoroughly dry, brush each roll with its reserved **5 ml neutral oil per kg of trimmed breast** and season plain, unseasoned turkey skin with its reserved **2 g fine salt per kg**. Set seam down on the rack with space between the rolls. Roast on the middle shelf at **175°C fan or 190°C conventional**. If using a leave-in probe, place it near the centre of the larger roll to follow its progress. For each roll, use an instant-read thermometer in **the centre of the stuffing and the thickest meat beside it**, checking more than one spot around the centre and using the lowest reading. **Remove each roll when both lowest readings are about 72–73°C.** The rest in step 9 carries it on; it must then read **at least 75°C in both places**. If the skin browns too quickly, shield that area loosely with foil. If it needs more colour as the centre approaches the target, a brief, watched grill finish is optional. Verify both temperatures afterwards."
       },
       {
        "n": 9,
-       "title": "Rest, carve and serve",
-       "text": "Rest each cooked roll uncovered for about **15 minutes**. Remove the twine and cut across the roll with a sharp knife. Use **about 150 g cooked roulade per turkey plate** as the working plating guide. Spoon the separate demi beside the slices to keep the skin crisp. Weigh the total cooked yield and note how cleanly the slices hold together."
+       "title": "Rest, confirm, carve and serve",
+       "text": "Rest each roll uncovered for about **15 minutes**, then re-probe the stuffing centre and the thickest meat beside it. **Both must read at least 75°C.** If either is short, return that roll to the oven and check again before carving. Remove the twine and cut across the roll with a sharp knife. Use **about 150 g cooked roulade per turkey plate** as the working plating guide. Spoon the separate demi beside the slices to keep the skin crisp. Weigh the total cooked yield and note how cleanly the slices hold together."
       }
      ],
      "notes": []
@@ -2113,11 +2264,42 @@
      "heading": "",
      "items": [
       "**Filling ahead:** Make the filling separately if useful. Cool promptly in a shallow dish, cover and refrigerate at **4°C** within **2 hours**. For this master, make it up to the day before assembly. Use it cold, keep it separate from raw turkey until rolling, then follow the prompt raw-freezing route in steps 5–7. If cooking immediately instead, assemble only when the preheated oven is ready.",
-      "**After thawing:** roast the fully thawed rolls, rather than partially cooking and finishing later. The **75°C centre checks** in step 8 apply to the stuffing and meat of **each** roll. Raw freezing changes the preparation route, not these cooking checks.",
+      "**After thawing:** roast the fully thawed rolls, rather than partially cooking and finishing later. The **75°C centre checks** in steps 8–9, confirmed after the rest, apply to the stuffing and meat of **each** roll. Raw freezing changes the preparation route, not these cooking checks.",
       "**After dinner:** Portion leftover cooked roulade into small pieces or slices in shallow containers. Cool and refrigerate at **4°C** or freeze within **2 hours**. Use refrigerated leftovers within **2 days** or frozen leftovers within **3 months**. Thaw in the fridge. If serving hot, reheat only what you need once, until steaming hot throughout, and discard leftovers from that reheated portion. Expect softer skin after chilling."
      ]
     }
-   ]
+   ],
+   "carry": {
+    "0.4": {
+     "steps": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7
+     },
+     "ing": {
+      "0.0": "0.0",
+      "0.1": "0.1",
+      "0.2": "0.2",
+      "0.3": "0.3",
+      "1.0": "1.0",
+      "1.1": "1.1",
+      "1.2": "1.2",
+      "1.3": "1.3",
+      "1.4": "1.4",
+      "1.5": "1.5",
+      "1.6": "1.6",
+      "1.7": "1.7",
+      "1.8": "1.8",
+      "1.9": "1.9",
+      "1.10": "1.10",
+      "1.11": "1.11"
+     }
+    }
+   }
   },
   {
    "id": "rcp-008",
@@ -2126,11 +2308,11 @@
    "title": "Turkey stock and demi",
    "subtitle": "Roast stock, frozen as a sauce base",
    "makes": "About 1 litre finished sauce (target)",
-   "revision": "0.5",
+   "revision": "0.6",
    "batch": [
     "Use the **breastbone frames and meaty bone trimmings from the two 2.2 kg crowns**, plus **2 kg whole chicken wings**. Include attached ribs/cartilage if present. Keep the skin required for the roulades with the breast meat; do not strip the wings of their skin or meat.",
     "**Weigh the stock parts.** Add the turkey frames/trimmings weight to the **whole wings’ raw weight**, including their meat, skin, joints and bones. This combined weight is the multiplier for the aromatic table. For example, **2 kg wings + 1 kg turkey frames = 3 kg stock parts**; the 1 kg of frames is an arithmetic illustration, **not a yield estimate**. Record any giblets separately. The **4.4 kg original crown weight is not the stock-parts weight**.",
-    "**Confirmed serving allowance:** **100–120 ml finished sauce per turkey plate**. For **N turkey plates**, allow **100 × N to 120 × N ml**.",
+    "**Confirmed serving allowance:** **100–120 ml finished sauce per turkey plate**. For **N turkey plates**, allow **100 × N to 120 × N ml**. **Plating:** spoon about **60–80 ml** beside the slices on each plate and send the rest to the table in a warm jug. The allowance stays the quantity to make.",
     "**Working batch target, not a measured yield:** approximately **1 litre finished sauce**. An eight-portion planning allowance needs **800–960 ml**, leaving **40–200 ml** from a 1 litre batch. Eight guests are confirmed overall, including a pescatarian main requirement; this is an upper planning allowance, not confirmation of eight turkey plates. Keep the poultry sauce separate from the pescatarian main. Confirm actual turkey plate count. The target is not a measured yield or a reason to sacrifice flavour/body.",
     "Keep the banked **2 kg whole wings plus both turkey breast frames** as the stock starting point. Measure the strained stock and final sauce; more finished sauce does not mean automatically doubling the bones or diluting a finished demi without tasting. If the batch cannot provide the target volume at a pleasant hot coating, record the shortfall and make extra stock before service."
    ],
@@ -2401,7 +2583,7 @@
       {
        "n": 11,
        "title": "Finish off the heat",
-       "text": "For the **approximately 1 litre finished batch**, swirl **40 g cold butter** into the hot **sauce base**, then add **5 ml sherry vinegar**. Taste before adding any of the remaining **5 ml vinegar**, then adjust **salt**. If useful, add a little strained, defatted, fully cooked roulade juice and reassess. Measure the finished volume; use hot **reserved unsalted stock** as needed to adjust towards **1 litre**, provided the flavour and light coating remain right. Serve immediately, allowing **100–120 ml per turkey plate**. Scale butter/vinegar proportionately if finishing a different quantity."
+       "text": "For the **approximately 1 litre finished batch**, swirl **40 g cold butter** into the hot **sauce base**, then add **5 ml sherry vinegar**. Taste before adding any of the remaining **5 ml vinegar**, then adjust **salt**. If useful, add a little strained, defatted, fully cooked roulade juice and reassess. Measure the finished volume; use hot **reserved unsalted stock** as needed to adjust towards **1 litre**, provided the flavour and light coating remain right. Serve immediately: about **60–80 ml beside the slices on each plate**, with the rest of the **100–120 ml per turkey plate** allowance in a warm jug at the table. Scale butter/vinegar proportionately if finishing a different quantity."
       }
      ],
      "notes": []
@@ -2415,7 +2597,42 @@
       "If the stock reaches the desired flavour before it has enough body, stop reducing and assess the available cartilage-rich parts or a measured gelatine adjustment in the next revision. The **2 kg wing supplement** is now part of the banked base; further parts or powdered gelatine remain optional development choices. Do not force the reduction past a pleasant flavour to chase thickness. A cold gel shows natural gelatine is present, while the hot spoon test determines serving texture."
      ]
     }
-   ]
+   ],
+   "carry": {
+    "0.5": {
+     "steps": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10
+     },
+     "ing": {
+      "0.0": "0.0",
+      "0.1": "0.1",
+      "0.2": "0.2",
+      "1.0": "1.0",
+      "1.1": "1.1",
+      "1.2": "1.2",
+      "1.3": "1.3",
+      "1.4": "1.4",
+      "1.5": "1.5",
+      "1.6": "1.6",
+      "1.7": "1.7",
+      "1.8": "1.8",
+      "1.9": "1.9",
+      "2.0": "2.0",
+      "2.1": "2.1",
+      "2.2": "2.2",
+      "2.3": "2.3"
+     }
+    }
+   }
   },
   {
    "id": "rcp-007",
@@ -2939,7 +3156,7 @@
    "title": "Vanilla cheesecake",
    "subtitle": "Gluten-free digestive base",
    "makes": "One 23 cm cake",
-   "revision": "0.3",
+   "revision": "0.5",
    "batch": [
     "**Texture goal:** creamy and softly set, holding a clean slice without a firm, dense interior. Retain the filling amounts below; do not add flour/starch or extra eggs to make slicing easier.",
     "**Batch:** one full-size cake in the **confirmed 23 cm springform tin**. Use Sally’s original **1× filling**. Her published yield is **12–16 slices**; actual adapted yield/portion weight is unmeasured. Eight guests are confirmed; Daniela now welcomes extra plain cheesecake, superseding the smaller ten-slice cake. Cut elegant slices as needed rather than dividing the whole cake into eight large portions. Compote and shards remain allocated for **10 garnished servings**; extra cake can be kept plain."
@@ -2950,7 +3167,7 @@
      "items": [
       "Use a conventional oven at **177°C** (350°F; fan adjustment unverified), lower-middle shelf, a 23 cm springform, roasting tin large enough to surround it, heavy-duty foil, rack, mixer/paddle, scales and kettle. Check water-bath/tin fit before mixing.",
       "Set out the filling ingredients below at room temperature for smooth mixing. Use **904 g Philadelphia cream cheese**, the confirmed brand. Choose plain **Original**, not Light or whipped, as the working full-fat product recommendation. US block cheese is Sally’s tested format; her non-US note allows that local tub cheese may work, but reports reader experience rather than her own testing. Check the actual pack variant and label; do not alter the filling merely because it comes in a Dutch tub.",
-      "Grind **200 g gluten-free digestives** finely. Have **85 g melted unsalted butter**, **67 g base sugar** and a flat-bottomed cup ready. Use GF-labelled biscuits; taste them first for chalkiness. Keep ordinary biscuit crumbs away from this station.",
+      "Grind **150 g gluten-free digestives** finely and weigh **50 g ground almonds** (blanched, label checked for gluten). Have **100 g melted unsalted butter** (warm, not hot), **up to 67 g light brown sugar**, **a pinch (about 1 g) fine salt** and a flat-bottomed cup ready. Use GF-labelled biscuits; taste them first for chalkiness and sweetness. If they taste clearly sweet, use **35–40 g sugar**; otherwise use **67 g**. Keep ordinary biscuit crumbs away from this station.",
       "At the pass: chilled cake, chilled compote, dry pistachio shards, **1 washed orange**, zester, sharp knife, warm water for the knife, clean cloth and eight plates."
      ]
     }
@@ -2966,17 +3183,27 @@
      "rows": [
       {
        "name": "Gluten-free digestive crumbs",
-       "amount": "200 g, finely ground",
+       "amount": "150 g, finely ground",
        "extra": []
       },
       {
-       "name": "Granulated sugar",
-       "amount": "67 g",
+       "name": "Ground almonds, blanched",
+       "amount": "50 g, GF label checked",
+       "extra": []
+      },
+      {
+       "name": "Light brown sugar",
+       "amount": "35–40 g if the GF biscuits taste clearly sweet, otherwise 67 g",
+       "extra": []
+      },
+      {
+       "name": "Fine salt",
+       "amount": "A pinch, about 1 g",
        "extra": []
       },
       {
        "name": "Unsalted butter",
-       "amount": "85 g melted, divided: 70 g initially + up to 15 g to adjust",
+       "amount": "100 g melted, divided: 80 g initially + up to 20 g to adjust",
        "extra": []
       }
      ],
@@ -3075,13 +3302,12 @@
       {
        "n": 1,
        "title": "Prepare the base",
-       "text": "Heat the conventional oven to **177°C**. Mix **200 g GF digestive crumbs**, **67 g sugar** and **70 g melted butter**. The crumbs should be evenly damp and hold when pressed. If still loose, mix in the reserved **up to 15 g butter**, **5 g at a time**; stop before greasy or pasty. Record the amount used, discard unused melted butter.",
-       "aside": "This adjustment is our product-dependent proposal."
+       "text": "Heat the conventional oven to **177°C**. Mix **150 g GF digestive crumbs**, **50 g ground almonds**, the chosen **35–40 g or 67 g light brown sugar** and **a pinch (about 1 g) of salt**, breaking up any sugar lumps. Stir in **80 g warm melted butter**. Pinch some together: it should feel like damp sand, hold, then break cleanly with no slick of fat. If it falls apart, mix in the reserved **up to 20 g butter**, **5 g at a time**; stop before greasy or pasty. Record the amount used and discard unused melted butter. Leave the mixture for **5 minutes** so the GF crumb takes up the butter, then check the pinch again."
       },
       {
        "n": 2,
        "title": "Shape and prebake",
-       "text": "Press the crumb mixture across the ungreased 23 cm tin base and a little way up its sides. Compact evenly without crushing solid. Prebake **12–14 minutes**; look for a set surface and toasted-biscuit aroma. GF biscuit browning may differ. Leave on the rack while mixing the filling."
+       "text": "Press the crumb mixture across the ungreased 23 cm tin base and a little way up its sides, **gently**: mainly with your fingers, then one light pass with the cup to level it. Get the corners even rather than dense; over-pressing makes a hard, dry-eating base. Prebake **12–14 minutes**, Sally’s ordinary-digestive benchmark, **checking from 10 minutes** because the almonds brown faster. Look for a set surface and toasted-biscuit aroma. GF biscuit browning may differ. Leave on the rack while mixing the filling."
       },
       {
        "n": 3,
@@ -3120,7 +3346,30 @@
       "For this master, use refrigerated cake/leftovers within **2 days of baking**, a conservative project limit rather than Sally’s four-day leftover claim. Sally permits the plain cake to be wrapped in several film layers and foil and frozen for **up to 3 months**, thawed overnight in the fridge; confirm fully thawed before slicing. Freezing the GF base’s texture is untested. Never freeze with compote or shards attached."
      ]
     }
-   ]
+   ],
+   "carry": {
+    "0.3": {
+     "steps": {
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7
+     },
+     "ing": {
+      "1.0": "1.0",
+      "1.1": "1.1",
+      "1.2": "1.2",
+      "1.3": "1.3",
+      "1.4": "1.4",
+      "1.5": "1.5",
+      "2.0": "2.0",
+      "3.0": "3.0",
+      "3.1": "3.1",
+      "3.2": "3.2"
+     }
+    }
+   }
   },
   {
    "id": "rcp-011-c",
@@ -3787,74 +4036,6 @@
     ]
    },
    {
-    "id": "T-048",
-    "date": "2026-11-26",
-    "start": "11:30",
-    "mins": 45,
-    "title": "Dessert: check products and prepare cake base/filling",
-    "recipe": "rcp-011",
-    "owner": "Daniela",
-    "ws": "2026-11-26",
-    "we": "2026-11-27",
-    "priority": "A",
-    "status": "proposed",
-    "note": "45 min (estimate).",
-    "deps": [
-     "T-007",
-     "T-009"
-    ]
-   },
-   {
-    "id": "T-049",
-    "date": "2026-11-26",
-    "start": "12:15",
-    "mins": 130,
-    "title": "Dessert: bake full-size cheesecake in water bath",
-    "recipe": "rcp-011",
-    "owner": "Daniela",
-    "ws": "2026-11-26",
-    "we": "2026-11-27",
-    "priority": "A",
-    "status": "proposed",
-    "note": "Water-bath bake about 55–70 min plus the recipe’s one-hour oven stage; 130 min allowance. Thursday is within the recipe’s 2-day limit for Saturday.",
-    "deps": [
-     "T-048"
-    ]
-   },
-   {
-    "id": "T-051",
-    "date": "2026-11-26",
-    "start": "13:00",
-    "mins": 40,
-    "title": "Dessert: cook and chill cranberry-orange compote",
-    "recipe": "rcp-011-c",
-    "owner": "Daniela",
-    "ws": "2026-11-26",
-    "we": "2026-11-27",
-    "priority": "B",
-    "status": "proposed",
-    "note": "40 min including cooling (estimate); use within 2 days.",
-    "deps": [
-     "T-007",
-     "T-009"
-    ]
-   },
-   {
-    "id": "T-047",
-    "date": "2026-11-26",
-    "start": "14:00",
-    "mins": 25,
-    "title": "Trout pâté: blend, chill and fill piping bag",
-    "recipe": "rcp-003",
-    "owner": "Daniela",
-    "ws": "2026-11-26",
-    "we": "2026-11-27",
-    "priority": "B",
-    "status": "proposed",
-    "note": "25 min (estimate); one or two days before service. Bag is filled on Friday evening (“mix and chill; trout pâté: fill piping bag”).",
-    "deps": []
-   },
-   {
     "id": "T-021",
     "date": "2026-11-26",
     "start": "14:30",
@@ -3869,23 +4050,6 @@
     "note": "Use within 3 days. If dropped, serve the soup with fried sage only.",
     "deps": [
      "T-009"
-    ]
-   },
-   {
-    "id": "T-050",
-    "date": "2026-11-26",
-    "start": "14:30",
-    "mins": 0,
-    "title": "Dessert: cool and refrigerate plain cheesecake",
-    "recipe": "rcp-011",
-    "owner": "Daniela",
-    "ws": "2026-11-26",
-    "we": "2026-11-27",
-    "priority": "A",
-    "status": "proposed",
-    "note": "Counter cooling up to 2 h, then refrigerate at least 4 h (overnight is fine).",
-    "deps": [
-     "T-049"
     ]
    },
    {
@@ -3955,39 +4119,72 @@
     ]
    },
    {
-    "id": "T-052",
+    "id": "T-048",
     "date": "2026-11-27",
-    "start": "09:00",
+    "start": "08:15",
     "mins": 45,
-    "title": "Dessert: cook and roll separate pistachio brittle batch",
-    "recipe": "rcp-011-s",
+    "title": "Dessert: check products and prepare cake base/filling",
+    "recipe": "rcp-011",
     "owner": "Daniela",
     "ws": "2026-11-27",
     "we": "2026-11-27",
-    "priority": "C",
+    "priority": "A",
     "status": "proposed",
-    "note": "45 min (estimate). No more than one day ahead (recipe). If dropped, serve the cheesecake with compote and orange only.",
+    "note": "45 min (estimate).: moved from Thursday so the cake is within 48 h of Saturday dessert. Taste the GF crumbs: 35–40 g base sugar if sweet, otherwise 67 g.",
     "deps": [
      "T-007",
      "T-009"
     ]
    },
    {
-    "id": "T-053",
+    "id": "T-049",
     "date": "2026-11-27",
-    "start": "09:45",
-    "mins": 0,
-    "title": "Dessert: cool shards and store dry; check usable yield",
-    "recipe": "rcp-011-s",
+    "start": "09:00",
+    "mins": 130,
+    "title": "Dessert: bake full-size cheesecake in water bath",
+    "recipe": "rcp-011",
     "owner": "Daniela",
     "ws": "2026-11-27",
     "we": "2026-11-27",
-    "priority": "C",
+    "priority": "A",
     "status": "proposed",
-    "note": "Cool completely, store dry and airtight at room temperature.",
+    "note": "Water-bath bake about 55–70 min plus the recipe’s one-hour oven stage; 130 min allowance.: Friday bake keeps the cake within 48 h of Saturday dessert. Oven is free again by about 11:10, well before the pumpkin at 14:45.",
     "deps": [
-     "T-052"
+     "T-048"
     ]
+   },
+   {
+    "id": "T-051",
+    "date": "2026-11-27",
+    "start": "09:00",
+    "mins": 40,
+    "title": "Dessert: cook and chill cranberry-orange compote",
+    "recipe": "rcp-011-c",
+    "owner": "Daniela",
+    "ws": "2026-11-27",
+    "we": "2026-11-27",
+    "priority": "B",
+    "status": "proposed",
+    "note": "40 min including cooling (estimate); use within 2 days.: moved from Thursday; cook on the hob while the cheesecake bakes.",
+    "deps": [
+     "T-007",
+     "T-009"
+    ]
+   },
+   {
+    "id": "T-047",
+    "date": "2026-11-27",
+    "start": "09:30",
+    "mins": 25,
+    "title": "Trout pâté: blend, chill and fill piping bag",
+    "recipe": "rcp-003",
+    "owner": "Daniela",
+    "ws": "2026-11-27",
+    "we": "2026-11-27",
+    "priority": "B",
+    "status": "proposed",
+    "note": "25 min (estimate); one or two days before service. Bag is filled on Friday evening (“mix and chill; trout pâté: fill piping bag”).: skip this task if a ready-made GF trout pâté is bought; still do the cold piping test at “mix and chill; trout pâté: fill piping bag”.",
+    "deps": []
    },
    {
     "id": "T-075",
@@ -4033,8 +4230,25 @@
     "we": "2026-11-27",
     "priority": "B",
     "status": "proposed",
-    "note": "45 min (estimate); prepare the day before, pipe on Saturday.",
+    "note": "45 min (estimate); prepare the day before, pipe on Saturday.: gluten-free gochujang paste confirmed.",
     "deps": []
+   },
+   {
+    "id": "T-050",
+    "date": "2026-11-27",
+    "start": "11:10",
+    "mins": 0,
+    "title": "Dessert: cool and refrigerate plain cheesecake",
+    "recipe": "rcp-011",
+    "owner": "Daniela",
+    "ws": "2026-11-27",
+    "we": "2026-11-27",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Counter cooling up to 2 h, then refrigerate at least 4 h (overnight is fine).: Friday route; chills overnight before Saturday.",
+    "deps": [
+     "T-049"
+    ]
    },
    {
     "id": "T-078",
@@ -4151,6 +4365,41 @@
     "note": "Leave tonight with every component labelled and the Saturday list printed.",
     "deps": [
      "T-074"
+    ]
+   },
+   {
+    "id": "T-052",
+    "date": "2026-11-27",
+    "start": "18:30",
+    "mins": 45,
+    "title": "Dessert: cook and roll separate pistachio brittle batch",
+    "recipe": "rcp-011-s",
+    "owner": "Daniela",
+    "ws": "2026-11-27",
+    "we": "2026-11-27",
+    "priority": "C",
+    "status": "proposed",
+    "note": "45 min (estimate). No more than one day ahead (recipe). If dropped, serve the cheesecake with compote and orange only.: moved to Friday evening, after the cheesecake has used the oven and closer to the one-day limit. Store with a silica sachet.",
+    "deps": [
+     "T-007",
+     "T-009"
+    ]
+   },
+   {
+    "id": "T-053",
+    "date": "2026-11-27",
+    "start": "19:15",
+    "mins": 0,
+    "title": "Dessert: cool shards and store dry; check usable yield",
+    "recipe": "rcp-011-s",
+    "owner": "Daniela",
+    "ws": "2026-11-27",
+    "we": "2026-11-27",
+    "priority": "C",
+    "status": "proposed",
+    "note": "Cool completely, store dry and airtight at room temperature.",
+    "deps": [
+     "T-052"
     ]
    },
    {
@@ -4471,7 +4720,7 @@
     "we": "2026-11-28",
     "priority": "A",
     "status": "proposed",
-    "note": "Into the preheated oven at 175°C fan as guests arrive (helper can do it on cue). Roasting time is not in the recipe: 70 min is an assistant estimate pending Sunday’s roll weights and diameters. Remove each roll when the stuffing centre and the thickest meat beside it read at least 75°C.",
+    "note": "Into the preheated oven at 175°C fan as guests arrive (helper can do it on cue). Roasting time is not in the recipe: 70 min is an assistant estimate pending Sunday’s roll weights and diameters.: remove each roll when the lowest readings in the stuffing centre and the thickest meat beside it are about 72–73°C; confirm at least 75°C in both after the rest (“rest before carving”).",
     "deps": [
      "T-082",
      "T-089"
@@ -4506,7 +4755,7 @@
     "we": "2026-11-28",
     "priority": "A",
     "status": "proposed",
-    "note": "Serve at once so the nori stays crisp.",
+    "note": "Serve at once so the nori stays crisp.: 20 g rice per roll on a half sheet of nori.",
     "deps": [
      "T-094",
      "T-095"
@@ -4644,7 +4893,7 @@
     "we": "2026-11-28",
     "priority": "A",
     "status": "proposed",
-    "note": "Start time depends on the probe readings.",
+    "note": "Start time depends on the probe readings.: after the rest, re-probe each roll; both readings must be at least 75°C, or it goes back into the oven.",
     "deps": [
      "T-032"
     ]
@@ -4661,7 +4910,7 @@
     "we": "2026-11-28",
     "priority": "A",
     "status": "proposed",
-    "note": "Bring to the boil, adjust, then off the heat swirl in butter and vinegar.",
+    "note": "Bring to the boil, adjust, then off the heat swirl in butter and vinegar.: plate about 60–80 ml beside the slices and send the rest in a warm jug.",
     "deps": [
      "T-041"
     ]
@@ -4696,7 +4945,7 @@
     "we": "2026-11-28",
     "priority": "A",
     "status": "proposed",
-    "note": "Main course plated around 20:40.",
+    "note": "Main course plated around 20:40.: about 60–80 ml demi on each plate, the rest in a jug.",
     "deps": [
      "T-033",
      "T-042"

@@ -43,15 +43,35 @@
     let s = state.recipes[r.id];
     if (!s || s.rev !== r.revision) {
       const stale = !!s;
-      // A recipe may list older revisions whose step ticks still line up (keepStepsFrom): keep the
-      // step ticks, clear only the ingredient ticks, which are keyed by table position.
-      const keepSteps = stale && Array.isArray(r.keepStepsFrom) && r.keepStepsFrom.includes(s.rev) && s.steps && typeof s.steps === 'object';
-      s = state.recipes[r.id] = keepSteps
-        ? Object.assign({}, s, { rev: r.revision, ing: {} })
-        : { rev: r.revision, steps: {}, ing: {}, touched: 0 };
-      if (stale) setTimeout(() => toast(keepSteps
-        ? 'Recipe revised: your step ticks are kept, ingredient ticks were cleared.'
-        : 'This recipe was revised, so your earlier ticks were cleared.'), 400);
+      // When a recipe is revised, r.carry[<old revision>] says which old steps and ingredient rows are
+      // still the same ones. Those ticks move across; anything that changed in substance is cleared.
+      const map = stale && r.carry && r.carry[s.rev];
+      let kept = 0, cleared = 0;
+      if (map) {
+        const next = { rev: r.revision, steps: {}, ing: {}, touched: s.touched || 0 };
+        [['steps', 'steps'], ['ing', 'ing']].forEach(([from, to]) => {
+          Object.keys(s[from] || {}).forEach(k => {
+            const nk = map[from] && map[from][k];
+            if (nk !== undefined && nk !== null) { next[to][nk] = s[from][k]; kept++; } else cleared++;
+          });
+        });
+        s = state.recipes[r.id] = next;
+      } else {
+        s = state.recipes[r.id] = { rev: r.revision, steps: {}, ing: {}, touched: 0 };
+      }
+      if (stale) {
+        // One notice for however many recipes were revised since the last visit.
+        rs.notes = rs.notes || [];
+        rs.notes.push({ title: r.title, map: !!map, kept, cleared });
+        clearTimeout(rs.t);
+        rs.t = setTimeout(() => {
+          const n = rs.notes; rs.notes = [];
+          const lost = n.filter(x => !x.map || x.cleared);
+          toast(n.length === 1 && !lost.length ? `${n[0].title} was revised. All your ticks are kept.`
+            : lost.length ? `${n.length} recipe${n.length > 1 ? 's' : ''} revised. Ticks kept except where a step or amount changed: ${lost.map(x => x.title).join(', ')}.`
+            : `${n.length} recipes revised. All your ticks are kept.`);
+        }, 400);
+      }
       if (stale) saveState(); // write the migrated state now so the notice shows once
     }
     return s;
