@@ -39,18 +39,20 @@
    "title": "Rosemary pecan brittle",
    "subtitle": "With mature cheddar",
    "makes": "About 25–30 shards (estimated)",
-   "revision": "0.3",
+   "revision": "0.5",
    "batch": [
-    "**Batch** Half the published brittle recipe. **Estimated usable yield is about 25–30 small canapé shards**, working at roughly **10–12 g brittle per shard** and allowing for pan residue and awkward fragments. This is a planning estimate, not a tested yield. The sugar, nuts and butter total **369 g before cooking** (198 + 114 + 57 g); finished weight and intact shard count remain unmeasured. Eight guests are confirmed; the served count per guest remains open. Suggested assembly is one thin, bite-sized shard with **10 g mature cheddar**, a working portion rather than an agreed allocation. Reserve surplus brittle separately."
+    "**Batch** One small batch, based on **198 g sugar + 114 g pecans + 57 g butter**. Working target is **25–30 small canapé shards**, not a measured yield or guarantee. Aeration changes the volume and break pattern, so count usable pieces after cooling. Eight guests are confirmed. Allow **10 g mature cheddar per selected shard**, total dependent on that count.",
+    "**Texture aim** A crisp, porous brittle that fractures more readily than a dense caramel sheet. It will still be crunchy, not soft or chewy. The bicarbonate amount is an untested adaptation, not a published test of this exact formula."
    ],
    "setup": [
     {
      "heading": "",
      "items": [
-      "Set out scales, teaspoon measures, a heavy saucepan, wooden spoon, candy thermometer, heatproof spatula and oven gloves. Use a pan that allows the thermometer probe to sit in the caramel without touching its base.",
-      "Line a large rimmed baking tray with baking parchment or a silicone mat. Have a separate ovenproof dish for the nuts and an airtight container for the cooled brittle.",
-      "Chop **114 g pecans** into small pieces. Cut **57 g room-temperature unsalted butter** into pieces. Measure **198 g granulated sugar**. Divide both **1½ tsp finely chopped fresh rosemary** and **1½ tsp flaky sea salt** into two **¾ tsp portions**. Set out **¼ tsp maple extract**, if using.",
-      "Keep the cheddar separate, refrigerated according to its label. Have a board and knife ready for finishing. Prepare this brittle separately from the pistachio dessert shards, even if making both in one session."
+      "Set out scales, a level ½ tsp measure, teaspoon measure, candy thermometer, long-handled heatproof spatula and oven gloves. Use a **deep heavy saucepan with ample foaming room**, around **2 litres or larger** as our equipment recommendation. The thermometer must read the caramel, not touch the pan base. Do not use a shallow frying pan.",
+      "Line a large rimmed metal tray with baking parchment or a silicone mat. Have an ovenproof dish for the nuts, a heatproof landing place for the hot tray, and a dry airtight container for the cooled pieces. Clear the spreading area before heating sugar.",
+      "Set out **198 g white granulated sugar**, **114 g pecans chopped into small pieces**, and **57 g room-temperature unsalted butter cut into small pieces**. Separately measure **½ level tsp bicarbonate of soda** into a small dry bowl. Break up any lumps. Use bicarbonate, not baking powder.",
+      "Finely chop **1 tsp fresh rosemary leaves**, dividing into **½ tsp for the pan and ½ tsp for the finish**. Measure **2 tsp everything bagel seasoning**, stirring the jar first so seeds and salt are distributed, then combine it with the **½ tsp finishing rosemary** in a small bowl. Keep the **½ tsp pan rosemary** separate. Use the gluten-free product Daniela intends and check its actual label. The working dose assumes a seed/onion/garlic/salt mix; brands differ, so expect flavour variation. No extra salt is added, including if using a salt-free blend. Do not add the finishing mixture to the warming nuts or cook it in the hot caramel.",
+      "Keep the cheddar refrigerated according to its label until assembly. Prepare this as a separate batch from the dessert's pistachio shards; do not split a hot caramel between the two recipes."
      ]
     }
    ],
@@ -75,17 +77,7 @@
       },
       {
        "name": "Unsalted butter",
-       "amount": "57 g, room temperature, cut into pieces",
-       "extra": []
-      },
-      {
-       "name": "Fresh rosemary",
-       "amount": "1½ tsp finely chopped leaves, divided into ¾ tsp in the caramel and ¾ tsp on top",
-       "extra": []
-      },
-      {
-       "name": "Flaky sea salt",
-       "amount": "1½ tsp, divided into ¾ tsp in the caramel and ¾ tsp on top",
+       "amount": "57 g, room temperature, cut into small pieces",
        "extra": []
       }
      ],
@@ -93,15 +85,47 @@
     },
     {
      "heading": "",
-     "group": "Optional flavour",
+     "group": "Herb",
      "labels": {
       "amount": "Amount and preparation",
       "extra": []
      },
      "rows": [
       {
-       "name": "Maple extract",
-       "amount": "¼ tsp, proposed subtle starting amount",
+       "name": "Fresh rosemary",
+       "amount": "1 tsp finely chopped leaves total: ½ tsp in the pan + ½ tsp in the finish",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "",
+     "group": "Aeration",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Bicarbonate of soda",
+       "amount": "½ level tsp, lump-free; no guessed gram conversion",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "",
+     "group": "Finish",
+     "labels": {
+      "amount": "Amount and preparation",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Everything bagel seasoning",
+       "amount": "2 tsp total, all for sprinkling; actual product gluten-free label",
        "extra": []
       }
      ],
@@ -117,12 +141,12 @@
      "rows": [
       {
        "name": "Mature cheddar",
-       "amount": "Suggested 10 g per served shard; total TBD once count is agreed",
+       "amount": "10 g per selected shard; batch total TBD",
        "extra": []
       }
      ],
      "notes": [
-      "Use large flaky salt, not the same spoonful of fine salt. Flake size affects saltiness. Maple is optional; keep the sugar quantity intact and use extract rather than substituting syrup."
+      "No separate flaky salt or maple is used in this version. The 1 tsp rosemary and 2 tsp seasoning doses are working flavour choices, not source-tested quantities."
      ]
     }
    ],
@@ -132,35 +156,41 @@
      "steps": [
       {
        "n": 1,
-       "title": "Warm the equipment and nuts",
-       "text": "Heat the oven to **95°C conventional**. Warm the lined tray and **114 g chopped pecans** separately while preparing the caramel. The nuts should be warm when added, not browned.",
-       "aside": "This warming cue is our adaptation of the source's slightly warmed nuts."
+       "title": "Warm the tray and nuts",
+       "text": "Heat the oven to **95°C conventional**. Warm the lined tray and the separate dish of **114 g chopped pecans** while making caramel. Nuts should be warm, not browned. Keep the **½ level tsp bicarbonate**, **½ tsp pan rosemary** and the finish bowl of **2 tsp everything seasoning + ½ tsp rosemary** outside the oven, within reach."
       },
       {
        "n": 2,
-       "title": "Caramelise",
-       "text": "Heat **198 g sugar** in the saucepan, stirring until melted, then stop stirring. Start on high heat, reducing to medium-high as it melts; lower further if colouring unevenly. Cook to medium amber, going by colour rather than temperature."
+       "title": "Make the dry caramel",
+       "text": "Put **198 g sugar** in the heavy saucepan. Follow the base recipe's high heat initially, reducing to medium-high as it melts, stirring until melted. Stop stirring once liquid; lower the heat further if it colours unevenly. Aim for a medium amber caramel.",
+       "aside": "Do not use the original source's erroneous early 121°C cue."
       },
       {
        "n": 3,
-       "title": "Finish cooking",
-       "text": "Stir in **114 g warm pecans**, then **57 g butter**. Stir until incorporated and the mixture reaches **149°C (300°F)**. It takes about two minutes; use the endpoint, not the clock."
+       "title": "Incorporate nuts and butter",
+       "text": "Stir in **114 g warm pecans**, followed by **57 g butter**. Stir over the heat until the butter is incorporated and the mixture reaches **149°C**. The base source suggests about two minutes, but the endpoint governs. Reduce the burner as it approaches the target. Do not lower this final temperature to try to soften the brittle; aeration is the intended texture change."
       },
       {
        "n": 4,
-       "title": "Season and spread",
-       "text": "Remove from the heat. Stir in **¾ tsp rosemary**, **¾ tsp flaky salt** and optional **¼ tsp maple extract**. Immediately spread onto the warm lined tray. Sprinkle with the remaining **¾ tsp rosemary** and **¾ tsp flaky salt**."
+       "title": "Aerate off the heat",
+       "text": "Take the saucepan off the burner. Stir in the reserved **½ tsp pan rosemary**, then immediately add the entire **½ level tsp bicarbonate** and stir promptly, just until evenly dispersed with no dry pockets. Expect the mixture to foam, expand and turn paler/opaque. Keep it in the deep pan; do not lean over it. Once combined, pour immediately onto the warm lined tray. Do not return it to the heat or continue beating it."
       },
       {
        "n": 5,
-       "title": "Cool and break",
-       "text": "Leave until completely cold, at least **one hour**. Break into shards. Aim for a single layer of nuts with thin caramel between them. Check that a cooled piece snaps at room temperature; freezing a soft batch does not establish that it will hold at service."
+       "title": "Spread lightly, then season",
+       "text": "Guide the foamy mixture outward with a few light spatula passes, aiming for an even single layer of nut pieces rather than a thick central mound. Avoid pressing hard, rolling flat or repeatedly working it, which would expel the air. Immediately scatter the entire finish bowl, **2 tsp everything bagel seasoning + the remaining ½ tsp rosemary**, evenly over the still-tacky surface. Keep fingers off the hot caramel. Do not stir the seasoning into the pan."
       },
       {
        "n": 6,
+       "title": "Cool fully and portion",
+       "text": "Leave undisturbed until completely cold, allowing **at least one hour** as in the base recipe. Break into small shards. Check a room-temperature offcut for a crisp, relatively friable bite and record usable yield.",
+       "aside": "The new texture is untested; do not treat freezer-hardening as evidence that a soft/sticky batch will hold at service."
+      },
+      {
+       "n": 7,
        "title": "Assemble",
-       "text": "Select bite-sized shards and cut **10 g cheddar per selected shard**. Place the cheese on the broadest part just before serving. Keep the presentation to brittle and cheese, allowing the rosemary, salt and caramel to do the work.",
-       "aside": "This assembly and cheese portion are retained in the banked recipe; total cheese depends on the served count."
+       "text": "Select the shards being served. Cut **10 g cheddar per selected shard** and place on each shortly before serving. Keep unused dry brittle separate.",
+       "aside": "This is the same simple cheese pairing as the banked dish."
       }
      ],
      "notes": []
@@ -170,12 +200,21 @@
     {
      "heading": "",
      "items": [
-      "**Dry brittle** Cool fully, then store airtight at room temperature, separate from cheese. Bakerita gives **two to three weeks** for its original dry brittle and advises against refrigeration because moisture softens it. That is source guidance, not a tested shelf life for our optional-extract adaptation. Check the snap before service.",
-      "**Cheddar** Follow the actual product's refrigeration and opened-pack instructions. Cut only the amount needed for the selected shards; no storage life is assigned to assembled bites.",
-      "**Surplus** Keep unused dry shards in their labelled airtight container. Record finished weight and usable shard count before deciding how much of the batch to serve."
+      "**Dry brittle** Cool completely, then store airtight at room temperature, separate from cheese. Do not refrigerate the brittle, as moisture can spoil its snap. Bakerita gives two to three weeks for the original dry candy; that duration is not established for this aerated, seasoned adaptation. This batch is intended for the approaching dinner. Check texture before serving.",
+      "**Cheddar** Follow the actual product's refrigeration, use-by and opened-pack instructions. No storage life is assigned to assembled bites.",
+      "**Surplus** Label the dry container with recipe and preparation date. Record finished weight and usable shard count; keep leftovers separate from the cheese rather than storing assembled pieces."
      ]
     }
-   ]
+   ],
+   "carry": {
+    "0.3": {
+     "steps": {},
+     "ing": {
+      "0.0": "0.0",
+      "0.1": "0.1"
+     }
+    }
+   }
   },
   {
    "id": "rcp-002",
@@ -184,7 +223,7 @@
    "title": "Buckwheat blini",
    "subtitle": "Horseradish cream and beetroot pickle",
    "makes": "About 22–28 mini blini (predicted)",
-   "revision": "0.2",
+   "revision": "0.3",
    "batch": [
     "**Batch:** one quarter-size source batch of blini, one quarter-size pickle batch and a small cream batch. Make blini about 4–5 cm across. **Predicted yield is about 22–28 mini pancakes** at 1½ tsp batter each (estimated from the batter volume, unmeasured), enough for 2 per guest with spares. Count the finished mini pancakes and measure the pickle yield, both TBD. Eight guests are confirmed; the number to serve per guest remains open. Freeze spare plain blini separately."
    ],
@@ -193,7 +232,7 @@
      "heading": "",
      "items": [
       "**Blini station.** Set out scales, measuring spoons, two bowls, a whisk, a non-stick frying pan, a thin spatula, a cooling rack and freezer containers with parchment. Separate **1 large egg** into two small bowls and beat each lightly; you need **half the yolk and half the white**, weighed (about 9 g yolk and 16 g white for a typical large egg; use half of what you actually have). Keep the other half for another use. Weigh **40 g buckwheat flour, 85 g warm water, 4 g skimmed milk powder, 28 g milk and 14 g butter**. Use warm water that feels comfortably warm to the touch.",
-      "**Pickle station.** Set out a saucepan, bowl of cold water, peeler, sharp knife, board, small bowl and shallow cooling/storage container. Wash **140 g small fresh beetroot** (about two), leaving roots and short stalks attached. Have **¼ eating apple and ¼ banana shallot** ready. Measure **56 ml water**, divided into **12 ml for the slurry and 44 ml for the pickle**.",
+      "**Pickle station.** Set out a saucepan, bowl of cold water, peeler, sharp knife, board, small bowl and shallow cooling/storage container. Wash **140 g small fresh beetroot** (about two), leaving roots and short stalks attached, or use the precooked option: **about 125 g plain cooked beetroot**, drained and patted dry. Have **¼ eating apple and ¼ banana shallot** ready. Measure **56 ml water**, divided into **12 ml for the slurry and 44 ml for the pickle**.",
       "**Cream and assembly station.** Set out a bowl, spoon or piping bag and a slotted spoon. Keep **60 g thick crème fraîche and 12 g prepared horseradish** refrigerated until needed. Verify gluten status of buckwheat flour, yeast, cornflour and prepared horseradish, and use clean equipment."
      ]
     }
@@ -282,6 +321,11 @@
       {
        "name": "Small fresh beetroot",
        "amount": "140 g whole, before peeling",
+       "extra": []
+      },
+      {
+       "name": "*or* plain cooked beetroot (precooked option)",
+       "amount": "About 125 g, drained and patted dry; not pickled in vinegar",
        "extra": []
       },
       {
@@ -405,7 +449,10 @@
        "text": "Add all the beetroot/apple/shallot mixture. Simmer gently until the beetroot is cooked through but the cubes retain their shape. Allow about 3–5 minutes; use tenderness as the endpoint. Cool promptly in a shallow container and refrigerate at **4°C**."
       }
      ],
-     "notes": []
+     "notes": [
+      "**Precooked option:** skip the simmering and peeling. Cut **about 125 g drained, patted-dry cooked beetroot** into **4–5 mm dice** and set it aside. Toss only **¼ diced apple, ¼ diced banana shallot and ¼ tsp sea salt** together.",
+      "**Precooked option:** simmer the **apple/shallot mixture** gently in the glaze for **2–3 minutes**, then stir in the **diced cooked beetroot** and simmer for about **1 minute** more, until hot through with the cubes holding their shape. Cool and refrigerate the same way."
+     ]
     },
     {
      "heading": "Mix the horseradish cream",
@@ -445,7 +492,48 @@
       "**Assembly:** keep all three components separate until needed. Reheat only the blini required. Discard any reheated blini remaining after service. Refrigerated pickle and cream retain their original two-day preparation limit. Label each batch with its preparation date."
      ]
     }
-   ]
+   ],
+   "carry": {
+    "0.2": {
+     "steps": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11
+     },
+     "ing": {
+      "0.0": "0.0",
+      "0.1": "0.1",
+      "0.2": "0.2",
+      "0.3": "0.3",
+      "0.4": "0.4",
+      "0.5": "0.5",
+      "0.6": "0.6",
+      "0.7": "0.7",
+      "0.8": "0.8",
+      "1.0": "1.0",
+      "2.0": "2.0",
+      "2.1": "2.2",
+      "2.2": "2.3",
+      "2.3": "2.4",
+      "2.4": "2.5",
+      "2.5": "2.6",
+      "2.6": "2.7",
+      "2.7": "2.8",
+      "2.8": "2.9",
+      "3.0": "3.0",
+      "3.1": "3.1",
+      "3.2": "3.2"
+     }
+    }
+   }
   },
   {
    "id": "rcp-003",
@@ -2635,6 +2723,247 @@
    }
   },
   {
+   "id": "rcp-005",
+   "code": "RCP-005",
+   "course": "main",
+   "title": "Seared cod (pescatarian main)",
+   "subtitle": "Woodland mushrooms, chestnuts, hazelnut brown butter",
+   "makes": "1 portion (200 g loin); multiply per fish plate",
+   "revision": "0.1",
+   "batch": [
+    "**Serves:** 1. **Prep:** about 25 minutes. **Sear/roast:** about 7–13 minutes, thickness-dependent and untested."
+   ],
+   "setup": [
+    {
+     "heading": "",
+     "items": [
+      "Set out a small ovenproof frying pan, separate mushroom pan, brown-butter saucepan, fish spatula, board, knife, thermometer and a warm serving plate.",
+      "Clean and roughly chop mushrooms; break chestnuts into pieces, dice shallot, mince garlic, strip thyme, measure stock and sherry, zest and juice lemon. Keep nuts and finishing herbs separate for plating.",
+      "Use clean equipment and a separate sauce, away from turkey and turkey demi. Check stock and packaged ingredients for coeliac-level gluten avoidance."
+     ]
+    }
+   ],
+   "ingredients": [
+    {
+     "heading": "Fish",
+     "group": "",
+     "labels": {
+      "amount": "Amount",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Thick skinless cod loin or hake loin",
+       "amount": "200 g",
+       "extra": []
+      },
+      {
+       "name": "Neutral cooking oil",
+       "amount": "1 tbsp",
+       "extra": []
+      },
+      {
+       "name": "Sea salt and freshly ground black pepper",
+       "amount": "To taste",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "Woodland Mushrooms & Chestnuts",
+     "group": "",
+     "labels": {
+      "amount": "Amount",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Woodland mushrooms (chanterelles, porcini or oyster mushrooms)",
+       "amount": "80 g",
+       "extra": []
+      },
+      {
+       "name": "Plain cooked, peeled chestnuts",
+       "amount": "40 g",
+       "extra": []
+      },
+      {
+       "name": "Small shallot",
+       "amount": "1, finely diced",
+       "extra": []
+      },
+      {
+       "name": "Small garlic clove",
+       "amount": "1, minced",
+       "extra": []
+      },
+      {
+       "name": "Fresh thyme",
+       "amount": "3 sprigs",
+       "extra": []
+      },
+      {
+       "name": "Unsalted butter",
+       "amount": "10 g",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "Amontillado & Hazelnut Brown Butter Sauce",
+     "group": "",
+     "labels": {
+      "amount": "Amount",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Unsalted butter",
+       "amount": "30 g",
+       "extra": []
+      },
+      {
+       "name": "Dry amontillado sherry (not vinegar)",
+       "amount": "30 ml",
+       "extra": []
+      },
+      {
+       "name": "Gluten-free vegetable or fish stock (never poultry stock)",
+       "amount": "40 ml",
+       "extra": []
+      },
+      {
+       "name": "Blanched hazelnuts",
+       "amount": "15 g",
+       "extra": []
+      },
+      {
+       "name": "Fresh lemon juice",
+       "amount": "1 tsp",
+       "extra": []
+      },
+      {
+       "name": "Finely grated lemon zest",
+       "amount": "½ tsp",
+       "extra": []
+      },
+      {
+       "name": "Sea salt and black pepper",
+       "amount": "To taste",
+       "extra": []
+      }
+     ],
+     "notes": []
+    },
+    {
+     "heading": "To Finish",
+     "group": "",
+     "labels": {
+      "amount": "Amount",
+      "extra": []
+     },
+     "rows": [
+      {
+       "name": "Fresh flat-leaf parsley",
+       "amount": "A little",
+       "extra": []
+      },
+      {
+       "name": "Fresh thyme leaves",
+       "amount": "A few",
+       "extra": []
+      }
+     ],
+     "notes": []
+    }
+   ],
+   "method": [
+    {
+     "heading": "",
+     "steps": [
+      {
+       "n": 1,
+       "title": "",
+       "text": "Toast **15 g blanched hazelnuts** in a dry pan over medium heat until fragrant and golden. Roughly chop and set aside."
+      },
+      {
+       "n": 2,
+       "title": "",
+       "text": "Brown **30 g unsalted butter** in a small saucepan over medium heat, swirling until milk solids turn golden and smell nutty. Immediately transfer to a bowl to stop cooking."
+      },
+      {
+       "n": 3,
+       "title": "",
+       "text": "Clean and chop **80 g woodland mushrooms** and break **40 g cooked peeled chestnuts** into irregular pieces."
+      },
+      {
+       "n": 4,
+       "title": "",
+       "text": "Heat **10 g butter** in a pan over medium-high heat. Sauté the **80 g mushrooms** for **4–5 minutes**, until golden and excess moisture has evaporated."
+      },
+      {
+       "n": 5,
+       "title": "",
+       "text": "Reduce heat; add **1 finely diced small shallot**, **1 minced small garlic clove** and leaves of **3 thyme sprigs**. Cook **2 minutes** until fragrant."
+      },
+      {
+       "n": 6,
+       "title": "",
+       "text": "Add the **40 g chestnuts** and cook gently for **2 minutes**, keeping the pieces intact."
+      },
+      {
+       "n": 7,
+       "title": "",
+       "text": "Deglaze with **30 ml dry amontillado sherry** and reduce by about two-thirds. Add **40 ml gluten-free vegetable or fish stock** and simmer until concentrated but still spoonable."
+      },
+      {
+       "n": 8,
+       "title": "",
+       "text": "Off heat, stir in the **30 g reserved brown butter**, **½ tsp lemon zest** and **1 tsp lemon juice**. Season with **salt and black pepper** to taste."
+      },
+      {
+       "n": 9,
+       "title": "",
+       "text": "Preheat the oven to **200°C conventional or 180°C fan**. Pat **200 g cod loin** dry and season with **salt and black pepper**."
+      },
+      {
+       "n": 10,
+       "title": "",
+       "text": "Heat **1 tbsp neutral oil** in an ovenproof frying pan over medium-high heat. Sear the fish presentation-side down, undisturbed, for **2–3 minutes**, until golden; carefully turn."
+      },
+      {
+       "n": 11,
+       "title": "",
+       "text": "Transfer the pan to the oven and roast for approximately **5–10 minutes**, depending on thickness, until the thickest part reaches **63°C**. Use a thermometer rather than cooking time alone."
+      },
+      {
+       "n": 12,
+       "title": "",
+       "text": "Gently reheat the **mushroom, chestnut and brown-butter sauce**, without vigorous boiling."
+      },
+      {
+       "n": 13,
+       "title": "",
+       "text": "Spoon the **mushrooms and chestnuts** onto a warm plate, position the **cod golden-side up**, and spoon sauce **around, not over**, the crust. Finish with **15 g reserved toasted hazelnuts**, **fresh parsley** and **a few fresh thyme leaves**."
+      }
+     ],
+     "notes": []
+    }
+   ],
+   "notes": [
+    {
+     "heading": "",
+     "items": [
+      "Toast hazelnuts, brown butter and prepare mushroom/chestnut sauce in advance; cool and refrigerate appropriately. Storage duration and safe reheating route still require verification.",
+      "Do not pre-sear and refrigerate partially cooked fish; sear and roast just before serving, ideally during the turkey rest. Use separate equipment and sauce from turkey.",
+      "Confirm oven availability: the fish's starting temperature is 180°C fan, while the provisional turkey roasting plan is 175°C fan. Timing must be validated for the actual portion."
+     ]
+    }
+   ]
+  },
+  {
    "id": "rcp-007",
    "code": "RCP-007",
    "course": "sides",
@@ -3839,14 +4168,14 @@
     "date": "2026-11-26",
     "start": "08:30",
     "mins": 30,
-    "title": "Choose the pescatarian main and add its recipe and tasks",
-    "recipe": "",
+    "title": "the cod confirmed; reconcile ingredients and cooking tasks",
+    "recipe": "rcp-005",
     "owner": "Daniela",
     "ws": "2026-11-26",
     "we": "2026-11-26",
     "priority": "A",
-    "status": "proposed",
-    "note": "Overdue from Wednesday. Choose it before the 09:30 shop so the list covers it, and no later than Friday midday so the fish can be collected at 17:00. This is the only dish still undecided; options were proposed in chat on 22 November.",
+    "status": "done",
+    "note": "Overdue from Wednesday. Choose it before the 09:30 shop so the list covers it, and no later than Friday midday so the fish can be collected at 17:00. Selection resolved: seared cod with chestnuts, woodland mushrooms, amontillado and hazelnut butter; fish plate count TBD.",
     "deps": []
    },
    {
@@ -3860,7 +4189,7 @@
     "ws": "2026-11-26",
     "we": "2026-11-26",
     "priority": "B",
-    "status": "proposed",
+    "status": "done",
     "note": "Do this before the shop. Space needed: Thursday, the soup base in the freezer; from Friday, two turkey rolls on a tray, demi base and cheesecake.",
     "deps": []
    },
@@ -3875,7 +4204,7 @@
     "ws": "2026-11-26",
     "we": "2026-11-26",
     "priority": "A",
-    "status": "proposed",
+    "status": "done",
     "note": "90 min (estimate). Look for a ready-made smoked-trout pâté (if you find one, skip making it on Friday). Gluten labels first: wasabi furikake, tamari, prepared horseradish, vegetable stock, the GF plain blend for blini, GF-only frying oil for the rösti test. Also ground almonds and light brown sugar for the cheesecake base, and anything the main needs. Raw-eating salmon and the fish main are collected on Friday.",
     "deps": [
      "T-071",
@@ -3893,7 +4222,7 @@
     "ws": "2026-11-26",
     "we": "2026-11-26",
     "priority": "B",
-    "status": "proposed",
+    "status": "done",
     "note": "Thursday, after the shop. The soup was meant for Sunday. Soften the shallots first and add the garlic towards the end (audit suggestion).",
     "deps": [
      "T-007",
@@ -3911,7 +4240,7 @@
     "ws": "2026-11-26",
     "we": "2026-11-26",
     "priority": "B",
-    "status": "proposed",
+    "status": "done",
     "note": "Follows setting up. Move on once the roots soften at the edges.",
     "deps": [
      "T-016"
@@ -3928,45 +4257,10 @@
     "ws": "2026-11-26",
     "we": "2026-11-26",
     "priority": "B",
-    "status": "proposed",
+    "status": "done",
     "note": "Follows softening. Tenderness governs. The rösti test and the amazu liquid fit in this simmer.",
     "deps": [
      "T-017"
-    ]
-   },
-   {
-    "id": "T-069",
-    "date": "2026-11-26",
-    "start": "12:10",
-    "mins": 20,
-    "title": "Rösti squares: fry two frozen offcuts to test (also tests the mini fryer)",
-    "recipe": "rcp-003",
-    "owner": "Daniela",
-    "ws": "2026-11-26",
-    "we": "2026-11-26",
-    "priority": "B",
-    "status": "proposed",
-    "note": "Thursday, during the soup simmer, once the GF-only frying oil is bought. If the offcuts split, switch Saturday to the recipe’s oven fallback. Note the oil depth and how many squares fit per batch.",
-    "deps": [
-     "T-045",
-     "T-073"
-    ]
-   },
-   {
-    "id": "T-070",
-    "date": "2026-11-26",
-    "start": "12:35",
-    "mins": 25,
-    "title": "Hand roll: make the amazu pickling liquid (kombu dashi, sugar, salt, vinegar, chilli) and chill",
-    "recipe": "rcp-004",
-    "owner": "Daniela",
-    "ws": "2026-11-26",
-    "we": "2026-11-27",
-    "priority": "B",
-    "status": "proposed",
-    "note": "Thursday, during the soup simmer. Method steps 1–2 only. Lift the kombu out before measuring the 90 ml dashi (audit suggestion). The source keeps amazu about six months chilled; the daikon is pickled on Friday.",
-    "deps": [
-     "T-073"
     ]
    },
    {
@@ -3980,7 +4274,7 @@
     "ws": "2026-11-26",
     "we": "2026-11-26",
     "priority": "B",
-    "status": "proposed",
+    "status": "done",
     "note": "Follows the simmer. Measure the blended base, then portion the dinner share separately from leftovers.",
     "deps": [
      "T-018"
@@ -3997,7 +4291,7 @@
     "ws": "2026-11-26",
     "we": "2026-11-26",
     "priority": "B",
-    "status": "proposed",
+    "status": "done",
     "note": "Cool in shallow containers and freeze within 2 h, before adding milk and lemon. Frozen is the plan because refrigerated from Thursday afternoon it would be about 53 h by Saturday service, over your 48-hour reading. It needs freezer space: tell me before you start if the freezer is too full.",
     "deps": [
      "T-019"
@@ -4008,14 +4302,14 @@
     "date": "2026-11-26",
     "start": "13:15",
     "mins": 45,
-    "title": "Brittle: warm nuts, caramelise, spread, cool and store airtight",
+    "title": "Brittle: warm nuts, caramelise, aerate, season, cool and store airtight",
     "recipe": "rcp-001",
     "owner": "Daniela",
     "ws": "2026-11-26",
     "we": "2026-11-27",
     "priority": "B",
-    "status": "proposed",
-    "note": "Thursday after the soup is in the freezer. 45 min active (estimate), then at least 1 h cooling (source). Keeps airtight for weeks. Go lighter on the finishing salt, since the cheddar is salty (audit suggestion).",
+    "status": "done",
+    "note": "Thursday after the soup is in the freezer. 45 min active (estimate), then at least 1 h cooling (source).: revised aerated brittle with everything seasoning. Follow current the pecan brittle, retaining rosemary; no separate finishing salt. Store dry airtight; adapted long shelf life is not established.",
     "deps": []
    },
    {
@@ -4029,7 +4323,7 @@
     "ws": "2026-11-26",
     "we": "2026-11-27",
     "priority": "C",
-    "status": "proposed",
+    "status": "done",
     "note": "Thursday afternoon, after the brittle. After the 30-second blanch, shock the parsley in iced water and squeeze it bone-dry, blend 1–2 minutes and strain without pressing. Use within 3 days; Saturday service is about 54 h. If dropped, serve the soup with fried sage only.",
     "deps": [
      "T-009"
@@ -4046,26 +4340,11 @@
     "ws": "2026-11-26",
     "we": "2026-11-26",
     "priority": "B",
-    "status": "proposed",
+    "status": "done",
     "note": "If the blini you froze tonight passed the one-blini test, tick this and skip it. If not, tell me before you start and I will add a cook step (that one is already ticked). Recipe rests 30–60 min, then 30–45 min; active work about 15 min.",
     "deps": [
      "T-007"
     ]
-   },
-   {
-    "id": "T-074",
-    "date": "2026-11-26",
-    "start": "16:30",
-    "mins": 45,
-    "title": "Write Saturday plating list, label serving dishes and brief the helper",
-    "recipe": "",
-    "owner": "Daniela",
-    "ws": "2026-11-26",
-    "we": "2026-11-27",
-    "priority": "B",
-    "status": "proposed",
-    "note": "Moved to Thursday afternoon to take it off Friday. Helper tasks: Gilda, brittle and cheddar, blini topping, passing, fanning rice, putting turkey in on cue, dessert plating, clearing.",
-    "deps": []
    },
    {
     "id": "T-036",
@@ -4078,7 +4357,7 @@
     "ws": "2026-11-27",
     "we": "2026-11-27",
     "priority": "A",
-    "status": "proposed",
+    "status": "done",
     "note": "Friday morning, not Thursday: the recipe says to cook within 24 h of a full thaw, so thawing too early is as risky as too late. Leakproof tray, bottom shelf, 4°C. Checked on Saturday morning (“yuzu-kosho mayonnaise, drain and blot 40 g pickle, cut cucumber (salt later)”).",
     "deps": [
      "T-035"
@@ -4095,7 +4374,7 @@
     "ws": "2026-11-27",
     "we": "2026-11-27",
     "priority": "A",
-    "status": "proposed",
+    "status": "done",
     "note": "Move the demi base and reserved stock to the fridge (about 24 h for small portions).",
     "deps": [
      "T-040"
@@ -4112,7 +4391,7 @@
     "ws": "2026-11-27",
     "we": "2026-11-27",
     "priority": "A",
-    "status": "proposed",
+    "status": "done",
     "note": "45 min (estimate).: moved from Thursday so the cake is within 48 h of Saturday dessert. Taste the GF crumbs: 35–40 g base sugar if sweet, otherwise 67 g.",
     "deps": [
      "T-007",
@@ -4130,7 +4409,7 @@
     "ws": "2026-11-27",
     "we": "2026-11-27",
     "priority": "A",
-    "status": "proposed",
+    "status": "done",
     "note": "Water-bath bake about 55–70 min plus the recipe’s one-hour oven stage; 130 min allowance.: Friday bake keeps the cake within 48 h of Saturday dessert. Oven is free again by about 11:10, well before the pumpkin at 14:45.",
     "deps": [
      "T-048"
@@ -4147,7 +4426,7 @@
     "ws": "2026-11-27",
     "we": "2026-11-27",
     "priority": "B",
-    "status": "proposed",
+    "status": "done",
     "note": "40 min including cooling (estimate); use within 2 days.: moved from Thursday; cook on the hob while the cheesecake bakes.",
     "deps": [
      "T-007",
@@ -4165,7 +4444,7 @@
     "ws": "2026-11-27",
     "we": "2026-11-27",
     "priority": "B",
-    "status": "proposed",
+    "status": "done",
     "note": "25 min (estimate); one or two days before service. Bag is filled on Friday evening (“mix and chill; trout pâté: fill piping bag”).: skip this task if a ready-made GF trout pâté is bought; still do the cold piping test at “mix and chill; trout pâté: fill piping bag”.",
     "deps": []
    },
@@ -4180,7 +4459,7 @@
     "ws": "2026-11-26",
     "we": "2026-11-27",
     "priority": "B",
-    "status": "proposed",
+    "status": "done",
     "note": "45 min plus cooling (estimate); within 2 days of serving (recipe).",
     "deps": []
    },
@@ -4195,26 +4474,11 @@
     "ws": "2026-11-26",
     "we": "2026-11-27",
     "priority": "B",
-    "status": "proposed",
+    "status": "done",
     "note": "Cream within 2 days of serving. Piping bag stays flat in the fridge.",
     "deps": [
      "T-047"
     ]
-   },
-   {
-    "id": "T-077",
-    "date": "2026-11-27",
-    "start": "11:00",
-    "mins": 45,
-    "title": "Kimchi eggs: cook, peel, halve; blend filling; store whites and filling separately",
-    "recipe": "rcp-018",
-    "owner": "Daniela",
-    "ws": "2026-11-26",
-    "we": "2026-11-27",
-    "priority": "B",
-    "status": "proposed",
-    "note": "45 min (estimate); prepare the day before, pipe on Saturday.: gluten-free gochujang paste confirmed.",
-    "deps": []
    },
    {
     "id": "T-050",
@@ -4227,16 +4491,99 @@
     "ws": "2026-11-27",
     "we": "2026-11-27",
     "priority": "A",
-    "status": "proposed",
+    "status": "done",
     "note": "Counter cooling up to 2 h, then refrigerate at least 4 h (overnight is fine).: Friday route; chills overnight before Saturday.",
     "deps": [
      "T-049"
     ]
    },
    {
+    "id": "T-022",
+    "date": "2026-11-27",
+    "start": "14:30",
+    "mins": 5,
+    "title": "Soup: thaw reserved service base in fridge",
+    "recipe": "rcp-012",
+    "owner": "Daniela",
+    "ws": "2026-11-27",
+    "we": "2026-11-27",
+    "priority": "A",
+    "status": "proposed",
+    "note": "Moved to now rather than 18:00: the extra hours in the fridge help the base thaw by Saturday evening. Still confirm it is fully thawed when you set out the soup station.",
+    "deps": [
+     "T-020"
+    ]
+   },
+   {
+    "id": "T-070",
+    "date": "2026-11-27",
+    "start": "14:35",
+    "mins": 25,
+    "title": "Hand roll: make the amazu pickling liquid (kombu dashi, sugar, salt, vinegar, chilli) and chill",
+    "recipe": "rcp-004",
+    "owner": "Daniela",
+    "ws": "2026-11-27",
+    "we": "2026-11-27",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Make it first so it cools before the daikon goes in (“brine, squeeze and pickle the daikon with the amazu”).",
+    "deps": [
+     "T-073"
+    ]
+   },
+   {
+    "id": "T-077",
+    "date": "2026-11-27",
+    "start": "14:40",
+    "mins": 45,
+    "title": "Kimchi eggs: cook, peel, halve; blend filling; store whites and filling separately",
+    "recipe": "rcp-018",
+    "owner": "Daniela",
+    "ws": "2026-11-27",
+    "we": "2026-11-27",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Runs alongside the amazu. Whites and filling stored separately; piped on Saturday.",
+    "deps": []
+   },
+   {
+    "id": "T-056",
+    "date": "2026-11-27",
+    "start": "15:30",
+    "mins": 75,
+    "title": "Mash: cook reference formula and prepare selected advance route",
+    "recipe": "rcp-007",
+    "owner": "Daniela",
+    "ws": "2026-11-27",
+    "we": "2026-11-27",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Use the 30–40 min potato simmer for the greens. Cool in shallow containers and refrigerate within 2 h.",
+    "deps": [
+     "T-055"
+    ]
+   },
+   {
+    "id": "T-058",
+    "date": "2026-11-27",
+    "start": "15:45",
+    "mins": 50,
+    "title": "Greens: make dressing, blanch vegetables and dry separately",
+    "recipe": "rcp-009c",
+    "owner": "Daniela",
+    "ws": "2026-11-27",
+    "we": "2026-11-27",
+    "priority": "B",
+    "status": "proposed",
+    "note": "During the mash simmer. Wash and dry the sprouts too; they are shredded and charred on Saturday.",
+    "deps": [
+     "T-055"
+    ]
+   },
+   {
     "id": "T-078",
     "date": "2026-11-27",
-    "start": "11:45",
+    "start": "16:50",
     "mins": 45,
     "title": "Hand roll: brine, squeeze and pickle the daikon with the amazu",
     "recipe": "rcp-004",
@@ -4245,75 +4592,9 @@
     "we": "2026-11-28",
     "priority": "B",
     "status": "proposed",
-    "note": "Brine about 30 min, squeeze, then at least 2–3 h in the amazu; the recipe proposes the day before.",
+    "note": "Needs the cooled amazu. About 30 min brine, squeeze, then at least 2–3 h in the amazu. If today runs late it can be done first thing Saturday (at least 3 h before 19:30).",
     "deps": [
      "T-070"
-    ]
-   },
-   {
-    "id": "T-058",
-    "date": "2026-11-27",
-    "start": "13:15",
-    "mins": 50,
-    "title": "Greens: make dressing, blanch vegetables and dry separately",
-    "recipe": "rcp-009c",
-    "owner": "Daniela",
-    "ws": "2026-11-26",
-    "we": "2026-11-27",
-    "priority": "B",
-    "status": "proposed",
-    "note": "50 min (estimate). Also wash and dry the sprouts. Use within 2 days.",
-    "deps": [
-     "T-055"
-    ]
-   },
-   {
-    "id": "T-061",
-    "date": "2026-11-27",
-    "start": "14:15",
-    "mins": 30,
-    "title": "Pumpkin: prepare cardamom-nigella red onion separately",
-    "recipe": "rcp-013a",
-    "owner": "Daniela",
-    "ws": "2026-11-26",
-    "we": "2026-11-27",
-    "priority": "B",
-    "status": "proposed",
-    "note": "30 min (estimate).",
-    "deps": [
-     "T-055"
-    ]
-   },
-   {
-    "id": "T-079",
-    "date": "2026-11-27",
-    "start": "14:45",
-    "mins": 50,
-    "title": "Pumpkin: roast the wedges, cool and refrigerate for reheating",
-    "recipe": "rcp-013a",
-    "owner": "Daniela",
-    "ws": "2026-11-26",
-    "we": "2026-11-27",
-    "priority": "B",
-    "status": "proposed",
-    "note": "Roasting time is TBD in the recipe (cue: browned cut faces, knife-tender); 50 min is an allowance. Roasting ahead frees the oven for the turkey on Saturday; the recipe allows cooling and one reheat within 2 days, with softer edges possible.",
-    "deps": []
-   },
-   {
-    "id": "T-056",
-    "date": "2026-11-27",
-    "start": "15:45",
-    "mins": 75,
-    "title": "Mash: cook reference formula and prepare selected advance route",
-    "recipe": "rcp-007",
-    "owner": "Daniela",
-    "ws": "2026-11-26",
-    "we": "2026-11-27",
-    "priority": "B",
-    "status": "proposed",
-    "note": "Day-before route chosen by Daniela. Simmer about 30–40 min, rice and sieve, enrich, then cool in shallow containers and refrigerate within 2 h; use within 2 days. 75 min allowance.",
-    "deps": [
-     "T-055"
     ]
    },
    {
@@ -4327,50 +4608,16 @@
     "ws": "2026-11-27",
     "we": "2026-11-27",
     "priority": "A",
-    "status": "proposed",
+    "status": "done",
     "note": "Time to suit the supplier. Needs the main chosen on Thursday morning. Raw-fish safety depends on the supplier; ask how it should be stored until Saturday.",
     "deps": [
      "T-071"
     ]
    },
    {
-    "id": "T-022",
-    "date": "2026-11-27",
-    "start": "18:00",
-    "mins": 5,
-    "title": "Soup: thaw reserved service base in fridge",
-    "recipe": "rcp-012",
-    "owner": "Daniela",
-    "ws": "2026-11-27",
-    "we": "2026-11-27",
-    "priority": "A",
-    "status": "proposed",
-    "note": "Friday evening, not morning: the base is only frozen on Thursday afternoon and needs the night to thaw. Shallow container in the fridge. Confirm it is fully thawed when you set out the station on Saturday; if it is still icy, tell me and we re-plan.",
-    "deps": [
-     "T-020"
-    ]
-   },
-   {
-    "id": "T-081",
-    "date": "2026-11-27",
-    "start": "18:00",
-    "mins": 30,
-    "title": "Set up Saturday stations: measure fryer oil, lay out serving dishes and labels, clear the fridge shelf for service",
-    "recipe": "",
-    "owner": "Daniela",
-    "ws": "2026-11-27",
-    "we": "2026-11-27",
-    "priority": "B",
-    "status": "proposed",
-    "note": "Leave tonight with every component labelled and the Saturday list printed.",
-    "deps": [
-     "T-074"
-    ]
-   },
-   {
     "id": "T-052",
     "date": "2026-11-27",
-    "start": "18:30",
+    "start": "17:40",
     "mins": 45,
     "title": "Dessert: cook and roll separate pistachio brittle batch",
     "recipe": "rcp-011-s",
@@ -4379,7 +4626,7 @@
     "we": "2026-11-27",
     "priority": "C",
     "status": "proposed",
-    "note": "45 min (estimate). No more than one day ahead (recipe). If dropped, serve the cheesecake with compote and orange only.: moved to Friday evening, after the cheesecake has used the oven and closer to the one-day limit. Store with a silica sachet.",
+    "note": "Optional: no more than one day ahead, so today or not at all. If dropped, serve the cheesecake with compote and orange.",
     "deps": [
      "T-007",
      "T-009"
@@ -4388,7 +4635,7 @@
    {
     "id": "T-053",
     "date": "2026-11-27",
-    "start": "19:15",
+    "start": "18:25",
     "mins": 0,
     "title": "Dessert: cool shards and store dry; check usable yield",
     "recipe": "rcp-011-s",
@@ -4397,9 +4644,44 @@
     "we": "2026-11-27",
     "priority": "C",
     "status": "proposed",
-    "note": "Cool completely, store dry and airtight at room temperature.",
+    "note": "Cool completely, then airtight and dry at room temperature.",
     "deps": [
      "T-052"
+    ]
+   },
+   {
+    "id": "T-069",
+    "date": "2026-11-27",
+    "start": "19:15",
+    "mins": 20,
+    "title": "Rösti squares: fry two frozen offcuts to test (also tests the mini fryer)",
+    "recipe": "rcp-003",
+    "owner": "Daniela",
+    "ws": "2026-11-27",
+    "we": "2026-11-27",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Still worth doing tonight, as it is the only test of the mini fryer and of frying from frozen before Saturday. If the offcuts split, Saturday uses the recipe’s oven fallback in the combination oven.",
+    "deps": [
+     "T-045",
+     "T-073"
+    ]
+   },
+   {
+    "id": "T-081",
+    "date": "2026-11-27",
+    "start": "19:35",
+    "mins": 30,
+    "title": "Set up Saturday stations: measure fryer oil, lay out serving dishes and labels, clear the fridge shelf for service",
+    "recipe": "",
+    "owner": "Daniela",
+    "ws": "2026-11-27",
+    "we": "2026-11-28",
+    "priority": "B",
+    "status": "proposed",
+    "note": "After the test fry, while the fryer oil depth is fresh in mind. Anything not done moves to Saturday morning.",
+    "deps": [
+     "T-074"
     ]
    },
    {
@@ -4418,6 +4700,53 @@
     "deps": [
      "T-036"
     ]
+   },
+   {
+    "id": "T-061",
+    "date": "2026-11-28",
+    "start": "09:00",
+    "mins": 30,
+    "title": "Pumpkin: prepare cardamom-nigella red onion separately",
+    "recipe": "rcp-013a",
+    "owner": "Daniela",
+    "ws": "2026-11-27",
+    "we": "2026-11-28",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Moved to Saturday morning to fit Friday. Within the recipe’s 2-day limit.",
+    "deps": [
+     "T-055"
+    ]
+   },
+   {
+    "id": "T-079",
+    "date": "2026-11-28",
+    "start": "09:00",
+    "mins": 50,
+    "title": "Pumpkin: roast the wedges, cool and refrigerate for reheating",
+    "recipe": "rcp-013a",
+    "owner": "Daniela",
+    "ws": "2026-11-27",
+    "we": "2026-11-28",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Moved to Saturday morning: the oven is free and the recipe prefers roasting on the service day. Oven 220°C conventional / 200°C fan; cool and refrigerate within 2 h; reheated at service.",
+    "deps": []
+   },
+   {
+    "id": "T-074",
+    "date": "2026-11-28",
+    "start": "09:35",
+    "mins": 20,
+    "title": "Write Saturday plating list, label serving dishes and brief the helper",
+    "recipe": "",
+    "owner": "Daniela",
+    "ws": "2026-11-27",
+    "we": "2026-11-28",
+    "priority": "B",
+    "status": "proposed",
+    "note": "Moved to Saturday morning while the pumpkin roasts. Helper brief drafted by Claude, check and adjust: 18:30 thread the 16 Gildas and gloss with olive oil; 18:40 cut 10 g cheddar per brittle shard and plate; 18:45 warm the blini in the combination oven at 130°C fan (or serve thawed) and top with horseradish cream and pickle using a slotted spoon; 19:00 fan the seasoned rice to body temperature and cover with a damp cloth; from 19:05 pass the rösti and bites; 19:10 put the two turkey rolls in the 175°C fan oven, seam down on the rack, when Daniela says; clear between courses; 21:30 slice the cheesecake and add compote, orange and a shard.",
+    "deps": []
    },
    {
     "id": "T-083",
@@ -4490,15 +4819,15 @@
     "id": "T-085",
     "date": "2026-11-28",
     "start": "11:45",
-    "mins": 30,
-    "title": "Pumpkin: toast the seeds; fish main: advance prep (TBD)",
+    "mins": 45,
+    "title": "Pumpkin: toast seeds; fish: advance mushroom-chestnut and brown-butter prep",
     "recipe": "rcp-013a",
     "owner": "Daniela",
     "ws": "2026-11-28",
     "we": "2026-11-28",
     "priority": "B",
     "status": "proposed",
-    "note": "Fish-main prep is a placeholder until “choose the pescatarian main and add its recipe and tasks” is decided.",
+    "note": "Toast the hazelnuts, brown the butter and make the mushroom-chestnut sherry sauce (recipe steps 1–8) for the fish plates; cool and refrigerate. Same day because the recipe has no verified storage time. Also toast the pumpkin seeds. 45 min is an estimate.",
     "deps": [
      "T-071"
     ]
@@ -4876,7 +5205,7 @@
     "we": "2026-11-28",
     "priority": "B",
     "status": "proposed",
-    "note": "Reheat the Friday wedges in the main oven beside the turkey (or the air fryer) until steaming throughout. Reheating time is TBD in the recipe; 20 min is an assistant estimate.",
+    "note": "Reheats the wedges roasted that morning. Leave them in when the oven goes up to 180°C fan for the fish.",
     "deps": [
      "T-061"
     ]
@@ -4920,14 +5249,14 @@
     "date": "2026-11-28",
     "start": "20:20",
     "mins": 20,
-    "title": "Pescatarian main: cook and plate (TBD)",
-    "recipe": "",
+    "title": "the cod sear and oven-roast fish with warm mushroom sauce",
+    "recipe": "rcp-005",
     "owner": "Daniela",
     "ws": "2026-11-28",
     "we": "2026-11-28",
     "priority": "A",
     "status": "proposed",
-    "note": "Placeholder until the dish is chosen. Aim for a dish that shares the turkey’s oven temperature or needs only a short last-minute cook.",
+    "note": "When the turkey comes out to rest (about 20:20), turn the oven up to 180°C fan. Sear the cod presentation side down 2–3 min, turn, roast about 5–10 min until the thickest part reads 63°C, gently reheat the sauce, plate golden side up with the sauce around it. Dedicated fish pan, utensils and sauce.",
     "deps": [
      "T-071",
      "T-085"

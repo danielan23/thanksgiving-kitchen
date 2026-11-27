@@ -315,11 +315,13 @@
   function nextDayFor(t) { const d = effDate(t); const nd = P().days.find(x => x.date > d && x.date <= t.we && x.move !== false); return nd ? nd.date : null; }
   function defaultDay() { const t = todayISO(), days = P().days.map(d => d.date); return days.includes(t) ? t : (days.find(d => d > t) || days[days.length - 1]); }
   const tasksOn = d => P().tasks.filter(t => effDate(t) === d);
+  // A tick on this device wins; otherwise a task recorded as done in the schedule shows as done.
+  const isDone = t => (t.id in state.plan.done ? !!state.plan.done[t.id] : t.status === 'done');
   const ownerLabel = o => ({ 'Daniela + helper': 'With helper', helper: 'Helper', cleaners: 'Cleaners' }[o] || '');
 
   function planCard() {
-    const d = defaultDay(), list = tasksOn(d), done = list.filter(t => state.plan.done[t.id]).length;
-    const next = list.find(t => !state.plan.done[t.id]);
+    const d = defaultDay(), list = tasksOn(d), done = list.filter(isDone).length;
+    const next = list.find(t => !isDone(t));
     return `<a class="plan-card" href="#/plan/${d}"><small>Game plan · ${esc(dayLabel(d))}${d === todayISO() ? ' (today)' : ''}</small>
       <strong>${done} of ${list.length} tasks done</strong>
       <span>${next ? `Next: ${next.start ? esc(next.start) + ' · ' : ''}${esc(next.title)}` : 'All done for this day'}</span></a>`;
@@ -333,13 +335,13 @@
 
   function planView(day) {
     const list = tasksOn(day), isToday = day === todayISO();
-    const firstOpen = list.find(t => !state.plan.done[t.id]);
+    const firstOpen = list.find(t => !isDone(t));
     const chips = P().days.map(d => {
-      const l = tasksOn(d.date), n = l.filter(t => state.plan.done[t.id]).length;
+      const l = tasksOn(d.date), n = l.filter(isDone).length;
       return `<a class="daychip" href="#/plan/${d.date}" ${d.date === day ? 'aria-current="page"' : ''}>${esc(d.label)}<small>${n}/${l.length}</small></a>`;
     }).join('');
     const items = list.map(t => {
-      const done = !!state.plan.done[t.id], moved = effDate(t) !== t.date, nd = nextDayFor(t), who = ownerLabel(t.owner);
+      const done = isDone(t), moved = effDate(t) !== t.date, nd = nextDayFor(t), who = ownerLabel(t.owner);
       const more = t.note || nd || moved;
       return `<li class="task pri-${t.priority}${done ? ' done' : ''}${isToday && t === firstOpen ? ' next' : ''}">
         <button class="tick" data-act="ptask" data-id="${t.id}" aria-pressed="${done}" aria-label="${done ? 'Mark not done' : 'Mark done'}: ${esc(t.title)}"><span class="box">${ICON.check}</span></button>
@@ -365,8 +367,8 @@
   function statusText() {
     const t0 = todayISO();
     const stamp = new Date().toLocaleString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' });
-    const done = P().tasks.filter(t => state.plan.done[t.id]);
-    const open = P().tasks.filter(t => !state.plan.done[t.id] && effDate(t) <= t0);
+    const done = P().tasks.filter(isDone);
+    const open = P().tasks.filter(t => !isDone(t) && effDate(t) <= t0);
     const moved = P().tasks.filter(t => effDate(t) !== t.date);
     const lines = [`Thanksgiving plan status, ${stamp}`, '', `Done (${done.length}):`, ...done.map(t => `- ${t.id} ${t.title}`),
       '', `Not done yet, due today or earlier (${open.length}):`, ...open.map(t => `- ${t.id} ${t.title} (planned ${dayLabel(effDate(t))}${t.start ? ' ' + t.start : ''}; window until ${dayLabel(t.we)})`)];
@@ -503,8 +505,10 @@
       el.setAttribute('aria-pressed', prefs.wake);
       toast(prefs.wake ? 'Screen will stay on while you cook' : 'Screen can sleep again');
     } else if (act === 'ptask') {
-      const id = el.dataset.id;
-      if (state.plan.done[id]) delete state.plan.done[id]; else state.plan.done[id] = Date.now();
+      const id = el.dataset.id, t = P().tasks.find(x => x.id === id);
+      if (!isDone(t)) state.plan.done[id] = Date.now();
+      else if (t.status === 'done') state.plan.done[id] = 0; // explicit untick of a recorded task
+      else delete state.plan.done[id];
       saveState(); rerenderPlan();
     } else if (act === 'pmove' || act === 'punmove') {
       // Same-day follow-on tasks (those depending on this one) move with it when their window allows.
